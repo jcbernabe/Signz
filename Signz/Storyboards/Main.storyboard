@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -89,7 +89,7 @@
                                                 <attributedString key="attributedText">
                                                     <fragment content="IT'S OKAY TO TALK">
                                                         <attributes>
-                                                            <font key="NSFont" metaFont="system" size="33"/>
+                                                            <font key="NSFont" size="33" name="BebasNeueRegular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -193,7 +193,7 @@
                                     <fragment content="RECOGNIZING THE SIGNZ OF  SUICIDE &amp; MENTAL HEALTH">
                                         <attributes>
                                             <color key="NSColor" red="0.20391999999999999" green="0.20391999999999999" blue="0.20391999999999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <font key="NSFont" size="25" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
@@ -206,7 +206,7 @@
                                     <fragment content="ARE YOU FEELING DOWN OR DEPRESSED?">
                                         <attributes>
                                             <color key="NSColor" red="0.20391999999999999" green="0.20391999999999999" blue="0.20391999999999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <font key="NSFont" size="25" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
@@ -219,21 +219,21 @@
                                     <fragment content="About">
                                         <attributes>
                                             <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="32"/>
+                                            <font key="NSFont" size="35" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
                                         <attributes>
                                             <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <font key="NSFont" size="59" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="Signz">
                                         <attributes>
                                             <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="59"/>
+                                            <font key="NSFont" size="59" name="BebasNeueRegular"/>
                                             <font key="NSOriginalFont" size="59" name=".SFNSText"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -329,15 +329,15 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="neB-3A-mQ3">
-                                <rect key="frame" x="52" y="182" width="310" height="65"/>
+                                <rect key="frame" x="57" y="182" width="300" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="RUu-dP-Stz"/>
-                                    <constraint firstAttribute="width" constant="310" id="vFB-da-vdM"/>
+                                    <constraint firstAttribute="width" constant="300" id="vFB-da-vdM"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Recognizing the signz              of suicide and mental health">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="31"/>
+                                            <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -366,7 +366,7 @@
                                                             <fragment content="Home">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -402,11 +402,17 @@
                             <constraint firstItem="neB-3A-mQ3" firstAttribute="top" secondItem="cgu-47-jrI" secondAttribute="bottom" constant="12" id="9RI-J3-ld3"/>
                             <constraint firstItem="neB-3A-mQ3" firstAttribute="centerX" secondItem="X4M-KR-5X5" secondAttribute="centerX" id="AYa-T7-Mia"/>
                             <constraint firstItem="cgu-47-jrI" firstAttribute="top" secondItem="X4M-KR-5X5" secondAttribute="top" id="FC4-Ce-YaQ"/>
-                            <constraint firstAttribute="trailing" secondItem="6u6-zA-NRp" secondAttribute="trailing" id="JDT-rD-ZNP"/>
-                            <constraint firstItem="Xvq-YX-r0Y" firstAttribute="top" secondItem="6u6-zA-NRp" secondAttribute="bottom" id="JPY-Jp-hG1"/>
+                            <constraint firstAttribute="trailing" secondItem="6u6-zA-NRp" secondAttribute="trailing" id="JDT-rD-ZNP">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstItem="Xvq-YX-r0Y" firstAttribute="top" secondItem="6u6-zA-NRp" secondAttribute="bottom" id="JPY-Jp-hG1">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="cgu-47-jrI" firstAttribute="leading" secondItem="X4M-KR-5X5" secondAttribute="leading" id="PeG-TR-ZdI"/>
                             <constraint firstItem="6u6-zA-NRp" firstAttribute="top" secondItem="neB-3A-mQ3" secondAttribute="bottom" constant="8" id="XrW-YF-Wqe"/>
-                            <constraint firstItem="6u6-zA-NRp" firstAttribute="leading" secondItem="X4M-KR-5X5" secondAttribute="leading" id="saa-Fn-ZiD"/>
+                            <constraint firstItem="6u6-zA-NRp" firstAttribute="leading" secondItem="X4M-KR-5X5" secondAttribute="leading" id="saa-Fn-ZiD">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstAttribute="trailing" secondItem="cgu-47-jrI" secondAttribute="trailing" id="wjy-zE-Ucg"/>
                         </constraints>
                     </view>
@@ -463,11 +469,11 @@
                                             <constraint firstAttribute="height" constant="40" id="drQ-mI-d23"/>
                                         </constraints>
                                         <attributedString key="attributedText">
-                                            <fragment content="about signz">
+                                            <fragment content="ABOUT SIGNZ">
                                                 <attributes>
                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="31"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -499,7 +505,7 @@
                                         <fragment content="Home">
                                             <attributes>
                                                 <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" metaFont="system" size="31"/>
+                                                <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -512,15 +518,25 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="SO1-4X-FGA" secondAttribute="trailing" constant="20" id="LDu-Jx-ObR"/>
+                            <constraint firstAttribute="trailing" secondItem="SO1-4X-FGA" secondAttribute="trailing" constant="20" id="LDu-Jx-ObR">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="SO1-4X-FGA" firstAttribute="top" secondItem="DK8-6H-wRO" secondAttribute="bottom" constant="20" id="MeR-tc-K2a"/>
-                            <constraint firstAttribute="trailing" secondItem="bqz-iz-Gb3" secondAttribute="trailing" constant="34" id="TIa-7t-9UP"/>
+                            <constraint firstAttribute="trailing" secondItem="bqz-iz-Gb3" secondAttribute="trailing" constant="34" id="TIa-7t-9UP">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="DK8-6H-wRO" firstAttribute="leading" secondItem="pCs-IR-s6N" secondAttribute="leading" id="Um3-PJ-wiR"/>
-                            <constraint firstItem="bqz-iz-Gb3" firstAttribute="leading" secondItem="pCs-IR-s6N" secondAttribute="leading" constant="34" id="bc7-cu-5W6"/>
+                            <constraint firstItem="bqz-iz-Gb3" firstAttribute="leading" secondItem="pCs-IR-s6N" secondAttribute="leading" constant="34" id="bc7-cu-5W6">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="DK8-6H-wRO" firstAttribute="top" secondItem="pCs-IR-s6N" secondAttribute="top" id="io6-02-2PC"/>
-                            <constraint firstItem="Nbm-FW-18a" firstAttribute="top" secondItem="bqz-iz-Gb3" secondAttribute="bottom" constant="20" id="k2k-nC-Tev"/>
+                            <constraint firstItem="Nbm-FW-18a" firstAttribute="top" secondItem="bqz-iz-Gb3" secondAttribute="bottom" constant="20" id="k2k-nC-Tev">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstAttribute="trailing" secondItem="DK8-6H-wRO" secondAttribute="trailing" id="mj0-V1-x1t"/>
-                            <constraint firstItem="SO1-4X-FGA" firstAttribute="leading" secondItem="pCs-IR-s6N" secondAttribute="leading" constant="20" id="r7G-Sm-V61"/>
+                            <constraint firstItem="SO1-4X-FGA" firstAttribute="leading" secondItem="pCs-IR-s6N" secondAttribute="leading" constant="20" id="r7G-Sm-V61">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="bqz-iz-Gb3" firstAttribute="top" secondItem="SO1-4X-FGA" secondAttribute="bottom" constant="20" id="y29-84-AK4"/>
                         </constraints>
                     </view>
@@ -558,7 +574,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="ARE YOU OK?">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="31"/>
+                                            <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -594,7 +610,7 @@
                                                             <fragment content="Home">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -629,13 +645,19 @@
                         <constraints>
                             <constraint firstItem="2w0-Vq-HhE" firstAttribute="centerX" secondItem="Jx1-hI-wsx" secondAttribute="centerX" id="Nuv-ae-vHd"/>
                             <constraint firstItem="AI6-wA-44J" firstAttribute="leading" secondItem="Jx1-hI-wsx" secondAttribute="leading" id="PKc-Gh-gl4"/>
-                            <constraint firstItem="h5l-uZ-5g5" firstAttribute="top" secondItem="iut-7j-UV4" secondAttribute="bottom" id="Ppd-mf-YYv"/>
-                            <constraint firstAttribute="trailing" secondItem="iut-7j-UV4" secondAttribute="trailing" id="TTx-x6-3Hv"/>
+                            <constraint firstItem="h5l-uZ-5g5" firstAttribute="top" secondItem="iut-7j-UV4" secondAttribute="bottom" id="Ppd-mf-YYv">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="iut-7j-UV4" secondAttribute="trailing" id="TTx-x6-3Hv">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="iut-7j-UV4" firstAttribute="top" secondItem="2w0-Vq-HhE" secondAttribute="bottom" constant="8" id="XHC-bD-ghn"/>
                             <constraint firstAttribute="trailing" secondItem="AI6-wA-44J" secondAttribute="trailing" id="mWa-Dk-L4c"/>
                             <constraint firstItem="AI6-wA-44J" firstAttribute="top" secondItem="Jx1-hI-wsx" secondAttribute="top" id="q6j-jC-ssP"/>
                             <constraint firstItem="2w0-Vq-HhE" firstAttribute="top" secondItem="AI6-wA-44J" secondAttribute="bottom" constant="12" id="wV7-Zt-Fxk"/>
-                            <constraint firstItem="iut-7j-UV4" firstAttribute="leading" secondItem="Jx1-hI-wsx" secondAttribute="leading" id="zK4-8Z-P49"/>
+                            <constraint firstItem="iut-7j-UV4" firstAttribute="leading" secondItem="Jx1-hI-wsx" secondAttribute="leading" id="zK4-8Z-P49">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                         </constraints>
                     </view>
                     <connections>
@@ -685,7 +707,7 @@
                                             <fragment content="about signz">
                                                 <attributes>
                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                     <font key="NSOriginalFont" metaFont="system" size="31"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -728,7 +750,7 @@
                                         <fragment content="Home">
                                             <attributes>
                                                 <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" metaFont="system" size="31"/>
+                                                <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -743,13 +765,23 @@
                         <constraints>
                             <constraint firstItem="zMh-vY-O0b" firstAttribute="top" secondItem="I6f-dx-Iut" secondAttribute="bottom" constant="20" id="5fr-SN-sua"/>
                             <constraint firstItem="I6f-dx-Iut" firstAttribute="top" secondItem="Ler-a1-t7B" secondAttribute="bottom" constant="20" id="7i8-qY-OSG"/>
-                            <constraint firstItem="zMh-vY-O0b" firstAttribute="leading" secondItem="wwP-WF-7n5" secondAttribute="leading" constant="34" id="Apg-2O-Yjb"/>
+                            <constraint firstItem="zMh-vY-O0b" firstAttribute="leading" secondItem="wwP-WF-7n5" secondAttribute="leading" constant="34" id="Apg-2O-Yjb">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstAttribute="trailing" secondItem="Ler-a1-t7B" secondAttribute="trailing" id="DMB-0t-onK"/>
-                            <constraint firstAttribute="trailing" secondItem="zMh-vY-O0b" secondAttribute="trailing" constant="34" id="QDv-vq-oOh"/>
+                            <constraint firstAttribute="trailing" secondItem="zMh-vY-O0b" secondAttribute="trailing" constant="34" id="QDv-vq-oOh">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="Ler-a1-t7B" firstAttribute="leading" secondItem="wwP-WF-7n5" secondAttribute="leading" id="WQR-Fs-GaY"/>
-                            <constraint firstItem="Pvg-ms-gaD" firstAttribute="top" secondItem="zMh-vY-O0b" secondAttribute="bottom" constant="20" id="bMA-Pz-d5x"/>
-                            <constraint firstAttribute="trailing" secondItem="I6f-dx-Iut" secondAttribute="trailing" constant="20" id="bqu-I1-kGn"/>
-                            <constraint firstItem="I6f-dx-Iut" firstAttribute="leading" secondItem="wwP-WF-7n5" secondAttribute="leading" constant="20" id="kej-em-faN"/>
+                            <constraint firstItem="Pvg-ms-gaD" firstAttribute="top" secondItem="zMh-vY-O0b" secondAttribute="bottom" constant="20" id="bMA-Pz-d5x">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="I6f-dx-Iut" secondAttribute="trailing" constant="20" id="bqu-I1-kGn">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
+                            <constraint firstItem="I6f-dx-Iut" firstAttribute="leading" secondItem="wwP-WF-7n5" secondAttribute="leading" constant="20" id="kej-em-faN">
+                                <variation key="heightClass=regular-widthClass=regular" constant="150"/>
+                            </constraint>
                             <constraint firstItem="Ler-a1-t7B" firstAttribute="top" secondItem="wwP-WF-7n5" secondAttribute="top" id="mBr-rW-A9o"/>
                         </constraints>
                     </view>

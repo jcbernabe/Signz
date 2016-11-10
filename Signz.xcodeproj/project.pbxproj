@@ -320,8 +320,8 @@
 				TargetAttributes = {
 					000D3A461DD1562500BA8CF4 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 8KW4SQ3F4C;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = HALV6KNBU4;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -527,12 +527,14 @@
 			baseConfigurationReference = A45DBA0D21BFB695699751E3 /* Pods-Signz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8KW4SQ3F4C;
+				DEVELOPMENT_TEAM = HALV6KNBU4;
 				INFOPLIST_FILE = Signz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterdoak.signz.Signz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterdoakglobal.Signz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "abe8e16c-fe76-4482-a30b-fb6e1f67041d";
+				PROVISIONING_PROFILE_SPECIFIER = "Signz Development";
 			};
 			name = Debug;
 		};
@@ -541,12 +543,15 @@
 			baseConfigurationReference = 2B42868E48FB4A05907D2FD2 /* Pods-Signz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8KW4SQ3F4C;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = HALV6KNBU4;
 				INFOPLIST_FILE = Signz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.peterdoak.signz.Signz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterdoakglobal.Signz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "45187ca2-d4cc-45d6-966f-4ee06ffb4796";
+				PROVISIONING_PROFILE_SPECIFIER = "Signz Distribution";
 			};
 			name = Release;
 		};

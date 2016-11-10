@@ -61,6 +61,7 @@
     [buttonTypeCell setButtonTypeCellTitle:[self.buttonTitleArray objectAtIndex:indexPath.row]];
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.backgroundColor = [UIColor clearColor];
     
     return cell;
 }
