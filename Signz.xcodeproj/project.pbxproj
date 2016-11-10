@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000D3A4C1DD1562500BA8CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A4B1DD1562500BA8CF4 /* main.m */; };
+		000D3A581DD1562500BA8CF4 /* Signz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A561DD1562500BA8CF4 /* Signz.xcdatamodeld */; };
+		000D3A711DD158B100BA8CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A6B1DD158B100BA8CF4 /* AppDelegate.m */; };
+		000D3A721DD158B100BA8CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000D3A6D1DD158B100BA8CF4 /* Assets.xcassets */; };
+		000D3A771DD1597000BA8CF4 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A761DD1597000BA8CF4 /* AboutViewController.m */; };
+		000D3A7D1DD1598800BA8CF4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A7C1DD1598800BA8CF4 /* HomeViewController.m */; };
+		000D3A841DD159E300BA8CF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A831DD159E300BA8CF4 /* ViewController.m */; };
+		000D3A871DD15A5400BA8CF4 /* FeelingDepressedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A861DD15A5400BA8CF4 /* FeelingDepressedViewController.m */; };
+		000D3A8B1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A8A1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m */; };
+		000D3A911DD1601700BA8CF4 /* ButtonTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A901DD1601700BA8CF4 /* ButtonTypeCell.m */; };
+		000D3A961DD166F300BA8CF4 /* SelectionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */; };
+		097D873B3E4919DA5A28583C /* libPods-Signz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49C7D1C6A2351C6D35CC818 /* libPods-Signz.a */; };
+		481C0AF21DD2243C000A10E7 /* HomeScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */; };
+		481C0AF41DD22461000A10E7 /* InnerScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */; };
+		487B0DE81DD1C03E0088BB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */; };
+		48BDBFEA1DD1C2ED003BED39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BDBFE91DD1C2ED003BED39 /* Main.storyboard */; };
+		48E8BA221DD227E200AB2C1A /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */; };
+		48E8BA231DD227E200AB2C1A /* BebasNeue Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA191DD2274100AB2C1A /* BebasNeue Book.otf */; };
+		48E8BA241DD227E200AB2C1A /* BebasNeue Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA1A1DD2274100AB2C1A /* BebasNeue Light.otf */; };
+		48E8BA251DD227E200AB2C1A /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA1B1DD2274100AB2C1A /* BebasNeue Regular.otf */; };
+		48E8BA261DD227E200AB2C1A /* BebasNeue Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA1C1DD2274100AB2C1A /* BebasNeue Thin.otf */; };
+		48E8BA2A1DD2D9CC00AB2C1A /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E8BA291DD2D9CC00AB2C1A /* SafariServices.framework */; };
+		48E8BA2C1DD2D9E200AB2C1A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E8BA2B1DD2D9E200AB2C1A /* MobileCoreServices.framework */; };
+		48E8BA2E1DD2D9E700AB2C1A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E8BA2D1DD2D9E700AB2C1A /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000D3A471DD1562500BA8CF4 /* Signz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000D3A4B1DD1562500BA8CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		000D3A571DD1562500BA8CF4 /* Signz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Signz.xcdatamodel; sourceTree = "<group>"; };
+		000D3A5E1DD1562500BA8CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000D3A6A1DD158B100BA8CF4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		000D3A6B1DD158B100BA8CF4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		000D3A6D1DD158B100BA8CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000D3A751DD1597000BA8CF4 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		000D3A761DD1597000BA8CF4 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		000D3A7B1DD1598800BA8CF4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		000D3A7C1DD1598800BA8CF4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		000D3A821DD159E300BA8CF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		000D3A831DD159E300BA8CF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		000D3A851DD15A5400BA8CF4 /* FeelingDepressedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeelingDepressedViewController.h; sourceTree = "<group>"; };
+		000D3A861DD15A5400BA8CF4 /* FeelingDepressedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeelingDepressedViewController.m; sourceTree = "<group>"; };
+		000D3A891DD15C1D00BA8CF4 /* RecognizingSignzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizingSignzViewController.h; sourceTree = "<group>"; };
+		000D3A8A1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizingSignzViewController.m; sourceTree = "<group>"; };
+		000D3A8F1DD1601700BA8CF4 /* ButtonTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTypeCell.h; sourceTree = "<group>"; };
+		000D3A901DD1601700BA8CF4 /* ButtonTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTypeCell.m; sourceTree = "<group>"; };
+		000D3A921DD1617000BA8CF4 /* ButtonTypeCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonTypeCellProtocol.h; sourceTree = "<group>"; };
+		000D3A941DD166F300BA8CF4 /* SelectionDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionDetailsViewController.h; sourceTree = "<group>"; };
+		000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionDetailsViewController.m; sourceTree = "<group>"; };
+		2B42868E48FB4A05907D2FD2 /* Pods-Signz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Signz/Pods-Signz.release.xcconfig"; sourceTree = "<group>"; };
+		481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeScreenAssets.xcassets; sourceTree = "<group>"; };
+		481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InnerScreenAssets.xcassets; sourceTree = "<group>"; };
+		487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48BDBFE91DD1C2ED003BED39 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
+		48E8BA191DD2274100AB2C1A /* BebasNeue Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Book.otf"; sourceTree = "<group>"; };
+		48E8BA1A1DD2274100AB2C1A /* BebasNeue Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Light.otf"; sourceTree = "<group>"; };
+		48E8BA1B1DD2274100AB2C1A /* BebasNeue Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.otf"; sourceTree = "<group>"; };
+		48E8BA1C1DD2274100AB2C1A /* BebasNeue Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Thin.otf"; sourceTree = "<group>"; };
+		48E8BA281DD2AB1C00AB2C1A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		48E8BA291DD2D9CC00AB2C1A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		48E8BA2B1DD2D9E200AB2C1A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		48E8BA2D1DD2D9E700AB2C1A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A45DBA0D21BFB695699751E3 /* Pods-Signz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Signz/Pods-Signz.debug.xcconfig"; sourceTree = "<group>"; };
+		B49C7D1C6A2351C6D35CC818 /* libPods-Signz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Signz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000D3A441DD1562500BA8CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E8BA2E1DD2D9E700AB2C1A /* MessageUI.framework in Frameworks */,
+				48E8BA2C1DD2D9E200AB2C1A /* MobileCoreServices.framework in Frameworks */,
+				48E8BA2A1DD2D9CC00AB2C1A /* SafariServices.framework in Frameworks */,
+				097D873B3E4919DA5A28583C /* libPods-Signz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000D3A3E1DD1562500BA8CF4 = {
+			isa = PBXGroup;
+			children = (
+				000D3A491DD1562500BA8CF4 /* Signz */,
+				000D3A481DD1562500BA8CF4 /* Products */,
+				9891442C7EF1B900C589708B /* Pods */,
+				E0EC87FE7630F4706A0C051B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		000D3A481DD1562500BA8CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A471DD1562500BA8CF4 /* Signz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000D3A491DD1562500BA8CF4 /* Signz */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A6C1DD158B100BA8CF4 /* Assets */,
+				000D3A691DD158B100BA8CF4 /* AppDelegate */,
+				48E8BA271DD2AB0200AB2C1A /* CommonFiles */,
+				000D3A641DD157F700BA8CF4 /* Controllers */,
+				000D3A8D1DD15FEA00BA8CF4 /* Views */,
+				000D3A6E1DD158B100BA8CF4 /* Storyboards */,
+				000D3A5E1DD1562500BA8CF4 /* Info.plist */,
+				000D3A561DD1562500BA8CF4 /* Signz.xcdatamodeld */,
+				000D3A4A1DD1562500BA8CF4 /* Supporting Files */,
+			);
+			path = Signz;
+			sourceTree = "<group>";
+		};
+		000D3A4A1DD1562500BA8CF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E8BA171DD2274100AB2C1A /* Fonts */,
+				000D3A4B1DD1562500BA8CF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		000D3A641DD157F700BA8CF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A651DD157F700BA8CF4 /* About */,
+				000D3A881DD15C1000BA8CF4 /* RecognizingSignz */,
+				000D3A661DD157F700BA8CF4 /* FeelingDepressed */,
+				000D3A931DD166DE00BA8CF4 /* Details */,
+				000D3A671DD157F700BA8CF4 /* Home */,
+				000D3A811DD159E300BA8CF4 /* ViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		000D3A651DD157F700BA8CF4 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A751DD1597000BA8CF4 /* AboutViewController.h */,
+				000D3A761DD1597000BA8CF4 /* AboutViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		000D3A661DD157F700BA8CF4 /* FeelingDepressed */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A851DD15A5400BA8CF4 /* FeelingDepressedViewController.h */,
+				000D3A861DD15A5400BA8CF4 /* FeelingDepressedViewController.m */,
+			);
+			path = FeelingDepressed;
+			sourceTree = "<group>";
+		};
+		000D3A671DD157F700BA8CF4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A7B1DD1598800BA8CF4 /* HomeViewController.h */,
+				000D3A7C1DD1598800BA8CF4 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		000D3A691DD158B100BA8CF4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A6A1DD158B100BA8CF4 /* AppDelegate.h */,
+				000D3A6B1DD158B100BA8CF4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		000D3A6C1DD158B100BA8CF4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A6D1DD158B100BA8CF4 /* Assets.xcassets */,
+				481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */,
+				481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		000D3A6E1DD158B100BA8CF4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */,
+				48BDBFE91DD1C2ED003BED39 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		000D3A811DD159E300BA8CF4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A821DD159E300BA8CF4 /* ViewController.h */,
+				000D3A831DD159E300BA8CF4 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		000D3A881DD15C1000BA8CF4 /* RecognizingSignz */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A891DD15C1D00BA8CF4 /* RecognizingSignzViewController.h */,
+				000D3A8A1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m */,
+			);
+			path = RecognizingSignz;
+			sourceTree = "<group>";
+		};
+		000D3A8D1DD15FEA00BA8CF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A8E1DD1600800BA8CF4 /* ButtonTypeCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		000D3A8E1DD1600800BA8CF4 /* ButtonTypeCells */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A921DD1617000BA8CF4 /* ButtonTypeCellProtocol.h */,
+				000D3A8F1DD1601700BA8CF4 /* ButtonTypeCell.h */,
+				000D3A901DD1601700BA8CF4 /* ButtonTypeCell.m */,
+			);
+			path = ButtonTypeCells;
+			sourceTree = "<group>";
+		};
+		000D3A931DD166DE00BA8CF4 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				000D3A941DD166F300BA8CF4 /* SelectionDetailsViewController.h */,
+				000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		48E8BA171DD2274100AB2C1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */,
+				48E8BA191DD2274100AB2C1A /* BebasNeue Book.otf */,
+				48E8BA1A1DD2274100AB2C1A /* BebasNeue Light.otf */,
+				48E8BA1B1DD2274100AB2C1A /* BebasNeue Regular.otf */,
+				48E8BA1C1DD2274100AB2C1A /* BebasNeue Thin.otf */,
+			);
+			name = Fonts;
+			path = Assets/Fonts;
+			sourceTree = "<group>";
+		};
+		48E8BA271DD2AB0200AB2C1A /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				48E8BA281DD2AB1C00AB2C1A /* Constants.h */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		9891442C7EF1B900C589708B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45DBA0D21BFB695699751E3 /* Pods-Signz.debug.xcconfig */,
+				2B42868E48FB4A05907D2FD2 /* Pods-Signz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0EC87FE7630F4706A0C051B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E8BA2D1DD2D9E700AB2C1A /* MessageUI.framework */,
+				48E8BA2B1DD2D9E200AB2C1A /* MobileCoreServices.framework */,
+				48E8BA291DD2D9CC00AB2C1A /* SafariServices.framework */,
+				B49C7D1C6A2351C6D35CC818 /* libPods-Signz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000D3A461DD1562500BA8CF4 /* Signz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000D3A611DD1562500BA8CF4 /* Build configuration list for PBXNativeTarget "Signz" */;
+			buildPhases = (
+				D435FB9FA2A471911CCF61B5 /* [CP] Check Pods Manifest.lock */,
+				000D3A431DD1562500BA8CF4 /* Sources */,
+				000D3A441DD1562500BA8CF4 /* Frameworks */,
+				000D3A451DD1562500BA8CF4 /* Resources */,
+				2E803019484BEF167EEB71A9 /* [CP] Embed Pods Frameworks */,
+				AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signz;
+			productName = Signz;
+			productReference = 000D3A471DD1562500BA8CF4 /* Signz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000D3A3F1DD1562500BA8CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = PeterDoak;
+				TargetAttributes = {
+					000D3A461DD1562500BA8CF4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8KW4SQ3F4C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 000D3A421DD1562500BA8CF4 /* Build configuration list for PBXProject "Signz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000D3A3E1DD1562500BA8CF4;
+			productRefGroup = 000D3A481DD1562500BA8CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000D3A461DD1562500BA8CF4 /* Signz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000D3A451DD1562500BA8CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E8BA221DD227E200AB2C1A /* BebasNeue Bold.otf in Resources */,
+				48E8BA231DD227E200AB2C1A /* BebasNeue Book.otf in Resources */,
+				48E8BA241DD227E200AB2C1A /* BebasNeue Light.otf in Resources */,
+				48E8BA251DD227E200AB2C1A /* BebasNeue Regular.otf in Resources */,
+				48E8BA261DD227E200AB2C1A /* BebasNeue Thin.otf in Resources */,
+				481C0AF41DD22461000A10E7 /* InnerScreenAssets.xcassets in Resources */,
+				48BDBFEA1DD1C2ED003BED39 /* Main.storyboard in Resources */,
+				481C0AF21DD2243C000A10E7 /* HomeScreenAssets.xcassets in Resources */,
+				000D3A721DD158B100BA8CF4 /* Assets.xcassets in Resources */,
+				487B0DE81DD1C03E0088BB53 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E803019484BEF167EEB71A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D435FB9FA2A471911CCF61B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000D3A431DD1562500BA8CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000D3A8B1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m in Sources */,
+				000D3A581DD1562500BA8CF4 /* Signz.xcdatamodeld in Sources */,
+				000D3A841DD159E300BA8CF4 /* ViewController.m in Sources */,
+				000D3A4C1DD1562500BA8CF4 /* main.m in Sources */,
+				000D3A911DD1601700BA8CF4 /* ButtonTypeCell.m in Sources */,
+				000D3A771DD1597000BA8CF4 /* AboutViewController.m in Sources */,
+				000D3A961DD166F300BA8CF4 /* SelectionDetailsViewController.m in Sources */,
+				000D3A711DD158B100BA8CF4 /* AppDelegate.m in Sources */,
+				000D3A871DD15A5400BA8CF4 /* FeelingDepressedViewController.m in Sources */,
+				000D3A7D1DD1598800BA8CF4 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000D3A5F1DD1562500BA8CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000D3A601DD1562500BA8CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000D3A621DD1562500BA8CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45DBA0D21BFB695699751E3 /* Pods-Signz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KW4SQ3F4C;
+				INFOPLIST_FILE = Signz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterdoak.signz.Signz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		000D3A631DD1562500BA8CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B42868E48FB4A05907D2FD2 /* Pods-Signz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KW4SQ3F4C;
+				INFOPLIST_FILE = Signz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterdoak.signz.Signz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000D3A421DD1562500BA8CF4 /* Build configuration list for PBXProject "Signz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000D3A5F1DD1562500BA8CF4 /* Debug */,
+				000D3A601DD1562500BA8CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000D3A611DD1562500BA8CF4 /* Build configuration list for PBXNativeTarget "Signz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000D3A621DD1562500BA8CF4 /* Debug */,
+				000D3A631DD1562500BA8CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		000D3A561DD1562500BA8CF4 /* Signz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				000D3A571DD1562500BA8CF4 /* Signz.xcdatamodel */,
+			);
+			currentVersion = 000D3A571DD1562500BA8CF4 /* Signz.xcdatamodel */;
+			path = Signz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 000D3A3F1DD1562500BA8CF4 /* Project object */;
+}
