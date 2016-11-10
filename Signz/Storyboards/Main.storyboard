@@ -121,9 +121,22 @@
                                     <constraint firstItem="IOf-GA-e0v" firstAttribute="top" secondItem="taE-mC-Wn3" secondAttribute="top" id="XbE-pv-izM"/>
                                     <constraint firstAttribute="bottom" secondItem="RqC-SA-yx8" secondAttribute="bottom" id="bZ2-ii-NWq"/>
                                     <constraint firstAttribute="bottom" secondItem="IOf-GA-e0v" secondAttribute="bottom" id="sfn-OO-aoY"/>
+                                    <constraint firstItem="RqC-SA-yx8" firstAttribute="leading" secondItem="taE-mC-Wn3" secondAttribute="centerX" constant="88" id="tBW-Ou-azv"/>
                                     <constraint firstItem="RqC-SA-yx8" firstAttribute="leading" secondItem="IOf-GA-e0v" secondAttribute="trailing" constant="-6" id="tFY-Ru-cfM"/>
                                     <constraint firstItem="IOf-GA-e0v" firstAttribute="leading" secondItem="taE-mC-Wn3" secondAttribute="leading" id="ySL-yC-bPS"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="tBW-Ou-azv"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="ySL-yC-bPS"/>
+                                        <exclude reference="Mdw-Pz-M5s"/>
+                                        <include reference="tBW-Ou-azv"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biw-1G-kaw">
                                 <rect key="frame" x="26" y="312" width="168" height="168"/>
@@ -155,9 +168,21 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="168" id="Cfh-eO-j4J"/>
+                                    <constraint firstAttribute="height" constant="168" id="HiJ-qx-L4P"/>
                                     <constraint firstAttribute="width" secondItem="VJ8-Zf-uOU" secondAttribute="height" multiplier="1:1" id="ggR-iB-6zF"/>
                                 </constraints>
                                 <state key="normal" image="home-buttons"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HiJ-qx-L4P"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="Cfh-eO-j4J"/>
+                                        <include reference="HiJ-qx-L4P"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="feelingDepressedTapped:" destination="dvi-uF-Owg" eventType="touchUpInside" id="S9d-xI-ILC"/>
                                 </connections>
@@ -263,7 +288,7 @@
                                 <exclude reference="QBW-dy-zFL"/>
                                 <include reference="ZEd-at-X7D"/>
                                 <include reference="q20-T3-hWQ"/>
-                                <include reference="VTO-bP-raa"/>
+                                <exclude reference="VTO-bP-raa"/>
                             </mask>
                         </variation>
                     </view>
@@ -303,24 +328,24 @@
                                     <constraint firstAttribute="height" constant="170" id="EpF-cA-DV1"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neB-3A-mQ3">
-                                <rect key="frame" x="57.666666666666657" y="182" width="300" height="63"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="neB-3A-mQ3">
+                                <rect key="frame" x="52" y="182" width="310" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="63" id="RUu-dP-Stz"/>
-                                    <constraint firstAttribute="width" constant="300" id="vFB-da-vdM"/>
+                                    <constraint firstAttribute="height" constant="65" id="RUu-dP-Stz"/>
+                                    <constraint firstAttribute="width" constant="310" id="vFB-da-vdM"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Recognizing the signz              of suicide and mental health">
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="31"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6u6-zA-NRp">
-                                <rect key="frame" x="0.0" y="253" width="414" height="483"/>
+                                <rect key="frame" x="0.0" y="255" width="414" height="481"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ButtonTypeCell" rowHeight="70" id="Vjy-wj-6rV" customClass="ButtonTypeCell">
@@ -424,7 +449,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="447"/>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bfP-66-Wja">
-                                        <rect key="frame" x="8" y="63" width="358" height="376"/>
+                                        <rect key="frame" x="8" y="68" width="358" height="371"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
@@ -432,10 +457,10 @@
                                         <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yse-Nb-r7N">
-                                        <rect key="frame" x="126" y="20" width="123" height="35"/>
+                                        <rect key="frame" x="77" y="20" width="220" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="123" id="P8f-e3-DaV"/>
-                                            <constraint firstAttribute="height" constant="35" id="drQ-mI-d23"/>
+                                            <constraint firstAttribute="width" constant="220" id="P8f-e3-DaV"/>
+                                            <constraint firstAttribute="height" constant="40" id="drQ-mI-d23"/>
                                         </constraints>
                                         <attributedString key="attributedText">
                                             <fragment content="about signz">
@@ -525,9 +550,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2w0-Vq-HhE">
-                                <rect key="frame" x="103" y="182" width="208" height="30"/>
+                                <rect key="frame" x="97" y="182" width="220" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="208" id="AU1-Vy-MIS"/>
+                                    <constraint firstAttribute="width" constant="220" id="AU1-Vy-MIS"/>
                                     <constraint firstAttribute="height" constant="30" id="TIl-8X-RnS"/>
                                 </constraints>
                                 <attributedString key="attributedText">
@@ -652,9 +677,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="447"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uGx-bD-BnA">
-                                        <rect key="frame" x="20" y="20" width="334" height="35"/>
+                                        <rect key="frame" x="20" y="20" width="334" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="X31-BB-fQA"/>
+                                            <constraint firstAttribute="height" constant="40" id="X31-BB-fQA"/>
                                         </constraints>
                                         <attributedString key="attributedText">
                                             <fragment content="about signz">
@@ -669,7 +694,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="skM-mh-PhY">
-                                        <rect key="frame" x="8" y="63" width="358" height="376"/>
+                                        <rect key="frame" x="8" y="68" width="358" height="371"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
@@ -750,9 +775,9 @@
         <image name="home-buttons" width="167" height="167"/>
         <image name="interior-logo" width="136" height="158"/>
         <image name="interior-title" width="106" height="46"/>
-        <image name="rectangular-buttons" width="295" height="59"/>
+        <image name="rectangular-buttons" width="197" height="59"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="W8T-vE-qaE"/>
+        <segue reference="keU-KN-GOA"/>
     </inferredMetricsTieBreakers>
 </document>

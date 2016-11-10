@@ -1,16 +1,49 @@
 {
   "images" : [
     {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 100
+        },
+        "cap-insets" : {
+          "right" : 113,
+          "left" : 52
+        }
+      },
       "idiom" : "universal",
       "filename" : "rectangular-buttons.png",
       "scale" : "1x"
     },
     {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 100
+        },
+        "cap-insets" : {
+          "right" : 224,
+          "left" : 104
+        }
+      },
       "idiom" : "universal",
       "filename" : "rectangular-buttons@2x.png",
       "scale" : "2x"
     },
     {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 100
+        },
+        "cap-insets" : {
+          "right" : 336,
+          "left" : 155
+        }
+      },
       "idiom" : "universal",
       "filename" : "rectangular-buttons@3x.png",
       "scale" : "3x"
