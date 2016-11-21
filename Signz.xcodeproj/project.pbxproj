@@ -18,6 +18,7 @@
 		000D3A8B1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A8A1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m */; };
 		000D3A911DD1601700BA8CF4 /* ButtonTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A901DD1601700BA8CF4 /* ButtonTypeCell.m */; };
 		000D3A961DD166F300BA8CF4 /* SelectionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */; };
+		005E66AE1DE29FDC00A6090B /* SupportVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005E66AD1DE29FDC00A6090B /* SupportVideoCell.m */; };
 		097D873B3E4919DA5A28583C /* libPods-Signz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49C7D1C6A2351C6D35CC818 /* libPods-Signz.a */; };
 		481C0AF21DD2243C000A10E7 /* HomeScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */; };
 		481C0AF41DD22461000A10E7 /* InnerScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */; };
@@ -56,6 +57,8 @@
 		000D3A921DD1617000BA8CF4 /* ButtonTypeCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonTypeCellProtocol.h; sourceTree = "<group>"; };
 		000D3A941DD166F300BA8CF4 /* SelectionDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionDetailsViewController.h; sourceTree = "<group>"; };
 		000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionDetailsViewController.m; sourceTree = "<group>"; };
+		005E66AC1DE29FDC00A6090B /* SupportVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportVideoCell.h; sourceTree = "<group>"; };
+		005E66AD1DE29FDC00A6090B /* SupportVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportVideoCell.m; sourceTree = "<group>"; };
 		2B42868E48FB4A05907D2FD2 /* Pods-Signz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Signz/Pods-Signz.release.xcconfig"; sourceTree = "<group>"; };
 		481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeScreenAssets.xcassets; sourceTree = "<group>"; };
 		481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InnerScreenAssets.xcassets; sourceTree = "<group>"; };
@@ -221,6 +224,7 @@
 		000D3A8D1DD15FEA00BA8CF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				005E66AB1DE29FDC00A6090B /* SupportVideoCells */,
 				000D3A8E1DD1600800BA8CF4 /* ButtonTypeCells */,
 			);
 			path = Views;
@@ -243,6 +247,15 @@
 				000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		005E66AB1DE29FDC00A6090B /* SupportVideoCells */ = {
+			isa = PBXGroup;
+			children = (
+				005E66AC1DE29FDC00A6090B /* SupportVideoCell.h */,
+				005E66AD1DE29FDC00A6090B /* SupportVideoCell.m */,
+			);
+			path = SupportVideoCells;
 			sourceTree = "<group>";
 		};
 		48E8BA171DD2274100AB2C1A /* Fonts */ = {
@@ -293,12 +306,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000D3A611DD1562500BA8CF4 /* Build configuration list for PBXNativeTarget "Signz" */;
 			buildPhases = (
+				FDFB554295756410C7FE47BC /* 📦 Check Pods Manifest.lock */,
 				D435FB9FA2A471911CCF61B5 /* [CP] Check Pods Manifest.lock */,
 				000D3A431DD1562500BA8CF4 /* Sources */,
 				000D3A441DD1562500BA8CF4 /* Frameworks */,
 				000D3A451DD1562500BA8CF4 /* Resources */,
 				2E803019484BEF167EEB71A9 /* [CP] Embed Pods Frameworks */,
 				AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */,
+				42861DB083EBD86E73965B3F /* 📦 Embed Pods Frameworks */,
+				D94505B0DDCF89F3EFFADC72 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -379,6 +395,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		42861DB083EBD86E73965B3F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +440,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		D94505B0DDCF89F3EFFADC72 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFB554295756410C7FE47BC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -418,6 +479,7 @@
 			files = (
 				000D3A8B1DD15C1D00BA8CF4 /* RecognizingSignzViewController.m in Sources */,
 				000D3A581DD1562500BA8CF4 /* Signz.xcdatamodeld in Sources */,
+				005E66AE1DE29FDC00A6090B /* SupportVideoCell.m in Sources */,
 				000D3A841DD159E300BA8CF4 /* ViewController.m in Sources */,
 				000D3A4C1DD1562500BA8CF4 /* main.m in Sources */,
 				000D3A911DD1601700BA8CF4 /* ButtonTypeCell.m in Sources */,

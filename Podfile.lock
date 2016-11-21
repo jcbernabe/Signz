@@ -1,12 +1,27 @@
 PODS:
   - KILabel (1.0.0)
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - SRGMediaPlayer (1.8.17):
+    - libextobjc/EXTScope (~> 0.4.1)
+    - SRGMediaPlayer/Version (= 1.8.17)
+    - TransitionKit (~> 2.2.0)
+  - SRGMediaPlayer/Version (1.8.17):
+    - libextobjc/EXTScope (~> 0.4.1)
+    - TransitionKit (~> 2.2.0)
+  - TransitionKit (2.2.1)
 
 DEPENDENCIES:
   - KILabel (= 1.0.0)
+  - SRGMediaPlayer
 
 SPEC CHECKSUMS:
   KILabel: 84049969642d4ac1061ebe38ad4c0da37fed108b
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  SRGMediaPlayer: 12cbc75ff56fdc33cb885ddb863b53d633d13629
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
 
-PODFILE CHECKSUM: 7d60ad9122c34f6e55a7695ede31a09edb34d00f
+PODFILE CHECKSUM: 67a767d558c19204d982bfdc07e550e39d0c1610
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.0.0

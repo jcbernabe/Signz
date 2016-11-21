@@ -6,23 +6,63 @@
 	<dict>
 		<key>KILabel.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-Signz.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SRGMediaPlayer-SRGMediaPlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SRGMediaPlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TransitionKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libextobjc.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0EE5634CAD0D778C76414552FE5B44AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30125458EC0CBD6BAC081152911D154B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>38A04FD8D9B2FBB3DE48DC9634A7FCEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E10CB34FD8552CFFB17C9F1CA6DBBC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A719DC9F50CC08874A1E4FC57D148162</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E2C80167E68A4FC7C33411D8562F56C8</key>
+		<key>C194E206A8C2949AC9D0E7BB19CF809E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
