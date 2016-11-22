@@ -8,11 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SupportVideoCell : UITableViewCell
+#import <YTPlayerView.h>
+
+@interface SupportVideoCell : UITableViewCell <YTPlayerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *videoCaptionLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *videoThumbnail;
 
-- (void)setCaption:(NSString *)title thumbnailImage:(UIImage *)image;
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+
+@property (weak, nonatomic) IBOutlet YTPlayerView *playerView;
+
+- (void)setVideoId:(NSString *)videoId withCaption:(NSString *)caption;
 
 @end

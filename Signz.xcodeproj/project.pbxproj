@@ -20,8 +20,17 @@
 		000D3A961DD166F300BA8CF4 /* SelectionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D3A951DD166F300BA8CF4 /* SelectionDetailsViewController.m */; };
 		005E66AE1DE29FDC00A6090B /* SupportVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 005E66AD1DE29FDC00A6090B /* SupportVideoCell.m */; };
 		097D873B3E4919DA5A28583C /* libPods-Signz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49C7D1C6A2351C6D35CC818 /* libPods-Signz.a */; };
-		481C0AF21DD2243C000A10E7 /* HomeScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */; };
-		481C0AF41DD22461000A10E7 /* InnerScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */; };
+		480C076D1DE312C6001F53D7 /* HomeScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480C076B1DE312C6001F53D7 /* HomeScreenAssets.xcassets */; };
+		480C076E1DE312C6001F53D7 /* InnerScreenAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480C076C1DE312C6001F53D7 /* InnerScreenAssets.xcassets */; };
+		480C07701DE32CF7001F53D7 /* Bugsee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C076F1DE32CF6001F53D7 /* Bugsee.framework */; };
+		480C07721DE32D2C001F53D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C07711DE32D2C001F53D7 /* SystemConfiguration.framework */; };
+		480C07751DE32D36001F53D7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C07731DE32D36001F53D7 /* CoreMedia.framework */; };
+		480C07761DE32D36001F53D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C07741DE32D36001F53D7 /* CoreMotion.framework */; };
+		480C07791DE32D40001F53D7 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C07771DE32D40001F53D7 /* CoreFoundation.framework */; };
+		480C077A1DE32D40001F53D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C07781DE32D40001F53D7 /* Foundation.framework */; };
+		480C077C1DE32D47001F53D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C077B1DE32D47001F53D7 /* AVFoundation.framework */; };
+		480C077E1DE32D4D001F53D7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C077D1DE32D4D001F53D7 /* CoreTelephony.framework */; };
+		480C07801DE32DA8001F53D7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C077F1DE32DA8001F53D7 /* libc++.tbd */; };
 		487B0DE81DD1C03E0088BB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */; };
 		48BDBFEA1DD1C2ED003BED39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BDBFE91DD1C2ED003BED39 /* Main.storyboard */; };
 		48E8BA221DD227E200AB2C1A /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */; };
@@ -60,8 +69,17 @@
 		005E66AC1DE29FDC00A6090B /* SupportVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportVideoCell.h; sourceTree = "<group>"; };
 		005E66AD1DE29FDC00A6090B /* SupportVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportVideoCell.m; sourceTree = "<group>"; };
 		2B42868E48FB4A05907D2FD2 /* Pods-Signz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Signz/Pods-Signz.release.xcconfig"; sourceTree = "<group>"; };
-		481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeScreenAssets.xcassets; sourceTree = "<group>"; };
-		481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InnerScreenAssets.xcassets; sourceTree = "<group>"; };
+		480C076B1DE312C6001F53D7 /* HomeScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomeScreenAssets.xcassets; sourceTree = "<group>"; };
+		480C076C1DE312C6001F53D7 /* InnerScreenAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InnerScreenAssets.xcassets; sourceTree = "<group>"; };
+		480C076F1DE32CF6001F53D7 /* Bugsee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugsee.framework; sourceTree = "<group>"; };
+		480C07711DE32D2C001F53D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		480C07731DE32D36001F53D7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		480C07741DE32D36001F53D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		480C07771DE32D40001F53D7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		480C07781DE32D40001F53D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		480C077B1DE32D47001F53D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		480C077D1DE32D4D001F53D7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		480C077F1DE32DA8001F53D7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BDBFE91DD1C2ED003BED39 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
@@ -82,6 +100,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480C07801DE32DA8001F53D7 /* libc++.tbd in Frameworks */,
+				480C077E1DE32D4D001F53D7 /* CoreTelephony.framework in Frameworks */,
+				480C077C1DE32D47001F53D7 /* AVFoundation.framework in Frameworks */,
+				480C07791DE32D40001F53D7 /* CoreFoundation.framework in Frameworks */,
+				480C077A1DE32D40001F53D7 /* Foundation.framework in Frameworks */,
+				480C07751DE32D36001F53D7 /* CoreMedia.framework in Frameworks */,
+				480C07761DE32D36001F53D7 /* CoreMotion.framework in Frameworks */,
+				480C07721DE32D2C001F53D7 /* SystemConfiguration.framework in Frameworks */,
+				480C07701DE32CF7001F53D7 /* Bugsee.framework in Frameworks */,
 				48E8BA2E1DD2D9E700AB2C1A /* MessageUI.framework in Frameworks */,
 				48E8BA2C1DD2D9E200AB2C1A /* MobileCoreServices.framework in Frameworks */,
 				48E8BA2A1DD2D9CC00AB2C1A /* SafariServices.framework in Frameworks */,
@@ -187,9 +214,9 @@
 		000D3A6C1DD158B100BA8CF4 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				480C076B1DE312C6001F53D7 /* HomeScreenAssets.xcassets */,
+				480C076C1DE312C6001F53D7 /* InnerScreenAssets.xcassets */,
 				000D3A6D1DD158B100BA8CF4 /* Assets.xcassets */,
-				481C0AF11DD2243C000A10E7 /* HomeScreenAssets.xcassets */,
-				481C0AF31DD22461000A10E7 /* InnerScreenAssets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -291,6 +318,15 @@
 		E0EC87FE7630F4706A0C051B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				480C077F1DE32DA8001F53D7 /* libc++.tbd */,
+				480C077D1DE32D4D001F53D7 /* CoreTelephony.framework */,
+				480C077B1DE32D47001F53D7 /* AVFoundation.framework */,
+				480C07771DE32D40001F53D7 /* CoreFoundation.framework */,
+				480C07781DE32D40001F53D7 /* Foundation.framework */,
+				480C07731DE32D36001F53D7 /* CoreMedia.framework */,
+				480C07741DE32D36001F53D7 /* CoreMotion.framework */,
+				480C07711DE32D2C001F53D7 /* SystemConfiguration.framework */,
+				480C076F1DE32CF6001F53D7 /* Bugsee.framework */,
 				48E8BA2D1DD2D9E700AB2C1A /* MessageUI.framework */,
 				48E8BA2B1DD2D9E200AB2C1A /* MobileCoreServices.framework */,
 				48E8BA291DD2D9CC00AB2C1A /* SafariServices.framework */,
@@ -306,7 +342,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000D3A611DD1562500BA8CF4 /* Build configuration list for PBXNativeTarget "Signz" */;
 			buildPhases = (
-				FDFB554295756410C7FE47BC /* 📦 Check Pods Manifest.lock */,
+				FDFB554295756410C7FE47BC /* [CP] Check Pods Manifest.lock */,
 				D435FB9FA2A471911CCF61B5 /* [CP] Check Pods Manifest.lock */,
 				000D3A431DD1562500BA8CF4 /* Sources */,
 				000D3A441DD1562500BA8CF4 /* Frameworks */,
@@ -315,6 +351,7 @@
 				AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */,
 				42861DB083EBD86E73965B3F /* 📦 Embed Pods Frameworks */,
 				D94505B0DDCF89F3EFFADC72 /* 📦 Copy Pods Resources */,
+				480C07811DE32E85001F53D7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -367,11 +404,11 @@
 				48E8BA221DD227E200AB2C1A /* BebasNeue Bold.otf in Resources */,
 				48E8BA231DD227E200AB2C1A /* BebasNeue Book.otf in Resources */,
 				48E8BA241DD227E200AB2C1A /* BebasNeue Light.otf in Resources */,
+				480C076E1DE312C6001F53D7 /* InnerScreenAssets.xcassets in Resources */,
 				48E8BA251DD227E200AB2C1A /* BebasNeue Regular.otf in Resources */,
+				480C076D1DE312C6001F53D7 /* HomeScreenAssets.xcassets in Resources */,
 				48E8BA261DD227E200AB2C1A /* BebasNeue Thin.otf in Resources */,
-				481C0AF41DD22461000A10E7 /* InnerScreenAssets.xcassets in Resources */,
 				48BDBFEA1DD1C2ED003BED39 /* Main.storyboard in Resources */,
-				481C0AF21DD2243C000A10E7 /* HomeScreenAssets.xcassets in Resources */,
 				000D3A721DD158B100BA8CF4 /* Assets.xcassets in Resources */,
 				487B0DE81DD1C03E0088BB53 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -409,6 +446,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		480C07811DE32E85001F53D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_SRC=$(find \"$PROJECT_DIR\" -name 'BugseeAgent' | head -1)\nif [ ! \"${SCRIPT_SRC}\" ]; then\necho \"Error: BugseeAgent script not found.\"\necho \"If you link Bugsee.framework from outside the project folder, please copy the script\"\necho \"into your main project directory or manually update SCRIPT_SRC variable with the right path\"\nexit 1\nfi\n/usr/bin/python \"${SCRIPT_SRC}\" 8fc7ee08-ea08-4bce-a53a-6a9a39cff424";
 		};
 		AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -455,14 +505,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signz/Pods-Signz-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FDFB554295756410C7FE47BC /* 📦 Check Pods Manifest.lock */ = {
+		FDFB554295756410C7FE47BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,6 +640,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HALV6KNBU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Signz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -607,6 +661,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = HALV6KNBU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Signz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -9,5 +9,6 @@ target 'Signz' do
 
 	pod 'KILabel', '1.0.0'
 	pod 'SRGMediaPlayer'
+	pod ‘youtube-ios-player-helper’
 
 end

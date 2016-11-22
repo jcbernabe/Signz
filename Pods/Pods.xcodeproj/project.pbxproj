@@ -10,33 +10,75 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>022635D0C66F2040ACC2A0D5063C256E</key>
+		<key>00ADAE1FEB349301ECCBB41B5D8701BE</key>
 		<dict>
-			<key>fileRef</key>
-			<string>65AF7D7333D24EA29A135A9DF051706D</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSPictureInPictureButton.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSPictureInPictureButton.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>02B5AD8365A8A1E135B64EB88356ADB6</key>
+		<key>01FC3766D3A4A192B4B0EBC42C97D1B0</key>
 		<dict>
-			<key>fileRef</key>
-			<string>5055FF4D47136D9FE650E2F339C20A6C</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7B6E269F8A4C4EB31253568B275E3480</string>
+				<string>82094D163ABDCDD1EC7689C11C4795DF</string>
+				<string>F612BD934B490C14C2B3502EF5FEDEF2</string>
+				<string>793E19C44358FE8CA779DBA253686996</string>
+				<string>3F02A90DFEB2FDB42612A6BE6993765F</string>
+				<string>7AB7FD17DD45168E49B97A18D921382A</string>
+				<string>C911728FABAD008D4EC3825B5A1385CC</string>
+				<string>92CF1A92F38EA0E5EC2BE817A6B5161A</string>
+				<string>6375B3CF9775CC29625B02FB9632FCEB</string>
+				<string>696620F2BA5A89AE6E0BC5108DC89BED</string>
+				<string>FC11287AAD5E8180940E34BFBAD4AE08</string>
+				<string>A67F495CB35F0D8AFA5EDCC56AC60113</string>
+				<string>7CB187A78197DFF00B18A07ACA8F675F</string>
+				<string>C4C5F8CA744C422F97C7C5C421CEB347</string>
+				<string>4A42ADF36350E44A95A49BF23908695B</string>
+				<string>134A4D6A245B12723176D1050FBC1862</string>
+				<string>B190B833E32811010F91DD2D51C61EBE</string>
+				<string>ACF5F19B675A98D2F3833FFEBBBB7FFA</string>
+				<string>0516310925DE5F56EA31BD37FF599BAB</string>
+				<string>F04B2549F070B9100217EB93A8DD5373</string>
+				<string>4D48987FDCE901990C1EBC6A2E9BF054</string>
+				<string>6C9625AE0281128CD80A99BCB812467D</string>
+				<string>1F78400B2330C20239FCE1AD61335AF8</string>
+				<string>E26EA51BBF5AD80768C2A01651573C97</string>
+				<string>9A8F67BB6CE6B8583F14C6DF3FA6EB40</string>
+				<string>AC301AFA67167268510B293DA5031C99</string>
+				<string>5A798653D2DC04F97E1F18B0F1AD376B</string>
+				<string>CEA7AFFE2AEC94504C5648F848CE5B4D</string>
+				<string>D77368D71291CAB262BD28FA62931BC9</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>023A7BEBD079FC1C4791FAECCC96C26C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FA0806A07A3C15D555136221D311DC4F</string>
+				<string>76F5835A9CF264B9736C79BD3820B2CF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>034014829C1E4434983CF3A690C12017</key>
 		<dict>
@@ -119,79 +161,45 @@
 		<key>04600F7CA523B6BC2D51DE20DF8F7F17</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0C31770562A6DEDC6C11221255119D32</string>
+			<string>58F6EA17DD0F46E729A6970F3D6A63F0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>049DDC43F626A9652E566130727740C5</key>
+		<key>0516310925DE5F56EA31BD37FF599BAB</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>CE6C5AA23CEB921E66C6A5C13C98B0E4</string>
-				<string>C5D7E8CA8FF8ED1D76EFAB6A78723BB5</string>
-				<string>0DF650F2C0A88F2AEB6B69A9144F4FBB</string>
-				<string>B4DC23F2B847C33109A9BC34918603F9</string>
-				<string>058E4BE0FCA8CA2EA88F49C42CEF33F6</string>
-				<string>10F8B4E358C984CD6933847D87DF5F4A</string>
-				<string>C2902D8E6666775FA04DD6E2E845BB5D</string>
-				<string>5983ECAE3BB146B095E7C5F63C47D796</string>
-				<string>D74B6B3671EEBB06B8906E857C03AAE5</string>
-				<string>373C52918A93D7CD4C9CA8305FF08D13</string>
-				<string>ABE90185B6CC5110093B1B69DDB2AADC</string>
-				<string>7CEFA7FB803EB8019152A0842E04F7EC</string>
-				<string>54EABF44857E31B5BFFCA9D4806495E9</string>
-				<string>5055FF4D47136D9FE650E2F339C20A6C</string>
-				<string>A950821444779B1063882147FC20381F</string>
-				<string>A32A2B374D6CBB5E0892457C3831EE1A</string>
-				<string>B0869A226DF715F8A28793FBBD554851</string>
-				<string>7D049BAF6F31A0293AA76F16D8B524B2</string>
-				<string>1BCB5E4C5832135EFA07949ACE22061F</string>
-				<string>E276953BF0AC09DE0EAA6F6E86A5899D</string>
-				<string>0D0D544F49F54F65AEFB1942B5951014</string>
-				<string>E51D057FA94BC9D84008E7BE6BD017F6</string>
-				<string>B6F6FEC7BB6954D08C01E97DA3BA1F92</string>
-				<string>1072CF115971ED70D2A5C56F29CC983A</string>
-				<string>34968F829FBF9BD5BCC8A3EE11AF63C3</string>
-				<string>8B9F97F6E9FBED5E7BA4FFC7BFA8A226</string>
-				<string>1C7107F3522C6FA84273EC82B541CFFC</string>
-				<string>C6832ACBFCFDF650C90BFE012188A919</string>
-				<string>3C8E5861C3570FE368CD31F8FBB5E6BF</string>
-				<string>65AF7D7333D24EA29A135A9DF051706D</string>
-				<string>0C6D641790471DCB431C60B1F157EBCE</string>
-				<string>DDD55DE1CF06101AD7DCEE9ABA34FC4E</string>
-				<string>7B499E9788D7C78926DCBC0996BA46BD</string>
-				<string>B5F608F9848567E136542EDD2628F212</string>
-				<string>5A02A5FC1F1E8BF321FE90748C6962A2</string>
-				<string>A83CD35613D6A0DED165C27228F1D3A5</string>
-				<string>ECB5DBF470E49ADB9139F9207F9F6823</string>
-				<string>A4539316B9072EE67A55EBBB8ECBDD71</string>
-				<string>1B3F299381F9A03016D5735D910816AC</string>
-				<string>D17B65EDC8AC629370A5BF80A1A8F100</string>
-				<string>87F453E0014AE921647B3ACBDDD2D42A</string>
-				<string>724C3FE457901710E6DD993883254DE2</string>
-				<string>26B879A1461407825AC4759165C34432</string>
-				<string>45D74DB374B5661BF9EE85B72C921528</string>
-				<string>1D61315A44CAB3468D8AEE00FD9F7A9F</string>
-				<string>F9A1B65CE33F847DE3FB993A0C24B13D</string>
-				<string>830E8451834A5269E8B0025B23B2FB70</string>
-				<string>B554FCCF7996B282B896C98357DC91E7</string>
-				<string>BD6DB516A965D3837423BD03DF9B7D09</string>
-				<string>2C238FB652A4FD03D594FD0E031FC58F</string>
-				<string>F2DDD3EEEA76C866D867FFEF370B2CCB</string>
-				<string>75B2C40567F6D564DC88FCC4978FED98</string>
-				<string>402ED971603B6351806B8BC092B88984</string>
-				<string>1FC4E6B5B6550663C43D44CEB58FE21A</string>
-			</array>
+			<key>fileRef</key>
+			<string>835C1C6E3650E8F85B64CCF1FE2C4F23</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>06B35A37BE8AD6282CC1B89351A0F820</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>SRGMediaPlayer</string>
+			<string>fr.lproj</string>
 			<key>path</key>
-			<string>SRGMediaPlayer</string>
+			<string>RTSMediaPlayer/fr.lproj</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>05378574255434F3737495E2CB2625AF</key>
+		<key>06D2A542F29D16EC67BE5E76EC4DCE4D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D77EA5DC6004F055B83900BE9D5CC99D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>06EA904C06826606875579A6919293A4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -199,12 +207,28 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaSegmentsController.m</string>
 			<key>path</key>
-			<string>TransitionKit-dummy.m</string>
+			<string>RTSMediaPlayer/RTSMediaSegmentsController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>058E4BE0FCA8CA2EA88F49C42CEF33F6</key>
+		<key>0988403E91694735A28184598F8318F1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3E6672259BBD4D66E531E31F577B9876</string>
+				<string>06D2A542F29D16EC67BE5E76EC4DCE4D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>09AABA3073EB62F6B239B6559184CD12</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -213,13 +237,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSAirplayOverlayView.h</string>
+			<string>TKTransition.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSAirplayOverlayView.h</string>
+			<string>Code/TKTransition.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>07E17BEBF049BD50C26F38C6A822160F</key>
+		<key>09CA6EB03833A3657596EA32D68EFB44</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -228,71 +252,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>TKEvent.m</string>
+			<string>TKStateMachine.m</string>
 			<key>path</key>
-			<string>Code/TKEvent.m</string>
+			<string>Code/TKStateMachine.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>07ED107E3D1CD560F0A480B1002261CC</key>
+		<key>0A1C5B0A090AA687E5892CC3697308F5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1C7107F3522C6FA84273EC82B541CFFC</string>
+			<string>CD78ED44D329B5C50DC9F732DAEBC8F1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>08447E7220D477189A8AE618BF7CD04F</key>
+		<key>0A87ED49E63641792F5558A3C320B49C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>B29BE8843049F89891A6682B0D6A7CA1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>en.lproj</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/en.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0AC72C9D62465687AF07288F2521867B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>72DBF5A555687C19140401AA5160E45D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>0B30A97CBDFB6EEE78DA540555D9BCE9</key>
 		<dict>
 			<key>fileRef</key>
 			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0C31770562A6DEDC6C11221255119D32</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>libextobjc-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C6D641790471DCB431C60B1F157EBCE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaSegmentsController.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaSegmentsController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C6EAC6F5E5F5BEC7CFA6B861C4F04DC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA8FD9BFADC611E24938A0290FF311B8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -309,63 +299,22 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>0D0D544F49F54F65AEFB1942B5951014</key>
+		<key>0DBE796B5B398A36C639EC743F349BA4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4A15FC6A414C47DC5C896BA37A3C0581</string>
+				<string>84433482C3BFB3826DD028ED102BE7D1</string>
+				<string>1F84207CE3F1E2B25C0F89D820FEFCA6</string>
+				<string>84F3322C68903A89971C618715F61D5D</string>
+				<string>BA3581EFDF11FE3F9151A4DE24EB847C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerPlaybackButton.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerPlaybackButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0D16B8072B0BFA2A007ED7C278FEAF48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E51D057FA94BC9D84008E7BE6BD017F6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0DA73FEBEA0186737399DEA9CB9D01F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>679C59628F3CAEB33A86E9C3B2ED2C52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0DF650F2C0A88F2AEB6B69A9144F4FBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSActivityGestureRecognizer.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSActivityGestureRecognizer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>0EE5634CAD0D778C76414552FE5B44AB</key>
 		<dict>
@@ -388,208 +337,27 @@
 			<key>productName</key>
 			<string>libextobjc</string>
 			<key>productReference</key>
-			<string>142F7B06AD2B94B33273F68D0FC6C648</string>
+			<string>256EC5E7CCF8FAD595A8C49135E55D80</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>0F57C24604F757AFB8D9B0AAC6A1CFEF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>50F6B092D929F1B70655EC17551D6691</string>
-				<string>F7E56363735634058C6015D4C7878643</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>EXTScope</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1072CF115971ED70D2A5C56F29CC983A</key>
+		<key>0F0D7244979D5600D4AF08039865623D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSMediaPlayerVersion.h</string>
+			<string>de.lproj</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerVersion.h</string>
+			<string>RTSMediaPlayer/de.lproj</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>10F8B4E358C984CD6933847D87DF5F4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSAirplayOverlayView.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSAirplayOverlayView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11792D47B7BECBAF34B4A28A4C94CA43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EXTRuntimeExtensions.h</string>
-			<key>path</key>
-			<string>extobjc/EXTRuntimeExtensions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>140918427CFB2018DA485863275B8E98</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>229393F3E5F2AECDF59ECD92634119AB</string>
-				<string>05378574255434F3737495E2CB2625AF</string>
-				<string>48C821819B4C9ABFA3514D187C12372F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/TransitionKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>142F7B06AD2B94B33273F68D0FC6C648</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>liblibextobjc.a</string>
-			<key>path</key>
-			<string>liblibextobjc.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>167BE3EEEB8538414078BBD7E3982511</key>
-		<dict>
-			<key>fileRef</key>
-			<string>830E8451834A5269E8B0025B23B2FB70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>172D32D49E894DF82CEC8369B757AAEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SRGMediaPlayer-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19EB849EB51BEC64E544261C30E76F70</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6C1047B2DA8671E720E2F8DABFBF69CA</string>
-				<string>F92574755A9950E0ADCCB927F8A97DF7</string>
-				<string>920FE4255D5CFAB8080E3810CA030A66</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/KILabel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AC0A8CE7E4BAE0F06493401CF7CDB35</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2155A61F1ACC6D6AB5EFD50B49EC162B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1B3F299381F9A03016D5735D910816AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSPlaybackActivityIndicatorView.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSPlaybackActivityIndicatorView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BCB5E4C5832135EFA07949ACE22061F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerLogger.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerLogger.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C7107F3522C6FA84273EC82B541CFFC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerView.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C81BDEF83317C356DEA6C1554BE2616</key>
+		<key>0F91D65945856CE40E1E56E90DFB0176</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>9D02671E73AA9DB897AB9EEA42874CA2</string>
+			<string>7F9E9721FEBF487A48F1E971E7F87704</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -626,10 +394,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>1D09758BC6F56D9B338DA8BED8C1C38B</key>
+		<key>1190BF6A0210E7E3BB512220FDD16F0D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2C238FB652A4FD03D594FD0E031FC58F</string>
+			<string>E97EC4B6E707F023ECCAEC8B7EB53EBB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -640,7 +408,47 @@
 				</array>
 			</dict>
 		</dict>
-		<key>1D61315A44CAB3468D8AEE00FD9F7A9F</key>
+		<key>11933495FC73570AB6CC8CC5E0DF6B32</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SRGMediaPlayer-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>134A4D6A245B12723176D1050FBC1862</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F64EC15DF325077F7BBF5C4ABB6B99DA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>13F17B107C1C6417C80438FE9D09B244</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>KILabel-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>15DEFE7BFF5CB67B53FB22A1734C3892</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -649,73 +457,159 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSTimeSlider.h</string>
+			<string>UIBezierPath+RTSMediaPlayerUtils.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSTimeSlider.h</string>
+			<string>RTSMediaPlayer/UIBezierPath+RTSMediaPlayerUtils.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1E40362D33BA069C3E18432A295E0690</key>
+		<key>168C544BA9565348D9E9FDF45548CB7F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>1B3F299381F9A03016D5735D910816AC</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerController.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1E61E292162E9EC664961D034C531598</key>
+		<key>17AEF17D21B3DF60B9D189582447F07A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>45D74DB374B5661BF9EE85B72C921528</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EXTRuntimeExtensions.m</string>
+			<key>path</key>
+			<string>extobjc/EXTRuntimeExtensions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FC4E6B5B6550663C43D44CEB58FE21A</key>
+		<key>18AC3DE83375CB43975868F0EDD6ED8D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>it.lproj</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/it.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18C5499924361DFC0DDD19955E729AE9</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libTransitionKit.a</string>
+			<key>path</key>
+			<string>libTransitionKit.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>19247E70411D0501DFABD5119F684478</key>
 		<dict>
 			<key>children</key>
-			<array/>
+			<array>
+				<string>65F5D09336B1FC24987A1EF79B34A07C</string>
+				<string>F787CD7F9C357A26756EE7AFDEADEC34</string>
+				<string>CA93E30E30663DACFC14CC3C0F0F7C55</string>
+			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Version</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/youtube-ios-player-helper</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1FC7F3A158E7CF86B5C48326C8A54D98</key>
+		<key>198C0623618FC552B93EF44750B03131</key>
 		<dict>
-			<key>fileRef</key>
-			<string>E86668F20F252C440D1015B816BE59C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>20935649946F7BC4E2068BC2E4FCBAE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7A017A4013A13C4A1AEBD8A644D154E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>210D06DB2A95852764B383C59D6D0046</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE6C5AA23CEB921E66C6A5C13C98B0E4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
+			<key>baseConfigurationReference</key>
+			<string>7F9E9721FEBF487A48F1E971E7F87704</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
+				<key>CONFIGURATION_BUILD_DIR</key>
+				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SRGMediaPlayer</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SRGMediaPlayer/ResourceBundle-SRGMediaPlayer-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>SRGMediaPlayer</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
-		<key>2111E5803E7F76669DC9840838D8DF8D</key>
+		<key>1A53C92C8AB52689A3D91F3FE3D2B1F7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B6F6FEC7BB6954D08C01E97DA3BA1F92</string>
+			<string>415FFA9BD51A168BBBA7E8A4519A736C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2155A61F1ACC6D6AB5EFD50B49EC162B</key>
+		<key>1DA0D92D40ACAB7BEBF418AE170E72FA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerViewController.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E16360882151A4E332EED2A39778B98</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B68E4A66690663FF38FF79D2BCEEFED0</string>
+				<string>1F3EF87F9A065B1A4CBF6067FD625EAF</string>
+				<string>E167991E77D461900D22FA86D483FDEC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/TransitionKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F1BCA48CAB7BAABE2B04014F0D0B679</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -730,47 +624,53 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>218E6EF463986C341FE7A92C867996F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B50600848849FC4B92790BC88003B9C0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>21E79780BC2277103B1237816718D9B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C404ACFA8DA304852693A4DADAE138A9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>229393F3E5F2AECDF59ECD92634119AB</key>
+		<key>1F3EF87F9A065B1A4CBF6067FD625EAF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>TransitionKit.xcconfig</string>
+			<string>TransitionKit-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2576BA7204045FE6175F92E16A704AF5</key>
+		<key>1F78400B2330C20239FCE1AD61335AF8</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>6719FAA49661A0C6CE81360C8D6D478E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>ResourceBundle-SRGMediaPlayer-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Private</string>
+				</array>
+			</dict>
 		</dict>
-		<key>26B879A1461407825AC4759165C34432</key>
+		<key>1F84207CE3F1E2B25C0F89D820FEFCA6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>09CA6EB03833A3657596EA32D68EFB44</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>1FC7F3A158E7CF86B5C48326C8A54D98</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E86668F20F252C440D1015B816BE59C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>20D0247DA40F1133F01735CFB3660EEE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -779,80 +679,112 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSTimelineSlider.h</string>
+			<string>RTSSegmentedTimelineView.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSTimelineSlider.h</string>
+			<string>RTSMediaPlayer/RTSSegmentedTimelineView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>27BE54C2A0A82AE3EF62C2E988330F38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>picture_in_picture_stop_button.png</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/picture_in_picture_stop_button.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27F8AA4DCC0B2CE48D3BEB65618945CF</key>
+		<key>21E79780BC2277103B1237816718D9B7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>54EABF44857E31B5BFFCA9D4806495E9</string>
+			<string>4B1775FD0814DBC6D337DB4AB50C13F8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2841B2D7CC1D58B7A9DDB41DBE05B5BD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A719DC9F50CC08874A1E4FC57D148162</string>
-			<key>remoteInfo</key>
-			<string>KILabel</string>
-		</dict>
-		<key>28A87372F7CCF789E90CF8FCC899CA15</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5983ECAE3BB146B095E7C5F63C47D796</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28E9917C76C92CADB072D37A72573FAF</key>
+		<key>2257BA5DAF704DE8A5DEE4D6E6A8F1EA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>TKTransition.m</string>
+			<string>RTSMediaPlayerLogger.h</string>
 			<key>path</key>
-			<string>Code/TKTransition.m</string>
+			<string>RTSMediaPlayer/RTSMediaPlayerLogger.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2B085A7F309CF8D26287D9C0042E6FDF</key>
+		<key>235D4D512D82967442509FBDB3CC5E0F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3C8E5861C3570FE368CD31F8FBB5E6BF</string>
+			<key>baseConfigurationReference</key>
+			<string>7F9E9721FEBF487A48F1E971E7F87704</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SRGMediaPlayer/SRGMediaPlayer-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
-		<key>2B160D5B9FBD6158FA12C0E60E23491F</key>
+		<key>236A1A6A3FFD5FAC6C7AB01766C5F1E1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>DA4841FDD7A75B9007792004BC9E7B0D</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5448862A59E9AAF8C53DD0560F739B3A</string>
+				<string>44909A3BD019447755D168E6B687F8A4</string>
+				<string>F34A173747947BF53209249C360A7D3B</string>
+				<string>F3BDB1EE2C8D766FCC294535A43CDD40</string>
+				<string>0A87ED49E63641792F5558A3C320B49C</string>
+				<string>D4C1338ECBBED4D4AD75A8A9881600FB</string>
+				<string>9DB0ED1CD4B0BF22E28F5D6490C46865</string>
+				<string>90916AF9A4319335C122E93362A483CD</string>
+				<string>E2DCDAA6405382CE96DF305E83356FB3</string>
+				<string>1A53C92C8AB52689A3D91F3FE3D2B1F7</string>
+				<string>687AE7037B71B5C556B337ADE6262CC8</string>
+				<string>5EAFB965215C5E84312E9C70F0D288A7</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>256EC5E7CCF8FAD595A8C49135E55D80</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>liblibextobjc.a</string>
+			<key>path</key>
+			<string>liblibextobjc.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>2B4F49588EEC07AD86DAEAD52C558679</key>
 		<dict>
@@ -869,20 +801,16 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>2C238FB652A4FD03D594FD0E031FC58F</key>
+		<key>2C73DF39A1FB0E232D914D06A486A4D2</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIBezierPath+RTSMediaPlayerUtils.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/UIBezierPath+RTSMediaPlayerUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -898,10 +826,10 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2DF1C694B3A2C7C3A9F60F63CCBC50C7</key>
+		<key>2FE2DF1823B369923255CE14E526FF9D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7D049BAF6F31A0293AA76F16D8B524B2</string>
+			<string>696E6939455EB69A64E8490D73AD02B6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -912,34 +840,69 @@
 				</array>
 			</dict>
 		</dict>
-		<key>30125458EC0CBD6BAC081152911D154B</key>
+		<key>2FF86F3BBF0BE610E32FA13F53CE1939</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>FF4BC5EEA84089708F1F81474A4DB4C0</string>
-			<key>buildPhases</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>678CFC26D97F9F213709B68F167ABE64</string>
-				<string>51A1799D193038C04D5CE311CD3E7A39</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3CA46CDA3AC92DCB0DCC95B509592A4E</string>
-				<string>9A941AF8624D721AC557DFBCAA1CDDAB</string>
-				<string>AA301EA7ED4DEC132E623368B1BBF3AE</string>
-				<string>3270E331FF61B521439172F13A8B32B2</string>
+				<string>BB1DDB48B9BF49ED1563976FB6680D62</string>
+				<string>A48EB5E4EE79747158B4AC8E1F9165F6</string>
+				<string>32817C5182DAD8F03C0279A3874A17CD</string>
+				<string>C1CB27EEAFC68AEA738364818074625F</string>
+				<string>B08CA769F9BFC6043B7795EAB6868F01</string>
+				<string>F03635E1F7A6A11F34F5F83039F80FBE</string>
+				<string>40E826A4669A870F361392918B5C82D8</string>
+				<string>5FE6D15F5EEF83124830A16E7B90C735</string>
+				<string>311535E4C805C1FC5DA0151ED9EF205E</string>
+				<string>EE92F395BB5AD8B718AD7EBA8BD37414</string>
+				<string>C6E18275ADEB081734E4993B51DDD0DA</string>
+				<string>4738ECDB225BBC93413A3764B44ABE84</string>
+				<string>C568B694C779A356A4F106D2A1E43F9F</string>
+				<string>9482D725A42A31D405C38F98C3F3B88B</string>
+				<string>C7E2FD4F7F2D6A7F3E5E15289908A967</string>
+				<string>E48DD6C9434D88FB09FC8203FBB8E85A</string>
+				<string>0AC72C9D62465687AF07288F2521867B</string>
+				<string>FCBC1D8D06FFB4CBA589BD92CBFDBD12</string>
+				<string>31371726823F2640DDE1D3C07CA40B1F</string>
+				<string>6001667BEDCF79315941C3822132396B</string>
+				<string>0A1C5B0A090AA687E5892CC3697308F5</string>
+				<string>6EEAD4DE7DD548209C88812465A8F908</string>
+				<string>FC606D5088911AAC5EE5747E1EEE149F</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3002CE22A9EE6AF1FDBB3923070FD2DC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods-Signz</string>
-			<key>productName</key>
-			<string>Pods-Signz</string>
-			<key>productReference</key>
-			<string>D7D36FE56E5FEF283730BDC4837220B2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>libyoutube-ios-player-helper.a</string>
+			<key>path</key>
+			<string>libyoutube-ios-player-helper.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>311535E4C805C1FC5DA0151ED9EF205E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E1C9716C47134431DD310B14D3C3DED8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>31371726823F2640DDE1D3C07CA40B1F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7C17B39832F1DEC517B2F8CA57BF6DE9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>320A601529D2C0E21A0C6AD47C96B99B</key>
 		<dict>
@@ -954,31 +917,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3270E331FF61B521439172F13A8B32B2</key>
+		<key>32817C5182DAD8F03C0279A3874A17CD</key>
 		<dict>
+			<key>fileRef</key>
+			<string>79B99C546C35BFBFF276BB9E231B0AB2</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>libextobjc</string>
-			<key>target</key>
-			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
-			<key>targetProxy</key>
-			<string>82B73B08F0E94E0AA0F5C88B2EE04C72</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>32BB717E9CCE362A8DDA4CCD34BA2DE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>libextobjc.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>34968F829FBF9BD5BCC8A3EE11AF63C3</key>
+		<key>3397BD4391F26B3E95D7113DC2DD677B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -986,40 +932,56 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerVersion.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerVersion.m</string>
+			<string>KILabel-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34AF95E2B0BC72B49FA3243A5DF8B407</key>
+		<key>34580B362591B4AE91A5B041D25995B8</key>
 		<dict>
-			<key>fileRef</key>
-			<string>E276953BF0AC09DE0EAA6F6E86A5899D</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>372380288DF0AC1B9ECE00CCE86D24D2</string>
+				<string>198C0623618FC552B93EF44750B03131</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>36732CDFF3135128D001F397263AB105</key>
+		<key>35AADCB84751E0248E1275E2FB0A7A6E</key>
 		<dict>
-			<key>fileRef</key>
-			<string>BD6DB516A965D3837423BD03DF9B7D09</string>
+			<key>children</key>
+			<array>
+				<string>78E95FA62AA405D065534DC9BD928F42</string>
+				<string>762D9E265249BF160B38C501F0A0A7DA</string>
+				<string>C1D7781DE7AAF05AC6A9FEEE4210DEF2</string>
+				<string>E15C3079AAB356BCBF45B227A3714642</string>
+				<string>88F2F315ED12A2D8422583AA0868A699</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>362EC78FD203A8BA69B32070A522BF16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerPlaybackButton.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerPlaybackButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>36AD994E0DC09A052629EC677F7B680C</key>
 		<dict>
@@ -1034,146 +996,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>373C52918A93D7CD4C9CA8305FF08D13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaPlayerController.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37CC088DDBAAFF2844A44D867B4F78E2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34968F829FBF9BD5BCC8A3EE11AF63C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DRTS_MEDIA_PLAYER_VERSION=1.8.17</string>
-			</dict>
-		</dict>
-		<key>38A04FD8D9B2FBB3DE48DC9634A7FCEB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3C42AB1B62286E059AE2FC8C1F05F10B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E49AA8D1955801745C630FC59455895E</string>
-				<string>ADE620E1E6EB51D875B3384FC0B8FB95</string>
-				<string>8BCBB4CFF0B7C9EB3E844AB2C6559943</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SRGMediaPlayer-SRGMediaPlayer</string>
-			<key>productName</key>
-			<string>SRGMediaPlayer-SRGMediaPlayer</string>
-			<key>productReference</key>
-			<string>FEDD097B8C6E4210D7E3F9ACEAA8BB04</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>3C23B9878E98DFE20BBDA5F2FF41E3CC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
-			<key>remoteInfo</key>
-			<string>libextobjc</string>
-		</dict>
-		<key>3C42AB1B62286E059AE2FC8C1F05F10B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3ECDACCE661A3481B2EC19DF41FA5BD5</string>
-				<string>6ABDA695DD281E329927C35A1BA1A1EA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3C8E5861C3570FE368CD31F8FBB5E6BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerViewController.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA46CDA3AC92DCB0DCC95B509592A4E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>KILabel</string>
-			<key>target</key>
-			<string>A719DC9F50CC08874A1E4FC57D148162</string>
-			<key>targetProxy</key>
-			<string>2841B2D7CC1D58B7A9DDB41DBE05B5BD</string>
-		</dict>
-		<key>3D0A4272B311BC79BB8F5BED4139EDCF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0F57C24604F757AFB8D9B0AAC6A1CFEF</string>
-				<string>72C25022ACF93D163BB509F86429BA0F</string>
-				<string>D25C7B1D510350C8A7D2B3A44B633E81</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>libextobjc</string>
-			<key>path</key>
-			<string>libextobjc</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DA9D0EF5331FC407F1A0E53426E5C27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FD1B714D9DACACFE7ACCC6077DD56CC6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E17DA865AB1E744F19C4EAC9910451A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC821BE131C7AFF24307053602317B72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3ECDACCE661A3481B2EC19DF41FA5BD5</key>
+		<key>372380288DF0AC1B9ECE00CCE86D24D2</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>9D02671E73AA9DB897AB9EEA42874CA2</string>
+			<string>7F9E9721FEBF487A48F1E971E7F87704</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CONFIGURATION_BUILD_DIR</key>
@@ -1202,28 +1028,60 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>402ED971603B6351806B8BC092B88984</key>
+		<key>37C6A01343CA91B85C7F0B55F93867A1</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>2576BA7204045FE6175F92E16A704AF5</string>
-				<string>9D02671E73AA9DB897AB9EEA42874CA2</string>
-				<string>172D32D49E894DF82CEC8369B757AAEF</string>
-				<string>7C03190845ECCBA8A960A061FF8A5D94</string>
+				<string>B18A608A96B5C0918D64714E7CC9C722</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>390CC2EFFE80D42CD6BFDB000CA3E85A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>NSBundle+RTSMediaPlayer.m</string>
 			<key>path</key>
-			<string>../Target Support Files/SRGMediaPlayer</string>
+			<string>RTSMediaPlayer/NSBundle+RTSMediaPlayer.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>42797ECF9A4F7C7459AE3C4157983D0D</key>
+		<key>3B23346A159A7180AF29A07CE2891343</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSBundle+RTSMediaPlayer.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/NSBundle+RTSMediaPlayer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E6672259BBD4D66E531E31F577B9876</key>
 		<dict>
 			<key>fileRef</key>
-			<string>11792D47B7BECBAF34B4A28A4C94CA43</string>
+			<string>F787CD7F9C357A26756EE7AFDEADEC34</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F02A90DFEB2FDB42612A6BE6993765F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6D92B11832116DBDF2540D4E6846EF59</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1234,10 +1092,80 @@
 				</array>
 			</dict>
 		</dict>
-		<key>42E5617E3A7053254C58EAA7B3AF71E9</key>
+		<key>3F66A46AFAD9839E9B486A6C100FA5D1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerView.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4026C140521FE30D6DED940CB17D59B7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4E74B332EE281B0131D671234E834314</string>
+				<string>256EC5E7CCF8FAD595A8C49135E55D80</string>
+				<string>6657749388B1424B5035514A4B4109CE</string>
+				<string>70A36639759C2E56AB1D19F984829A55</string>
+				<string>18C5499924361DFC0DDD19955E729AE9</string>
+				<string>3002CE22A9EE6AF1FDBB3923070FD2DC</string>
+				<string>9FC8F36B994072651F7EE7BDC82425B6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>40E826A4669A870F361392918B5C82D8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>058E4BE0FCA8CA2EA88F49C42CEF33F6</string>
+			<string>B81AE4347519EDD458B57C44B50A963A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>415FFA9BD51A168BBBA7E8A4519A736C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>RTSMediaPlayerViewController.xib</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>423CA1947999424BEDEF538872F9072D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0F91D65945856CE40E1E56E90DFB0176</string>
+				<string>235D4D512D82967442509FBDB3CC5E0F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>42797ECF9A4F7C7459AE3C4157983D0D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8306F18EDD6CEB798FED50FF30DCA350</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1261,38 +1189,73 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>43FCA507DCA2AD5A94BB0B3917E94382</key>
+		<key>44909A3BD019447755D168E6B687F8A4</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>519A08A41F6B426CC2718DCBB87CB936</string>
-			</array>
+			<key>fileRef</key>
+			<string>CAB2684370810B5F3589FCFC9766F74E</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>45D74DB374B5661BF9EE85B72C921528</key>
+		<key>463F2AA15C34EF1F1DA6A4F6984463E6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSTimelineSlider.m</string>
+			<string>RTSMediaSegmentsController.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSTimelineSlider.m</string>
+			<string>RTSMediaPlayer/RTSMediaSegmentsController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>463DA6AB6765493304DDA7188746A442</key>
+		<key>4738ECDB225BBC93413A3764B44ABE84</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6B7C7DA4DE17D34BF11F506B9B11399B</string>
+			<string>3F66A46AFAD9839E9B486A6C100FA5D1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>474E29FB20E33BD54EB0C3E96C9B4E69</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>478902CA6DBA2CE7A41F502699AEEB9D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerController+Private.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerController+Private.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A15FC6A414C47DC5C896BA37A3C0581</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A4BC137AF8D4F36E458AF202CFF8AC84</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>4A42ADF36350E44A95A49BF23908695B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EA54E820ACA8F8DD9BFFB5E612B23239</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1303,21 +1266,22 @@
 				</array>
 			</dict>
 		</dict>
-		<key>468C37A7CEC8CFCB261384D934D381DA</key>
+		<key>4AD9BB21082D048AA9EB76ABA6BDA76A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0D0D544F49F54F65AEFB1942B5951014</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSPictureInPictureButton.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSPictureInPictureButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>46CC8A2EC146CA01C698F08117E5801C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>82150F57CF98F703594B81B0803810B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>46FF142A1869DD1295422CEF3ABA8263</key>
+		<key>4B1775FD0814DBC6D337DB4AB50C13F8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1326,55 +1290,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>EXTRuntimeExtensions.m</string>
+			<string>KILabel.m</string>
 			<key>path</key>
-			<string>extobjc/EXTRuntimeExtensions.m</string>
+			<string>KILabel/Source/KILabel.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47107138A9F53CDD413C23049B8FCE3A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07E17BEBF049BD50C26F38C6A822160F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>48C821819B4C9ABFA3514D187C12372F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TransitionKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4977A4C4B2D99C2FBF768FF6FC6C989F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1C81BDEF83317C356DEA6C1554BE2616</string>
-				<string>A2D558AC781E4FEAF8E178E44D7FA887</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
 		<key>4BDB487443F0080C5DF1D4783CEFD87E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F7E56363735634058C6015D4C7878643</string>
+			<string>CA7D22579C1525C4F3F66BC56E86550D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1383,10 +1308,10 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>4F8464BFED2F7B1D78921BB1ADC39202</key>
+		<key>4D48987FDCE901990C1EBC6A2E9BF054</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0C6D641790471DCB431C60B1F157EBCE</string>
+			<string>4AD9BB21082D048AA9EB76ABA6BDA76A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1397,25 +1322,40 @@
 				</array>
 			</dict>
 		</dict>
-		<key>5055FF4D47136D9FE650E2F339C20A6C</key>
+		<key>4DEE257219C4231319E20836B237EA3D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>RTSMediaPlayerControllerDataSource.h</string>
+			<string>UIBezierPath+RTSMediaPlayerUtils.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerControllerDataSource.h</string>
+			<string>RTSMediaPlayer/UIBezierPath+RTSMediaPlayerUtils.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E74B332EE281B0131D671234E834314</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libKILabel.a</string>
+			<key>path</key>
+			<string>libKILabel.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>50A9E9E5EB6FE29E9FA383C24062CC22</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6C1047B2DA8671E720E2F8DABFBF69CA</string>
+			<string>A7DCF937235FFF0AF526E9552B2E8C54</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1452,7 +1392,41 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>50F6B092D929F1B70655EC17551D6691</key>
+		<key>5448862A59E9AAF8C53DD0560F739B3A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0F0D7244979D5600D4AF08039865623D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>54EFCC24BE2044D0B2492E35A41D86F2</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B3A11913419B58F64E6B290396DA3D41</string>
+				<string>927DC385CF86734F2FA8652862A28933</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>554E3CA1A674B65B5B27332A340A07C8</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CEBB0EBF217D7160CF30FA04E748A49A</string>
+			<key>remoteInfo</key>
+			<string>youtube-ios-player-helper</string>
+		</dict>
+		<key>55FCAA5C25C021A53DC4A670B145231C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1461,69 +1435,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EXTScope.h</string>
+			<string>RTSPeriodicTimeObserver.h</string>
 			<key>path</key>
-			<string>extobjc/EXTScope.h</string>
+			<string>RTSMediaPlayer/RTSPeriodicTimeObserver.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>519A08A41F6B426CC2718DCBB87CB936</key>
+		<key>5700AE68240658399EC7FF7E82FBD637</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>KILabel</string>
+			<key>target</key>
+			<string>A719DC9F50CC08874A1E4FC57D148162</string>
+			<key>targetProxy</key>
+			<string>5C0689E2AD5D5A6788E51038BBEA1467</string>
 		</dict>
-		<key>51A1799D193038C04D5CE311CD3E7A39</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BFA93D83CDDFBFED06BD5A256576780A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>53039B19FCA6BC253B69B7BB5C948535</key>
+		<key>57DB955374A1740CD17758C039773A58</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>picture_in_picture_stop_button@2x.png</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/picture_in_picture_stop_button@2x.png</string>
+			<string>ResourceBundle-SRGMediaPlayer-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>53687E839C0A3CBBBCC91B13978AC02C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>05378574255434F3737495E2CB2625AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>54C0C3A16798122FF3FB1C275F8B8F3B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E1FA2B6D14E832636BD2286EB2723C8B</string>
-				<string>3D0A4272B311BC79BB8F5BED4139EDCF</string>
-				<string>049DDC43F626A9652E566130727740C5</string>
-				<string>B2E8EF2D3B8A5A8BF1D52C7793FB38C6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54EABF44857E31B5BFFCA9D4806495E9</key>
+		<key>58F6EA17DD0F46E729A6970F3D6A63F0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1531,61 +1473,66 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerController+Private.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerController+Private.m</string>
+			<string>libextobjc-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>56397EB8EF9690C2DE36846BA9B124D6</key>
+		<key>599B95DC19F4247E468023A1B2E52F55</key>
 		<dict>
-			<key>fileRef</key>
-			<string>9AEE5CF921CFC769A652866775055D1A</string>
+			<key>buildConfigurationList</key>
+			<string>423CA1947999424BEDEF538872F9072D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2FF86F3BBF0BE610E32FA13F53CE1939</string>
+				<string>F567C10D9E3D140A851699672CC79891</string>
+				<string>01FC3766D3A4A192B4B0EBC42C97D1B0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>A278A3FCECE6F0F26EB2000F6CBB3765</string>
+				<string>989A6E925E5C0D5621737CBDBFDEF154</string>
+				<string>AEE52B78D283FCC14A0AF711DAB94687</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SRGMediaPlayer</string>
+			<key>productName</key>
+			<string>SRGMediaPlayer</string>
+			<key>productReference</key>
+			<string>70A36639759C2E56AB1D19F984829A55</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>56C6691A78DD43971D0796E8C68224F0</key>
+		<key>5A798653D2DC04F97E1F18B0F1AD376B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F8738F40AA8F3EED0DE6679377C147B9</string>
+			<string>5E1469DDFCB6A217088E4689C9DB4884</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
 			</dict>
 		</dict>
-		<key>5983ECAE3BB146B095E7C5F63C47D796</key>
+		<key>5C0689E2AD5D5A6788E51038BBEA1467</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaFailureOverlayView.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaFailureOverlayView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A02A5FC1F1E8BF321FE90748C6962A2</key>
-		<dict>
-			<key>includeInIndex</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSPeriodicTimeObserver.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSPeriodicTimeObserver.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>A719DC9F50CC08874A1E4FC57D148162</string>
+			<key>remoteInfo</key>
+			<string>KILabel</string>
 		</dict>
 		<key>5D151E15D0F99FE7C5D177630637A902</key>
 		<dict>
@@ -1601,10 +1548,57 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>5DEE3FF70D324EE88CEBE512DE0F2273</key>
+		<key>5DA8FD1EE0E3AE4136B3FA50325C5F7A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>TransitionKit</string>
+			<key>target</key>
+			<string>EF482A839E6F6C06B5D9EA2E7451BFC9</string>
+			<key>targetProxy</key>
+			<string>EF0A8D94560CC2D55BE2EFD150BCFB66</string>
+		</dict>
+		<key>5E1469DDFCB6A217088E4689C9DB4884</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSVolumeView.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSVolumeView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5EAFB965215C5E84312E9C70F0D288A7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8B9F97F6E9FBED5E7BA4FFC7BFA8A226</string>
+			<string>9E87C97EA83899582003964BED852762</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5FE6D15F5EEF83124830A16E7B90C735</key>
+		<dict>
+			<key>fileRef</key>
+			<string>99C112985A3EAD23CC81D68035F66167</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6001667BEDCF79315941C3822132396B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2CA099675F74EB057A492CBD48DDD34</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6375B3CF9775CC29625B02FB9632FCEB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E2F6E0BFC8398783B8AFA1E78C6ECF10</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1614,30 +1608,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>5E92C83BB976C6A909A02BAE34E4618A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SRGMediaPlayer-SRGMediaPlayer</string>
-			<key>target</key>
-			<string>38A04FD8D9B2FBB3DE48DC9634A7FCEB</string>
-			<key>targetProxy</key>
-			<string>D1729AA60FBF07DB9CF17D87AB0C611A</string>
-		</dict>
-		<key>60E7CD430B2F6843CF01AF866F5916C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>libextobjc-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6383822AEA8F84557A00276940CA96AA</key>
 		<dict>
@@ -1654,140 +1624,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>65AF7D7333D24EA29A135A9DF051706D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaSegment.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaSegment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6777018CAC342EE6202E64BF986DB0D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7984D3583A4442124FAB98ECDEACCC73</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>678CFC26D97F9F213709B68F167ABE64</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0C6EAC6F5E5F5BEC7CFA6B861C4F04DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>679C59628F3CAEB33A86E9C3B2ED2C52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TKTransition.h</string>
-			<key>path</key>
-			<string>Code/TKTransition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6815AEE7FD3E849328AD5522E6EB509F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DDD55DE1CF06101AD7DCEE9ABA34FC4E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>68461ABDEB7E707040CA7F8CAC26D8CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6ABDA695DD281E329927C35A1BA1A1EA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9D02671E73AA9DB897AB9EEA42874CA2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CONFIGURATION_BUILD_DIR</key>
-				<string>$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SRGMediaPlayer</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SRGMediaPlayer/ResourceBundle-SRGMediaPlayer-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>PRODUCT_NAME</key>
-				<string>SRGMediaPlayer</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6B7C7DA4DE17D34BF11F506B9B11399B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TKStateMachine.h</string>
-			<key>path</key>
-			<string>Code/TKStateMachine.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BE1D26A84646DE05ECB6099018B17AD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libTransitionKit.a</string>
-			<key>path</key>
-			<string>libTransitionKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6C1047B2DA8671E720E2F8DABFBF69CA</key>
+		<key>65F5D09336B1FC24987A1EF79B34A07C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1796,33 +1633,26 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>KILabel.xcconfig</string>
+			<string>youtube-ios-player-helper.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6CAD7B85D27447E0359F2230008C7C6C</key>
+		<key>6657749388B1424B5035514A4B4109CE</key>
 		<dict>
-			<key>fileRef</key>
-			<string>ABE90185B6CC5110093B1B69DDB2AADC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F2EFA358EC1FFD618C176F8444AD9B9</key>
-		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>TKStateMachine.m</string>
+			<string>libPods-Signz.a</string>
 			<key>path</key>
-			<string>Code/TKStateMachine.m</string>
+			<string>libPods-Signz.a</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>724C3FE457901710E6DD993883254DE2</key>
+		<key>6719FAA49661A0C6CE81360C8D6D478E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1837,18 +1667,225 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>72C25022ACF93D163BB509F86429BA0F</key>
+		<key>68461ABDEB7E707040CA7F8CAC26D8CA</key>
 		<dict>
-			<key>children</key>
+			<key>fileRef</key>
+			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>687AE7037B71B5C556B337ADE6262CC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A012952CE419C71594396FF26FA334F0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>689A3C117449D48F6ECAE982B5166CF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerControllerDataSource.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerControllerDataSource.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>696620F2BA5A89AE6E0BC5108DC89BED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC9088CB5AE5194DD539EEAAF3C7A3FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>696E6939455EB69A64E8490D73AD02B6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TKState.h</string>
+			<key>path</key>
+			<string>Code/TKState.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A5BE9E990E49A77EBEC9079F1B098A1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSActivityGestureRecognizer.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSActivityGestureRecognizer.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A68AF1859832F15B36645ED9A71EEFF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>metamacros.h</string>
+			<key>path</key>
+			<string>extobjc/metamacros.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C5E7E52F90A6A049370E25FD7C39E0E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>11792D47B7BECBAF34B4A28A4C94CA43</string>
-				<string>46FF142A1869DD1295422CEF3ABA8263</string>
-				<string>8E9EE6196DD9F9A991DB8AF30F7D4C75</string>
+				<string>474E29FB20E33BD54EB0C3E96C9B4E69</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6C65D0AEF044194F772E2DEF940FAE4F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1190BF6A0210E7E3BB512220FDD16F0D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6C9625AE0281128CD80A99BCB812467D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EF1396207FA3D087E07BF9B9C19D979F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6D92B11832116DBDF2540D4E6846EF59</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RuntimeExtensions</string>
+			<string>RTSMediaPlayerConstants.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerConstants.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E7EA42138801E7E0C8ACCD68CC18791</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>libextobjc.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6EEAD4DE7DD548209C88812465A8F908</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B0E1A98CBC5FDEA08EDD683656F1409C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>700731AF810572C16A8494A5987DDEF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerVersion.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerVersion.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>706033DB4FD5B0C49BC72A2CF85B4757</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E9EA7401112A84F582ECC0AD08AB4282</string>
+				<string>DCAC8BA156CD5F1AFE137D4A217CCAB8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>70A36639759C2E56AB1D19F984829A55</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSRGMediaPlayer.a</string>
+			<key>path</key>
+			<string>libSRGMediaPlayer.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>72DBF5A555687C19140401AA5160E45D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSPlaybackActivityIndicatorView.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSPlaybackActivityIndicatorView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1865,6 +1902,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>741126AF3A8BF8C14AA0E48720A02553</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CB9C6589D3724F28C7CB50178FE6591</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>7546A81BFD4FACD2FB01C1CAC06BA09D</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1879,383 +1930,24 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>75B2C40567F6D564DC88FCC4978FED98</key>
+		<key>762D9E265249BF160B38C501F0A0A7DA</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>82150F57CF98F703594B81B0803810B2</string>
-				<string>08447E7220D477189A8AE618BF7CD04F</string>
-				<string>C7A017A4013A13C4A1AEBD8A644D154E</string>
-				<string>FC821BE131C7AFF24307053602317B72</string>
-				<string>F4BD37845948BCD864FB7A062F35C32E</string>
-				<string>B50600848849FC4B92790BC88003B9C0</string>
-				<string>27BE54C2A0A82AE3EF62C2E988330F38</string>
-				<string>53039B19FCA6BC253B69B7BB5C948535</string>
-				<string>FD1B714D9DACACFE7ACCC6077DD56CC6</string>
-				<string>A5099C0035BDE4CC3B588FE15233B30E</string>
-				<string>DA4841FDD7A75B9007792004BC9E7B0D</string>
-				<string>9AEE5CF921CFC769A652866775055D1A</string>
+				<string>C954AC06A4E74C9659691D84545E7044</string>
+				<string>D57BA6DD62B4C13A1C7740525C562BD4</string>
+				<string>A1F93755865F53F995B934302DC19B31</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>772DCEE95813E6EB4B5959F1BAC4C638</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE9B0C8D64A50EFFAFC6A83288853F95</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7984D3583A4442124FAB98ECDEACCC73</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TransitionKit.h</string>
-			<key>path</key>
-			<string>Code/TransitionKit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79B9A6F344B8294C3F59C29C2D9E2D58</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C2902D8E6666775FA04DD6E2E845BB5D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7A99FCCA4E075C95B2CE08ADE4B77C87</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libSRGMediaPlayer.a</string>
-			<key>path</key>
-			<string>libSRGMediaPlayer.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7B27AC574E57B0C8BDF1C8F954217AC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CEFA7FB803EB8019152A0842E04F7EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Private</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7B499E9788D7C78926DCBC0996BA46BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaSegmentsDataSource.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaSegmentsDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BD5A2518B8D255B190A1620CB90B42B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F92574755A9950E0ADCCB927F8A97DF7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C03190845ECCBA8A960A061FF8A5D94</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SRGMediaPlayer-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CEFA7FB803EB8019152A0842E04F7EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaPlayerController+Private.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerController+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D049BAF6F31A0293AA76F16D8B524B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaPlayerLogger.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerLogger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D6AD325F99B9CD1979C855F48DC17E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D17B65EDC8AC629370A5BF80A1A8F100</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>54C0C3A16798122FF3FB1C275F8B8F3B</string>
-				<string>81B7B502A7AA78F54B879F160610A2FB</string>
-				<string>9155446B195A5B2F3029B9E26AE35DB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DE950EDFE3216BB8EFADA4EB39EB2C1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9A1B65CE33F847DE3FB993A0C24B13D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7E0699F7AA8AA20F28163E7CB62F63FB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>TransitionKit</string>
-			<key>target</key>
-			<string>8E10CB34FD8552CFFB17C9F1CA6DBBC9</string>
-			<key>targetProxy</key>
-			<string>BB0F4195492FB126DDD87C578B5733B4</string>
-		</dict>
-		<key>7E37AC3BC0EFDB9ACE8AAFB33C5F5F05</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ADBAA4E92E47D11700E14ED1D577CB05</string>
-				<string>9EDD5E4C8B76F3BC9F7E155446FC4966</string>
-				<string>96BD7BB713C152C06F8D1C98384FD062</string>
-				<string>28A87372F7CCF789E90CF8FCC899CA15</string>
-				<string>27F8AA4DCC0B2CE48D3BEB65618945CF</string>
-				<string>6CAD7B85D27447E0359F2230008C7C6C</string>
-				<string>CB3B82F6156490A3126F30050E082E87</string>
-				<string>EFF3DC4D6D347D8B74F4AF7B62EEEEB3</string>
-				<string>468C37A7CEC8CFCB261384D934D381DA</string>
-				<string>2111E5803E7F76669DC9840838D8DF8D</string>
-				<string>37CC088DDBAAFF2844A44D867B4F78E2</string>
-				<string>07ED107E3D1CD560F0A480B1002261CC</string>
-				<string>2B085A7F309CF8D26287D9C0042E6FDF</string>
-				<string>6815AEE7FD3E849328AD5522E6EB509F</string>
-				<string>CF7524444B6AFBE59193889C6F37F4EA</string>
-				<string>E8E982BE2842AAC6F469BF0B393652B7</string>
-				<string>1E40362D33BA069C3E18432A295E0690</string>
-				<string>A6E197B670CD4B4CE6774C5334FDB7F2</string>
-				<string>1E61E292162E9EC664961D034C531598</string>
-				<string>7DE950EDFE3216BB8EFADA4EB39EB2C1</string>
-				<string>C62784D91BF79A9D9DC9916A75851F6B</string>
-				<string>8F3A594C9CFFB94BF966731B4D7D5C4A</string>
-				<string>C501D465327B00E641A898F727A7A703</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7FEE3C2DEDE0754107A1E64CC24B00A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4BD37845948BCD864FB7A062F35C32E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80D500AC49A71D5586B4C7082FDA3DC4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>229393F3E5F2AECDF59ECD92634119AB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TransitionKit/TransitionKit-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>81B7B502A7AA78F54B879F160610A2FB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>889BAEFCF58890368CDB3A98C05656CB</string>
-				<string>142F7B06AD2B94B33273F68D0FC6C648</string>
-				<string>D7D36FE56E5FEF283730BDC4837220B2</string>
-				<string>7A99FCCA4E075C95B2CE08ADE4B77C87</string>
-				<string>6BE1D26A84646DE05ECB6099018B17AD</string>
-				<string>FEDD097B8C6E4210D7E3F9ACEAA8BB04</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82150F57CF98F703594B81B0803810B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>de.lproj</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/de.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>822EEA54C8F86719E02DC61DAD349DFA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1072CF115971ED70D2A5C56F29CC983A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>82B73B08F0E94E0AA0F5C88B2EE04C72</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
-			<key>remoteInfo</key>
 			<string>libextobjc</string>
-		</dict>
-		<key>830E8451834A5269E8B0025B23B2FB70</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSVolumeView.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSVolumeView.h</string>
+			<string>libextobjc</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>831418D5ED63A057B50367D7381E1854</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D74B6B3671EEBB06B8906E857C03AAE5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8493A14A0A788AA7058DA51214F35D56</key>
+		<key>76F5835A9CF264B9736C79BD3820B2CF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>A3A68E633658009503CBE5177C6455A3</string>
@@ -2295,7 +1987,52 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>87F453E0014AE921647B3ACBDDD2D42A</key>
+		<key>78E95FA62AA405D065534DC9BD928F42</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8DBFCC79F65B5EF3E909786ADCDC1091</string>
+				<string>4B1775FD0814DBC6D337DB4AB50C13F8</string>
+				<string>EC83FA946DCE87295687D79C0B15475B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>KILabel</string>
+			<key>path</key>
+			<string>KILabel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>793E19C44358FE8CA779DBA253686996</key>
+		<dict>
+			<key>fileRef</key>
+			<string>83083D41BD05A8D0D8B614C2ACDD99B3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>794D4AA0AC019DDB8726F3AB1EB83EB2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8303059D100E3A67E5FE0077D89D2F0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>79B99C546C35BFBFF276BB9E231B0AB2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2304,35 +2041,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>RTSSegmentedTimelineView.m</string>
+			<string>RTSAirplayOverlayView.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSSegmentedTimelineView.m</string>
+			<string>RTSMediaPlayer/RTSAirplayOverlayView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8800DC3D7521F62478C6F1E696C59DA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08447E7220D477189A8AE618BF7CD04F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>889BAEFCF58890368CDB3A98C05656CB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libKILabel.a</string>
-			<key>path</key>
-			<string>libKILabel.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8B9F97F6E9FBED5E7BA4FFC7BFA8A226</key>
+		<key>7A3CB1A17A07D58379594148E181495C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2341,40 +2056,30 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSMediaPlayerView.h</string>
+			<string>RTSMediaPlayerController.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerView.h</string>
+			<string>RTSMediaPlayer/RTSMediaPlayerController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8BCBB4CFF0B7C9EB3E844AB2C6559943</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>46CC8A2EC146CA01C698F08117E5801C</string>
-				<string>8800DC3D7521F62478C6F1E696C59DA4</string>
-				<string>20935649946F7BC4E2068BC2E4FCBAE6</string>
-				<string>3E17DA865AB1E744F19C4EAC9910451A</string>
-				<string>7FEE3C2DEDE0754107A1E64CC24B00A9</string>
-				<string>218E6EF463986C341FE7A92C867996F3</string>
-				<string>C57594ED0C0F3D95F061DFBE6B23589F</string>
-				<string>E999951533426B6F7EF361E5B625126C</string>
-				<string>3DA9D0EF5331FC407F1A0E53426E5C27</string>
-				<string>AC75E3509DE107E344AF30FCAF8D3450</string>
-				<string>2B160D5B9FBD6158FA12C0E60E23491F</string>
-				<string>56397EB8EF9690C2DE36846BA9B124D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CC447A3A63B67D8EBA6B3FB7B093A9B</key>
+		<key>7AB7FD17DD45168E49B97A18D921382A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C805EBEB33A17017B629798F5919885B</string>
+			<string>478902CA6DBA2CE7A41F502699AEEB9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Private</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7B6E269F8A4C4EB31253568B275E3480</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3B23346A159A7180AF29A07CE2891343</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2385,72 +2090,230 @@
 				</array>
 			</dict>
 		</dict>
-		<key>8CCA17FC8F63CC4B17F328663E78A8B5</key>
+		<key>7BD5A2518B8D255B190A1620CB90B42B</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>229393F3E5F2AECDF59ECD92634119AB</string>
-			<key>buildSettings</key>
+			<key>fileRef</key>
+			<string>3397BD4391F26B3E95D7113DC2DD677B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7C17B39832F1DEC517B2F8CA57BF6DE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSTimelineSlider.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSTimelineSlider.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CB187A78197DFF00B18A07ACA8F675F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE8DD829C41EDA2AC50A55BBBAB99842</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
 			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TransitionKit/TransitionKit-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
 			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
-		<key>8E10CB34FD8552CFFB17C9F1CA6DBBC9</key>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>BB81626BCF45F4E5D81F113657145F53</string>
-			<key>buildPhases</key>
+			<key>children</key>
 			<array>
-				<string>F7E23C702DD31DAE3570DC8424E6BCDB</string>
-				<string>43FCA507DCA2AD5A94BB0B3917E94382</string>
-				<string>9556005A154414BBA61608ADA4CE8669</string>
+				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
+				<string>433CD3331B6C3787F473C941B61FC68F</string>
+				<string>35AADCB84751E0248E1275E2FB0A7A6E</string>
+				<string>4026C140521FE30D6DED940CB17D59B7</string>
+				<string>9155446B195A5B2F3029B9E26AE35DB9</string>
 			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TransitionKit</string>
-			<key>productName</key>
-			<string>TransitionKit</string>
-			<key>productReference</key>
-			<string>6BE1D26A84646DE05ECB6099018B17AD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8E5BC0A45BA6A24B179E4B0AA6C2B594</key>
+		<key>7F9E9721FEBF487A48F1E971E7F87704</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SRGMediaPlayer.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8034B69A526142F16DC11923B33CBA18</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSActivityGestureRecognizer.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSActivityGestureRecognizer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80B030520D9E2D6613AAEBF29C3944D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TKTransition.m</string>
+			<key>path</key>
+			<string>Code/TKTransition.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>82094D163ABDCDD1EC7689C11C4795DF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8034B69A526142F16DC11923B33CBA18</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8306F18EDD6CEB798FED50FF30DCA350</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EXTRuntimeExtensions.h</string>
+			<key>path</key>
+			<string>extobjc/EXTRuntimeExtensions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83083D41BD05A8D0D8B614C2ACDD99B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaFailureOverlayView.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaFailureOverlayView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>835C1C6E3650E8F85B64CCF1FE2C4F23</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaSegmentsDataSource.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaSegmentsDataSource.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84433482C3BFB3826DD028ED102BE7D1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F4C6B849EE30A70DA782BB9107609704</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>84F3322C68903A89971C618715F61D5D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>80B030520D9E2D6613AAEBF29C3944D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>88F2F315ED12A2D8422583AA0868A699</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E97EC4B6E707F023ECCAEC8B7EB53EBB</string>
+				<string>D77EA5DC6004F055B83900BE9D5CC99D</string>
+				<string>AE59631610A978EA2D43DEEBE33BEA57</string>
+				<string>19247E70411D0501DFABD5119F684478</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>youtube-ios-player-helper</string>
+			<key>path</key>
+			<string>youtube-ios-player-helper</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>89D9BF98477B687F7EBA39459DC98BF4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSTimeSlider.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSTimeSlider.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8ACCBA6866C59C8D9EC4F0356F53C371</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>picture_in_picture_start_button@2x.png</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/picture_in_picture_start_button@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8BA80A50A3F7DD0D7A5D24AF2697FE7E</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -2459,11 +2322,11 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>C194E206A8C2949AC9D0E7BB19CF809E</string>
+			<string>EF482A839E6F6C06B5D9EA2E7451BFC9</string>
 			<key>remoteInfo</key>
-			<string>SRGMediaPlayer</string>
+			<string>TransitionKit</string>
 		</dict>
-		<key>8E9EE6196DD9F9A991DB8AF30F7D4C75</key>
+		<key>8CB9C6589D3724F28C7CB50178FE6591</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2472,23 +2335,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>metamacros.h</string>
+			<string>TransitionKit.h</string>
 			<key>path</key>
-			<string>extobjc/metamacros.h</string>
+			<string>Code/TransitionKit.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8F3A594C9CFFB94BF966731B4D7D5C4A</key>
+		<key>8D56924C8EEDA896097E6AB4C54F44C7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>172D32D49E894DF82CEC8369B757AAEF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8F978CB3D768F53E6718978809B4D50F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6832ACBFCFDF650C90BFE012188A919</string>
+			<string>1F1BCA48CAB7BAABE2B04014F0D0B679</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2498,6 +2354,76 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>8DBFCC79F65B5EF3E909786ADCDC1091</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>KILabel.h</string>
+			<key>path</key>
+			<string>KILabel/Source/KILabel.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E11D858726A4CFF549D36CC309C4DC7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>57DB955374A1740CD17758C039773A58</string>
+				<string>7F9E9721FEBF487A48F1E971E7F87704</string>
+				<string>B0E1A98CBC5FDEA08EDD683656F1409C</string>
+				<string>11933495FC73570AB6CC8CC5E0DF6B32</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SRGMediaPlayer</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8FC0319038876B18CDBD01193DA1660D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>023A7BEBD079FC1C4791FAECCC96C26C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C5518F221587F62A0E8DEC8D5E23C998</string>
+				<string>6C5E7E52F90A6A049370E25FD7C39E0E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>5700AE68240658399EC7FF7E82FBD637</string>
+				<string>C9109F5D1F8D60F884B32625F0682181</string>
+				<string>5DA8FD1EE0E3AE4136B3FA50325C5F7A</string>
+				<string>D97B53A5C91C67CBACEBE4ACB4C3E447</string>
+				<string>C5D3B4D636354686277248548E409420</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-Signz</string>
+			<key>productName</key>
+			<string>Pods-Signz</string>
+			<key>productReference</key>
+			<string>6657749388B1424B5035514A4B4109CE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>90916AF9A4319335C122E93362A483CD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A6E1CE81583F0C0BEB97870138409027</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>9155446B195A5B2F3029B9E26AE35DB9</key>
 		<dict>
@@ -2515,7 +2441,7 @@
 		<key>91EF36CAC49E0725FA93DE08887C2C3F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6C1047B2DA8671E720E2F8DABFBF69CA</string>
+			<string>A7DCF937235FFF0AF526E9552B2E8C54</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2552,212 +2478,10 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>920FE4255D5CFAB8080E3810CA030A66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>KILabel-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>953F5B942A32D077C9C81BEBB345ECD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Signz-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9556005A154414BBA61608ADA4CE8669</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1AC0A8CE7E4BAE0F06493401CF7CDB35</string>
-				<string>8CC447A3A63B67D8EBA6B3FB7B093A9B</string>
-				<string>463DA6AB6765493304DDA7188746A442</string>
-				<string>0DA73FEBEA0186737399DEA9CB9D01F5</string>
-				<string>6777018CAC342EE6202E64BF986DB0D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>96BD7BB713C152C06F8D1C98384FD062</key>
-		<dict>
-			<key>fileRef</key>
-			<string>10F8B4E358C984CD6933847D87DF5F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>97E8D5CD208B1F0C26CF457648BA209B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C3BB8880ECC883FF5CDC4DC9F47EE506</string>
-				<string>BCBC176FFB8B53EE2C8039EC405962E0</string>
-				<string>FA8FD9BFADC611E24938A0290FF311B8</string>
-				<string>320A601529D2C0E21A0C6AD47C96B99B</string>
-				<string>953F5B942A32D077C9C81BEBB345ECD2</string>
-				<string>73D1F091578A76D7604EE42886FF8B3D</string>
-				<string>A3A68E633658009503CBE5177C6455A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Signz</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Signz</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>997E7FDBFE3EBB1D2425C8C9687F6C12</key>
-		<dict>
-			<key>fileRef</key>
-			<string>373C52918A93D7CD4C9CA8305FF08D13</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9A941AF8624D721AC557DFBCAA1CDDAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SRGMediaPlayer</string>
-			<key>target</key>
-			<string>C194E206A8C2949AC9D0E7BB19CF809E</string>
-			<key>targetProxy</key>
-			<string>8E5BC0A45BA6A24B179E4B0AA6C2B594</string>
-		</dict>
-		<key>9AEE5CF921CFC769A652866775055D1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>thumb_timeline_slider@2x.png</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/thumb_timeline_slider@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B2112BF9E0C6EB27BEA77A2AA1E5436</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A83CD35613D6A0DED165C27228F1D3A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9D02671E73AA9DB897AB9EEA42874CA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SRGMediaPlayer.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9EDD5E4C8B76F3BC9F7E155446FC4966</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4DC23F2B847C33109A9BC34918603F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9EE48C4B8FDE76820B8094515DAE9BE3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28E9917C76C92CADB072D37A72573FAF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9F16D4C7A5AC4895365EB4A4FF79EA07</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>KILabel.h</string>
-			<key>path</key>
-			<string>KILabel/Source/KILabel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2A6FF208CEC4C2861F1E9D42D651453</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A2D558AC781E4FEAF8E178E44D7FA887</key>
+		<key>927DC385CF86734F2FA8652862A28933</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>9D02671E73AA9DB897AB9EEA42874CA2</string>
+			<string>65F5D09336B1FC24987A1EF79B34A07C</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2769,9 +2493,9 @@
 				<key>GCC_NO_COMMON_BLOCKS</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SRGMediaPlayer/SRGMediaPlayer-prefix.pch</string>
+				<string>Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
+				<string>6.0</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>NO</string>
 				<key>OTHER_LDFLAGS</key>
@@ -2794,7 +2518,60 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>A32A2B374D6CBB5E0892457C3831EE1A</key>
+		<key>92CF1A92F38EA0E5EC2BE817A6B5161A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>689A3C117449D48F6ECAE982B5166CF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>text.script.ruby</string>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>9482D725A42A31D405C38F98C3F3B88B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06EA904C06826606875579A6919293A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>953F5B942A32D077C9C81BEBB345ECD2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Signz-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>977198DF372AC7701D2B0B8CD4089754</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2803,11 +2580,161 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSMediaPlayerIconTemplate.h</string>
+			<string>RTSAirplayOverlayView.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerIconTemplate.h</string>
+			<string>RTSMediaPlayer/RTSAirplayOverlayView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>97E8D5CD208B1F0C26CF457648BA209B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C3BB8880ECC883FF5CDC4DC9F47EE506</string>
+				<string>BCBC176FFB8B53EE2C8039EC405962E0</string>
+				<string>FA8FD9BFADC611E24938A0290FF311B8</string>
+				<string>320A601529D2C0E21A0C6AD47C96B99B</string>
+				<string>953F5B942A32D077C9C81BEBB345ECD2</string>
+				<string>73D1F091578A76D7604EE42886FF8B3D</string>
+				<string>A3A68E633658009503CBE5177C6455A3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Signz</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-Signz</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>989A6E925E5C0D5621737CBDBFDEF154</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>TransitionKit</string>
+			<key>target</key>
+			<string>EF482A839E6F6C06B5D9EA2E7451BFC9</string>
+			<key>targetProxy</key>
+			<string>8BA80A50A3F7DD0D7A5D24AF2697FE7E</string>
+		</dict>
+		<key>99C112985A3EAD23CC81D68035F66167</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerLogger.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerLogger.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A8F67BB6CE6B8583F14C6DF3FA6EB40</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F2FA5E990B0405A40E30D40158822F84</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9DB0ED1CD4B0BF22E28F5D6490C46865</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D6F20AF86A2652E5071FE0D165A7F6AB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9E87C97EA83899582003964BED852762</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>thumb_timeline_slider@2x.png</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/thumb_timeline_slider@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9FC8F36B994072651F7EE7BDC82425B6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SRGMediaPlayer.bundle</string>
+			<key>path</key>
+			<string>SRGMediaPlayer.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A012952CE419C71594396FF26FA334F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>thumb_timeline_slider.png</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/thumb_timeline_slider.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A1F93755865F53F995B934302DC19B31</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6E7EA42138801E7E0C8ACCD68CC18791</string>
+				<string>58F6EA17DD0F46E729A6970F3D6A63F0</string>
+				<string>DD34F14CDBB4912E8D45965DAE119470</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/libextobjc</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A278A3FCECE6F0F26EB2000F6CBB3765</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SRGMediaPlayer-SRGMediaPlayer</string>
+			<key>target</key>
+			<string>FDD2FFAC1A6275CDFBC2264B03BC5CD5</string>
+			<key>targetProxy</key>
+			<string>D6E3D5EC7AF55361AB8D0AE8711484E7</string>
+		</dict>
+		<key>A2A6FF208CEC4C2861F1E9D42D651453</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>A3A68E633658009503CBE5177C6455A3</key>
 		<dict>
@@ -2822,25 +2749,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A4539316B9072EE67A55EBBB8ECBDD71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSPlaybackActivityIndicatorView.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSPlaybackActivityIndicatorView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4BB4F531B4B2334AF34D2A91A8A4B3F</key>
+		<key>A40AAC7DE138CB3DC4B0C1A9E58D983C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A4539316B9072EE67A55EBBB8ECBDD71</string>
+			<string>09AABA3073EB62F6B239B6559184CD12</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2851,27 +2763,54 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A5099C0035BDE4CC3B588FE15233B30E</key>
+		<key>A48EB5E4EE79747158B4AC8E1F9165F6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A5BE9E990E49A77EBEC9079F1B098A1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A4BC137AF8D4F36E458AF202CFF8AC84</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>file.xib</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>RTSMediaPlayerViewController.xib</string>
+			<string>TKEvent.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerViewController.xib</string>
+			<string>Code/TKEvent.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A6E197B670CD4B4CE6774C5334FDB7F2</key>
+		<key>A67F495CB35F0D8AFA5EDCC56AC60113</key>
 		<dict>
 			<key>fileRef</key>
-			<string>87F453E0014AE921647B3ACBDDD2D42A</string>
+			<string>362EC78FD203A8BA69B32070A522BF16</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A6E1CE81583F0C0BEB97870138409027</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>picture_in_picture_stop_button@2x.png</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/picture_in_picture_stop_button@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A719DC9F50CC08874A1E4FC57D148162</key>
 		<dict>
@@ -2894,55 +2833,55 @@
 			<key>productName</key>
 			<string>KILabel</string>
 			<key>productReference</key>
-			<string>889BAEFCF58890368CDB3A98C05656CB</string>
+			<string>4E74B332EE281B0131D671234E834314</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>A83CD35613D6A0DED165C27228F1D3A5</key>
+		<key>A7DCF937235FFF0AF526E9552B2E8C54</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSPictureInPictureButton.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSPictureInPictureButton.h</string>
+			<string>KILabel.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A950821444779B1063882147FC20381F</key>
+		<key>A7EE5B7BE6EE4F0A6DBF52143E12500A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>rm.lproj</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/rm.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A98B56F32B282D3F84C123B7EF393079</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>RTSMediaPlayerError.h</string>
+			<string>RTSMediaPlayerVersion.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerError.h</string>
+			<string>RTSMediaPlayer/RTSMediaPlayerVersion.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA301EA7ED4DEC132E623368B1BBF3AE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>TransitionKit</string>
-			<key>target</key>
-			<string>8E10CB34FD8552CFFB17C9F1CA6DBBC9</string>
-			<key>targetProxy</key>
-			<string>F55E523A184F8C9B095C91E5A69F18E2</string>
 		</dict>
 		<key>AA672A16AE2AEBEA8AA11104356F037E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>46FF142A1869DD1295422CEF3ABA8263</string>
+			<string>17AEF17D21B3DF60B9D189582447F07A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2951,139 +2890,10 @@
 				<string>-DOS_OBJECT_USE_OBJC=0</string>
 			</dict>
 		</dict>
-		<key>ABE90185B6CC5110093B1B69DDB2AADC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerController.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC75E3509DE107E344AF30FCAF8D3450</key>
+		<key>AC301AFA67167268510B293DA5031C99</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A5099C0035BDE4CC3B588FE15233B30E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADBAA4E92E47D11700E14ED1D577CB05</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5D7E8CA8FF8ED1D76EFAB6A78723BB5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ADE620E1E6EB51D875B3384FC0B8FB95</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>AE9B0C8D64A50EFFAFC6A83288853F95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B0869A226DF715F8A28793FBBD554851</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSMediaPlayerIconTemplate.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerIconTemplate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2E8EF2D3B8A5A8BF1D52C7793FB38C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2155A61F1ACC6D6AB5EFD50B49EC162B</string>
-				<string>07E17BEBF049BD50C26F38C6A822160F</string>
-				<string>C805EBEB33A17017B629798F5919885B</string>
-				<string>F8738F40AA8F3EED0DE6679377C147B9</string>
-				<string>6B7C7DA4DE17D34BF11F506B9B11399B</string>
-				<string>6F2EFA358EC1FFD618C176F8444AD9B9</string>
-				<string>679C59628F3CAEB33A86E9C3B2ED2C52</string>
-				<string>28E9917C76C92CADB072D37A72573FAF</string>
-				<string>7984D3583A4442124FAB98ECDEACCC73</string>
-				<string>140918427CFB2018DA485863275B8E98</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TransitionKit</string>
-			<key>path</key>
-			<string>TransitionKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4DC23F2B847C33109A9BC34918603F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSActivityGestureRecognizer.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSActivityGestureRecognizer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B50600848849FC4B92790BC88003B9C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>picture_in_picture_start_button@2x.png</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/picture_in_picture_start_button@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B554FCCF7996B282B896C98357DC91E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSVolumeView.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSVolumeView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B56DF295073645BDB1175FA4C553C96D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A32A2B374D6CBB5E0892457C3831EE1A</string>
+			<string>89D9BF98477B687F7EBA39459DC98BF4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3094,22 +2904,82 @@
 				</array>
 			</dict>
 		</dict>
-		<key>B5F608F9848567E136542EDD2628F212</key>
+		<key>ACA36EAEDC4CEA5301E4DEDDAFE63FC7</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>ACF5F19B675A98D2F3833FFEBBBB7FFA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>463F2AA15C34EF1F1DA6A4F6984463E6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>ADAE4304D1A10C2A2F3D181F20ACDEEB</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
+			<key>remoteInfo</key>
+			<string>libextobjc</string>
+		</dict>
+		<key>AE59631610A978EA2D43DEEBE33BEA57</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C45DF0A441FBA4464B8F561B6E9C66C8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>RTSPeriodicTimeObserver.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSPeriodicTimeObserver.h</string>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B6F6FEC7BB6954D08C01E97DA3BA1F92</key>
+		<key>AE650BA4EF712991D42D54BC6DFEC146</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
+			<key>remoteInfo</key>
+			<string>libextobjc</string>
+		</dict>
+		<key>AEE52B78D283FCC14A0AF711DAB94687</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>libextobjc</string>
+			<key>target</key>
+			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
+			<key>targetProxy</key>
+			<string>AE650BA4EF712991D42D54BC6DFEC146</string>
+		</dict>
+		<key>AFEF66641411B20B42194B10E5BD6AFD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3124,10 +2994,37 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B9FA966BDD2D902C9D8B762DFBEC6748</key>
+		<key>B08CA769F9BFC6043B7795EAB6868F01</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A950821444779B1063882147FC20381F</string>
+			<string>F93077C965DF94344CC33454A7F5161D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B0E1A98CBC5FDEA08EDD683656F1409C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SRGMediaPlayer-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B18A608A96B5C0918D64714E7CC9C722</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B190B833E32811010F91DD2D51C61EBE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F9FDBC22D65074D693D7B6A4B4C898FC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3138,32 +3035,147 @@
 				</array>
 			</dict>
 		</dict>
-		<key>BB0F4195492FB126DDD87C578B5733B4</key>
+		<key>B29BE8843049F89891A6682B0D6A7CA1</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8E10CB34FD8552CFFB17C9F1CA6DBBC9</string>
-			<key>remoteInfo</key>
-			<string>TransitionKit</string>
-		</dict>
-		<key>BB81626BCF45F4E5D81F113657145F53</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>80D500AC49A71D5586B4C7082FDA3DC4</string>
-				<string>8CCA17FC8F63CC4B17F328663E78A8B5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>picture_in_picture_start_button.png</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/picture_in_picture_start_button.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2CA099675F74EB057A492CBD48DDD34</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSTimeSlider.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSTimeSlider.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3022DB1AB75E4C58DB62F0EAAA3C932</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSPeriodicTimeObserver.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSPeriodicTimeObserver.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3A11913419B58F64E6B290396DA3D41</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>65F5D09336B1FC24987A1EF79B34A07C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>B4CC9F3997AAB4ADBA0710770C75062D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8D56924C8EEDA896097E6AB4C54F44C7</string>
+				<string>2FE2DF1823B369923255CE14E526FF9D</string>
+				<string>794D4AA0AC019DDB8726F3AB1EB83EB2</string>
+				<string>A40AAC7DE138CB3DC4B0C1A9E58D983C</string>
+				<string>741126AF3A8BF8C14AA0E48720A02553</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B68E4A66690663FF38FF79D2BCEEFED0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>TransitionKit.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B81AE4347519EDD458B57C44B50A963A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerIconTemplate.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerIconTemplate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA3581EFDF11FE3F9151A4DE24EB847C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F3EF87F9A065B1A4CBF6067FD625EAF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BB1DDB48B9BF49ED1563976FB6680D62</key>
+		<dict>
+			<key>fileRef</key>
+			<string>390CC2EFFE80D42CD6BFDB000CA3E85A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>BCBC176FFB8B53EE2C8039EC405962E0</key>
 		<dict>
@@ -3181,7 +3193,7 @@
 		<key>BD5BB57C14CDB08819ED2F2F831968B2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9F16D4C7A5AC4895365EB4A4FF79EA07</string>
+			<string>8DBFCC79F65B5EF3E909786ADCDC1091</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3191,42 +3203,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>BD6DB516A965D3837423BD03DF9B7D09</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SRGMediaPlayer.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/SRGMediaPlayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD75847973A65741AE503708237728FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B499E9788D7C78926DCBC0996BA46BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BFA93D83CDDFBFED06BD5A256576780A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>C1711E6019AD394455FF827C78B4E3BC</key>
 		<dict>
@@ -3242,47 +3218,78 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C194E206A8C2949AC9D0E7BB19CF809E</key>
+		<key>C1CB27EEAFC68AEA738364818074625F</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>4977A4C4B2D99C2FBF768FF6FC6C989F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7E37AC3BC0EFDB9ACE8AAFB33C5F5F05</string>
-				<string>772DCEE95813E6EB4B5959F1BAC4C638</string>
-				<string>CB978DC5153CE11921B8354F247CB5BB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>5E92C83BB976C6A909A02BAE34E4618A</string>
-				<string>7E0699F7AA8AA20F28163E7CB62F63FB</string>
-				<string>CC2AD57C0BBFF1E6B0E6EC5AD803F8DA</string>
-			</array>
+			<key>fileRef</key>
+			<string>DA174833FDC6D707B98BA8FFFD6FC066</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SRGMediaPlayer</string>
-			<key>productName</key>
-			<string>SRGMediaPlayer</string>
-			<key>productReference</key>
-			<string>7A99FCCA4E075C95B2CE08ADE4B77C87</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>C2902D8E6666775FA04DD6E2E845BB5D</key>
+		<key>C1D7781DE7AAF05AC6A9FEEE4210DEF2</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>3B23346A159A7180AF29A07CE2891343</string>
+				<string>390CC2EFFE80D42CD6BFDB000CA3E85A</string>
+				<string>8034B69A526142F16DC11923B33CBA18</string>
+				<string>6A5BE9E990E49A77EBEC9079F1B098A1</string>
+				<string>977198DF372AC7701D2B0B8CD4089754</string>
+				<string>79B99C546C35BFBFF276BB9E231B0AB2</string>
+				<string>83083D41BD05A8D0D8B614C2ACDD99B3</string>
+				<string>DA174833FDC6D707B98BA8FFFD6FC066</string>
+				<string>6D92B11832116DBDF2540D4E6846EF59</string>
+				<string>7A3CB1A17A07D58379594148E181495C</string>
+				<string>168C544BA9565348D9E9FDF45548CB7F</string>
+				<string>478902CA6DBA2CE7A41F502699AEEB9D</string>
+				<string>F93077C965DF94344CC33454A7F5161D</string>
+				<string>689A3C117449D48F6ECAE982B5166CF4</string>
+				<string>E2F6E0BFC8398783B8AFA1E78C6ECF10</string>
+				<string>CC9088CB5AE5194DD539EEAAF3C7A3FF</string>
+				<string>B81AE4347519EDD458B57C44B50A963A</string>
+				<string>2257BA5DAF704DE8A5DEE4D6E6A8F1EA</string>
+				<string>99C112985A3EAD23CC81D68035F66167</string>
+				<string>362EC78FD203A8BA69B32070A522BF16</string>
+				<string>E1C9716C47134431DD310B14D3C3DED8</string>
+				<string>DE8DD829C41EDA2AC50A55BBBAB99842</string>
+				<string>AFEF66641411B20B42194B10E5BD6AFD</string>
+				<string>700731AF810572C16A8494A5987DDEF7</string>
+				<string>A98B56F32B282D3F84C123B7EF393079</string>
+				<string>EA54E820ACA8F8DD9BFFB5E612B23239</string>
+				<string>3F66A46AFAD9839E9B486A6C100FA5D1</string>
+				<string>F64EC15DF325077F7BBF5C4ABB6B99DA</string>
+				<string>1DA0D92D40ACAB7BEBF418AE170E72FA</string>
+				<string>F9FDBC22D65074D693D7B6A4B4C898FC</string>
+				<string>463F2AA15C34EF1F1DA6A4F6984463E6</string>
+				<string>06EA904C06826606875579A6919293A4</string>
+				<string>835C1C6E3650E8F85B64CCF1FE2C4F23</string>
+				<string>55FCAA5C25C021A53DC4A670B145231C</string>
+				<string>B3022DB1AB75E4C58DB62F0EAAA3C932</string>
+				<string>4AD9BB21082D048AA9EB76ABA6BDA76A</string>
+				<string>00ADAE1FEB349301ECCBB41B5D8701BE</string>
+				<string>EF1396207FA3D087E07BF9B9C19D979F</string>
+				<string>72DBF5A555687C19140401AA5160E45D</string>
+				<string>20D0247DA40F1133F01735CFB3660EEE</string>
+				<string>DA2DCA76E518B6D6B4495D7C8A324A28</string>
+				<string>6719FAA49661A0C6CE81360C8D6D478E</string>
+				<string>F2FA5E990B0405A40E30D40158822F84</string>
+				<string>7C17B39832F1DEC517B2F8CA57BF6DE9</string>
+				<string>89D9BF98477B687F7EBA39459DC98BF4</string>
+				<string>B2CA099675F74EB057A492CBD48DDD34</string>
+				<string>5E1469DDFCB6A217088E4689C9DB4884</string>
+				<string>CD78ED44D329B5C50DC9F732DAEBC8F1</string>
+				<string>C68FAFD55F496F15738CD0C93A44F1B5</string>
+				<string>15DEFE7BFF5CB67B53FB22A1734C3892</string>
+				<string>4DEE257219C4231319E20836B237EA3D</string>
+				<string>C7322C8D75BE77B5C3E2A8FE836E8EC8</string>
+				<string>8E11D858726A4CFF549D36CC309C4DC7</string>
+				<string>FE07E4819CE09B8C9311D62774A3E303</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>RTSMediaFailureOverlayView.h</string>
+			<string>SRGMediaPlayer</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaFailureOverlayView.h</string>
+			<string>SRGMediaPlayer</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3299,25 +3306,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C404ACFA8DA304852693A4DADAE138A9</key>
+		<key>C45DF0A441FBA4464B8F561B6E9C66C8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>wrapper.plug-in</string>
 			<key>name</key>
-			<string>KILabel.m</string>
+			<string>Assets.bundle</string>
 			<key>path</key>
-			<string>KILabel/Source/KILabel.m</string>
+			<string>youtube-ios-player-helper/Assets.bundle</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4C5F8CA744C422F97C7C5C421CEB347</key>
+		<dict>
+			<key>fileRef</key>
+			<string>700731AF810572C16A8494A5987DDEF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>C4F93314109A719FA8EEAD864FCDD452</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>32BB717E9CCE362A8DDA4CCD34BA2DE4</string>
+			<string>6E7EA42138801E7E0C8ACCD68CC18791</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3354,43 +3375,38 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C501D465327B00E641A898F727A7A703</key>
+		<key>C5518F221587F62A0E8DEC8D5E23C998</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EEA74AB913C95BE511402DB924B84719</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C568B694C779A356A4F106D2A1E43F9F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F2DDD3EEEA76C866D867FFEF370B2CCB</string>
+			<string>1DA0D92D40ACAB7BEBF418AE170E72FA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>C57594ED0C0F3D95F061DFBE6B23589F</key>
+		<key>C5D3B4D636354686277248548E409420</key>
 		<dict>
-			<key>fileRef</key>
-			<string>27BE54C2A0A82AE3EF62C2E988330F38</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C5D7E8CA8FF8ED1D76EFAB6A78723BB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>NSBundle+RTSMediaPlayer.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/NSBundle+RTSMediaPlayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>youtube-ios-player-helper</string>
+			<key>target</key>
+			<string>CEBB0EBF217D7160CF30FA04E748A49A</string>
+			<key>targetProxy</key>
+			<string>554E3CA1A674B65B5B27332A340A07C8</string>
 		</dict>
-		<key>C62784D91BF79A9D9DC9916A75851F6B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B554FCCF7996B282B896C98357DC91E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C6832ACBFCFDF650C90BFE012188A919</key>
+		<key>C68FAFD55F496F15738CD0C93A44F1B5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3399,24 +3415,54 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSMediaPlayerViewController.h</string>
+			<string>SRGMediaPlayer.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerViewController.h</string>
+			<string>RTSMediaPlayer/SRGMediaPlayer.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C7A017A4013A13C4A1AEBD8A644D154E</key>
+		<key>C6E18275ADEB081734E4993B51DDD0DA</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>A98B56F32B282D3F84C123B7EF393079</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-DRTS_MEDIA_PLAYER_VERSION=1.8.17</string>
+			</dict>
+		</dict>
+		<key>C7322C8D75BE77B5C3E2A8FE836E8EC8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0F0D7244979D5600D4AF08039865623D</string>
+				<string>CAB2684370810B5F3589FCFC9766F74E</string>
+				<string>06B35A37BE8AD6282CC1B89351A0F820</string>
+				<string>18AC3DE83375CB43975868F0EDD6ED8D</string>
+				<string>B29BE8843049F89891A6682B0D6A7CA1</string>
+				<string>8ACCBA6866C59C8D9EC4F0356F53C371</string>
+				<string>D6F20AF86A2652E5071FE0D165A7F6AB</string>
+				<string>A6E1CE81583F0C0BEB97870138409027</string>
+				<string>A7EE5B7BE6EE4F0A6DBF52143E12500A</string>
+				<string>415FFA9BD51A168BBBA7E8A4519A736C</string>
+				<string>A012952CE419C71594396FF26FA334F0</string>
+				<string>9E87C97EA83899582003964BED852762</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>fr.lproj</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/fr.lproj</string>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7E2FD4F7F2D6A7F3E5E15289908A967</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B3022DB1AB75E4C58DB62F0EAAA3C932</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>C7E474A03CAE21F1CB6046E7344C59BD</key>
 		<dict>
@@ -3489,81 +3535,87 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>C805EBEB33A17017B629798F5919885B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TKState.h</string>
-			<key>path</key>
-			<string>Code/TKState.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB3B82F6156490A3126F30050E082E87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B0869A226DF715F8A28793FBBD554851</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB978DC5153CE11921B8354F247CB5BB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>210D06DB2A95852764B383C59D6D0046</string>
-				<string>F0DE2001533376770C567232EA30CAD9</string>
-				<string>42E5617E3A7053254C58EAA7B3AF71E9</string>
-				<string>79B9A6F344B8294C3F59C29C2D9E2D58</string>
-				<string>831418D5ED63A057B50367D7381E1854</string>
-				<string>7B27AC574E57B0C8BDF1C8F954217AC3</string>
-				<string>997E7FDBFE3EBB1D2425C8C9687F6C12</string>
-				<string>02B5AD8365A8A1E135B64EB88356ADB6</string>
-				<string>B9FA966BDD2D902C9D8B762DFBEC6748</string>
-				<string>B56DF295073645BDB1175FA4C553C96D</string>
-				<string>2DF1C694B3A2C7C3A9F60F63CCBC50C7</string>
-				<string>34AF95E2B0BC72B49FA3243A5DF8B407</string>
-				<string>0D16B8072B0BFA2A007ED7C278FEAF48</string>
-				<string>822EEA54C8F86719E02DC61DAD349DFA</string>
-				<string>5DEE3FF70D324EE88CEBE512DE0F2273</string>
-				<string>8F978CB3D768F53E6718978809B4D50F</string>
-				<string>022635D0C66F2040ACC2A0D5063C256E</string>
-				<string>4F8464BFED2F7B1D78921BB1ADC39202</string>
-				<string>BD75847973A65741AE503708237728FB</string>
-				<string>F76D248AA19687A09BB90A9D9B33E977</string>
-				<string>9B2112BF9E0C6EB27BEA77A2AA1E5436</string>
-				<string>A4BB4F531B4B2334AF34D2A91A8A4B3F</string>
-				<string>CF1FECFBE6DCBB38A8DBEA929B340809</string>
-				<string>7D6AD325F99B9CD1979C855F48DC17E9</string>
-				<string>DD0C45C105528E08CCBAA7CF8A2BD2F1</string>
-				<string>DA18DD41AA6FF3105E8342FA3454C1F8</string>
-				<string>167BE3EEEB8538414078BBD7E3982511</string>
-				<string>36732CDFF3135128D001F397263AB105</string>
-				<string>1D09758BC6F56D9B338DA8BED8C1C38B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CC2AD57C0BBFF1E6B0E6EC5AD803F8DA</key>
+		<key>C9109F5D1F8D60F884B32625F0682181</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>libextobjc</string>
+			<string>SRGMediaPlayer</string>
 			<key>target</key>
-			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
+			<string>599B95DC19F4247E468023A1B2E52F55</string>
 			<key>targetProxy</key>
-			<string>3C23B9878E98DFE20BBDA5F2FF41E3CC</string>
+			<string>FFE27A9B1AA8031573082C9FF913553F</string>
 		</dict>
-		<key>CE6C5AA23CEB921E66C6A5C13C98B0E4</key>
+		<key>C911728FABAD008D4EC3825B5A1385CC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7A3CB1A17A07D58379594148E181495C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C954AC06A4E74C9659691D84545E7044</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FC85509D3806D4C41D7D0AE0744D9ADD</string>
+				<string>CA7D22579C1525C4F3F66BC56E86550D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>EXTScope</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA7D22579C1525C4F3F66BC56E86550D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EXTScope.m</string>
+			<key>path</key>
+			<string>extobjc/EXTScope.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA93E30E30663DACFC14CC3C0F0F7C55</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>youtube-ios-player-helper-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CAB2684370810B5F3589FCFC9766F74E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>en.lproj</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/en.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC9088CB5AE5194DD539EEAAF3C7A3FF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3572,16 +3624,70 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSBundle+RTSMediaPlayer.h</string>
+			<string>RTSMediaPlayerIconTemplate.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/NSBundle+RTSMediaPlayer.h</string>
+			<string>RTSMediaPlayer/RTSMediaPlayerIconTemplate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD78ED44D329B5C50DC9F732DAEBC8F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSVolumeView.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSVolumeView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEA7AFFE2AEC94504C5648F848CE5B4D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C68FAFD55F496F15738CD0C93A44F1B5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CEBB0EBF217D7160CF30FA04E748A49A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>54EFCC24BE2044D0B2492E35A41D86F2</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0988403E91694735A28184598F8318F1</string>
+				<string>37C6A01343CA91B85C7F0B55F93867A1</string>
+				<string>6C65D0AEF044194F772E2DEF940FAE4F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>youtube-ios-player-helper</string>
+			<key>productName</key>
+			<string>youtube-ios-player-helper</string>
+			<key>productReference</key>
+			<string>3002CE22A9EE6AF1FDBB3923070FD2DC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>CEDC9D012A071B08666D4A073A8703A6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>32BB717E9CCE362A8DDA4CCD34BA2DE4</string>
+			<string>6E7EA42138801E7E0C8ACCD68CC18791</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3618,72 +3724,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>CF1FECFBE6DCBB38A8DBEA929B340809</key>
-		<dict>
-			<key>fileRef</key>
-			<string>724C3FE457901710E6DD993883254DE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Private</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CF7524444B6AFBE59193889C6F37F4EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5A02A5FC1F1E8BF321FE90748C6962A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D1729AA60FBF07DB9CF17D87AB0C611A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>38A04FD8D9B2FBB3DE48DC9634A7FCEB</string>
-			<key>remoteInfo</key>
-			<string>SRGMediaPlayer-SRGMediaPlayer</string>
-		</dict>
-		<key>D17B65EDC8AC629370A5BF80A1A8F100</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSSegmentedTimelineView.h</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSSegmentedTimelineView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D25C7B1D510350C8A7D2B3A44B633E81</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>32BB717E9CCE362A8DDA4CCD34BA2DE4</string>
-				<string>0C31770562A6DEDC6C11221255119D32</string>
-				<string>60E7CD430B2F6843CF01AF866F5916C2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/libextobjc</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
 			<key>attributes</key>
@@ -3710,7 +3750,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>81B7B502A7AA78F54B879F160610A2FB</string>
+			<string>4026C140521FE30D6DED940CB17D59B7</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -3721,11 +3761,41 @@
 			<array>
 				<string>A719DC9F50CC08874A1E4FC57D148162</string>
 				<string>0EE5634CAD0D778C76414552FE5B44AB</string>
-				<string>30125458EC0CBD6BAC081152911D154B</string>
-				<string>C194E206A8C2949AC9D0E7BB19CF809E</string>
-				<string>38A04FD8D9B2FBB3DE48DC9634A7FCEB</string>
-				<string>8E10CB34FD8552CFFB17C9F1CA6DBBC9</string>
+				<string>8FC0319038876B18CDBD01193DA1660D</string>
+				<string>599B95DC19F4247E468023A1B2E52F55</string>
+				<string>FDD2FFAC1A6275CDFBC2264B03BC5CD5</string>
+				<string>EF482A839E6F6C06B5D9EA2E7451BFC9</string>
+				<string>CEBB0EBF217D7160CF30FA04E748A49A</string>
 			</array>
+		</dict>
+		<key>D4C1338ECBBED4D4AD75A8A9881600FB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8ACCBA6866C59C8D9EC4F0356F53C371</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D558B44C37AA66A499B077C146E74087</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D57BA6DD62B4C13A1C7740525C562BD4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8306F18EDD6CEB798FED50FF30DCA350</string>
+				<string>17AEF17D21B3DF60B9D189582447F07A</string>
+				<string>6A68AF1859832F15B36645ED9A71EEFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>RuntimeExtensions</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D58AC9681EDECE96A09F59397005B17C</key>
 		<dict>
@@ -3741,40 +3811,36 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D74B6B3671EEBB06B8906E857C03AAE5</key>
+		<key>D6E3D5EC7AF55361AB8D0AE8711484E7</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FDD2FFAC1A6275CDFBC2264B03BC5CD5</string>
+			<key>remoteInfo</key>
+			<string>SRGMediaPlayer-SRGMediaPlayer</string>
+		</dict>
+		<key>D6F20AF86A2652E5071FE0D165A7F6AB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSMediaPlayerConstants.h</string>
+			<string>picture_in_picture_stop_button.png</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerConstants.h</string>
+			<string>RTSMediaPlayer/picture_in_picture_stop_button.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D7D36FE56E5FEF283730BDC4837220B2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Signz.a</string>
-			<key>path</key>
-			<string>libPods-Signz.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>DA18DD41AA6FF3105E8342FA3454C1F8</key>
+		<key>D77368D71291CAB262BD28FA62931BC9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1D61315A44CAB3468D8AEE00FD9F7A9F</string>
+			<string>15DEFE7BFF5CB67B53FB22A1734C3892</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3785,34 +3851,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DA4841FDD7A75B9007792004BC9E7B0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>thumb_timeline_slider.png</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/thumb_timeline_slider.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD0C45C105528E08CCBAA7CF8A2BD2F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26B879A1461407825AC4759165C34432</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>DDD55DE1CF06101AD7DCEE9ABA34FC4E</key>
+		<key>D77EA5DC6004F055B83900BE9D5CC99D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3821,44 +3860,107 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>RTSMediaSegmentsController.m</string>
+			<string>YTPlayerView.m</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaSegmentsController.m</string>
+			<string>Classes/YTPlayerView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E086BB8A9FD9CA6E4B4F7DC0EBCA2F7E</key>
+		<key>D97B53A5C91C67CBACEBE4ACB4C3E447</key>
 		<dict>
-			<key>fileRef</key>
-			<string>8E9EE6196DD9F9A991DB8AF30F7D4C75</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>libextobjc</string>
+			<key>target</key>
+			<string>0EE5634CAD0D778C76414552FE5B44AB</string>
+			<key>targetProxy</key>
+			<string>ADAE4304D1A10C2A2F3D181F20ACDEEB</string>
 		</dict>
-		<key>E1FA2B6D14E832636BD2286EB2723C8B</key>
+		<key>D9A07D1A1C2CEDCAF271D0B9A58316B0</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>9F16D4C7A5AC4895365EB4A4FF79EA07</string>
-				<string>C404ACFA8DA304852693A4DADAE138A9</string>
-				<string>19EB849EB51BEC64E544261C30E76F70</string>
+				<string>D558B44C37AA66A499B077C146E74087</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DA174833FDC6D707B98BA8FFFD6FC066</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>KILabel</string>
+			<string>RTSMediaFailureOverlayView.m</string>
 			<key>path</key>
-			<string>KILabel</string>
+			<string>RTSMediaPlayer/RTSMediaFailureOverlayView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E276953BF0AC09DE0EAA6F6E86A5899D</key>
+		<key>DA2DCA76E518B6D6B4495D7C8A324A28</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSSegmentedTimelineView.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSSegmentedTimelineView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DCAC8BA156CD5F1AFE137D4A217CCAB8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B68E4A66690663FF38FF79D2BCEEFED0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TransitionKit/TransitionKit-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>DD34F14CDBB4912E8D45965DAE119470</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3866,25 +3968,12 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RTSMediaPlayerPlaybackButton.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSMediaPlayerPlaybackButton.h</string>
+			<string>libextobjc-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E49AA8D1955801745C630FC59455895E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E51D057FA94BC9D84008E7BE6BD017F6</key>
+		<key>DE8DD829C41EDA2AC50A55BBBAB99842</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3899,6 +3988,115 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>E086BB8A9FD9CA6E4B4F7DC0EBCA2F7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A68AF1859832F15B36645ED9A71EEFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E15C3079AAB356BCBF45B227A3714642</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F1BCA48CAB7BAABE2B04014F0D0B679</string>
+				<string>A4BC137AF8D4F36E458AF202CFF8AC84</string>
+				<string>696E6939455EB69A64E8490D73AD02B6</string>
+				<string>F4C6B849EE30A70DA782BB9107609704</string>
+				<string>F8303059D100E3A67E5FE0077D89D2F0</string>
+				<string>09CA6EB03833A3657596EA32D68EFB44</string>
+				<string>09AABA3073EB62F6B239B6559184CD12</string>
+				<string>80B030520D9E2D6613AAEBF29C3944D5</string>
+				<string>8CB9C6589D3724F28C7CB50178FE6591</string>
+				<string>1E16360882151A4E332EED2A39778B98</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TransitionKit</string>
+			<key>path</key>
+			<string>TransitionKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E167991E77D461900D22FA86D483FDEC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TransitionKit-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1C9716C47134431DD310B14D3C3DED8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerPlaybackButton.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerPlaybackButton.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E26EA51BBF5AD80768C2A01651573C97</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20D0247DA40F1133F01735CFB3660EEE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E2DCDAA6405382CE96DF305E83356FB3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A7EE5B7BE6EE4F0A6DBF52143E12500A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E2F6E0BFC8398783B8AFA1E78C6ECF10</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerError.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerError.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E48DD6C9434D88FB09FC8203FBB8E85A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>00ADAE1FEB349301ECCBB41B5D8701BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>E86668F20F252C440D1015B816BE59C5</key>
 		<dict>
 			<key>isa</key>
@@ -3912,46 +4110,171 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>E8E982BE2842AAC6F469BF0B393652B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ECB5DBF470E49ADB9139F9207F9F6823</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E999951533426B6F7EF361E5B625126C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53039B19FCA6BC253B69B7BB5C948535</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ECB5DBF470E49ADB9139F9207F9F6823</key>
+		<key>E97EC4B6E707F023ECCAEC8B7EB53EBB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>RTSPictureInPictureButton.m</string>
+			<string>YTPlayerView.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/RTSPictureInPictureButton.m</string>
+			<string>Classes/YTPlayerView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EFF3DC4D6D347D8B74F4AF7B62EEEEB3</key>
+		<key>E9EA7401112A84F582ECC0AD08AB4282</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B68E4A66690663FF38FF79D2BCEEFED0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TransitionKit/TransitionKit-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>5.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EA54E820ACA8F8DD9BFFB5E612B23239</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerView.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC83FA946DCE87295687D79C0B15475B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A7DCF937235FFF0AF526E9552B2E8C54</string>
+				<string>3397BD4391F26B3E95D7113DC2DD677B</string>
+				<string>13F17B107C1C6417C80438FE9D09B244</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/KILabel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE92F395BB5AD8B718AD7EBA8BD37414</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1BCB5E4C5832135EFA07949ACE22061F</string>
+			<string>AFEF66641411B20B42194B10E5BD6AFD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F0DE2001533376770C567232EA30CAD9</key>
+		<key>EEA74AB913C95BE511402DB924B84719</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0DF650F2C0A88F2AEB6B69A9144F4FBB</string>
+			<string>FA8FD9BFADC611E24938A0290FF311B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EF0A8D94560CC2D55BE2EFD150BCFB66</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EF482A839E6F6C06B5D9EA2E7451BFC9</string>
+			<key>remoteInfo</key>
+			<string>TransitionKit</string>
+		</dict>
+		<key>EF1396207FA3D087E07BF9B9C19D979F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSPlaybackActivityIndicatorView.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSPlaybackActivityIndicatorView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EF482A839E6F6C06B5D9EA2E7451BFC9</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>706033DB4FD5B0C49BC72A2CF85B4757</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0DBE796B5B398A36C639EC743F349BA4</string>
+				<string>D9A07D1A1C2CEDCAF271D0B9A58316B0</string>
+				<string>B4CC9F3997AAB4ADBA0710770C75062D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TransitionKit</string>
+			<key>productName</key>
+			<string>TransitionKit</string>
+			<key>productReference</key>
+			<string>18C5499924361DFC0DDD19955E729AE9</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>F03635E1F7A6A11F34F5F83039F80FBE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>168C544BA9565348D9E9FDF45548CB7F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F04B2549F070B9100217EB93A8DD5373</key>
+		<dict>
+			<key>fileRef</key>
+			<string>55FCAA5C25C021A53DC4A670B145231C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3962,30 +4285,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F25F78EC59052313B8BAC1BE4DD69365</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6F2EFA358EC1FFD618C176F8444AD9B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F2DDD3EEEA76C866D867FFEF370B2CCB</key>
+		<key>F2FA5E990B0405A40E30D40158822F84</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UIBezierPath+RTSMediaPlayerUtils.m</string>
+			<string>RTSTimelineSlider.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/UIBezierPath+RTSMediaPlayerUtils.m</string>
+			<string>RTSMediaPlayer/RTSTimelineSlider.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4003,79 +4314,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F4BD37845948BCD864FB7A062F35C32E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>picture_in_picture_start_button.png</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/picture_in_picture_start_button.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F55E523A184F8C9B095C91E5A69F18E2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8E10CB34FD8552CFFB17C9F1CA6DBBC9</string>
-			<key>remoteInfo</key>
-			<string>TransitionKit</string>
-		</dict>
-		<key>F76D248AA19687A09BB90A9D9B33E977</key>
+		<key>F34A173747947BF53209249C360A7D3B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B5F608F9848567E136542EDD2628F212</string>
+			<string>06B35A37BE8AD6282CC1B89351A0F820</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>F7E23C702DD31DAE3570DC8424E6BCDB</key>
+		<key>F3BDB1EE2C8D766FCC294535A43CDD40</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>47107138A9F53CDD413C23049B8FCE3A</string>
-				<string>56C6691A78DD43971D0796E8C68224F0</string>
-				<string>F25F78EC59052313B8BAC1BE4DD69365</string>
-				<string>9EE48C4B8FDE76820B8094515DAE9BE3</string>
-				<string>53687E839C0A3CBBBCC91B13978AC02C</string>
-			</array>
+			<key>fileRef</key>
+			<string>18AC3DE83375CB43975868F0EDD6ED8D</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>F7E56363735634058C6015D4C7878643</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EXTScope.m</string>
-			<key>path</key>
-			<string>extobjc/EXTScope.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F8738F40AA8F3EED0DE6679377C147B9</key>
+		<key>F4C6B849EE30A70DA782BB9107609704</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4090,7 +4343,49 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F92574755A9950E0ADCCB927F8A97DF7</key>
+		<key>F567C10D9E3D140A851699672CC79891</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>FBC31E39238734AE856036C651672F53</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F612BD934B490C14C2B3502EF5FEDEF2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>977198DF372AC7701D2B0B8CD4089754</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F64EC15DF325077F7BBF5C4ABB6B99DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaPlayerViewController.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F787CD7F9C357A26756EE7AFDEADEC34</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4099,11 +4394,56 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>KILabel-dummy.m</string>
+			<string>youtube-ios-player-helper-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F9689E21F968E2806DD50B30DC055557</key>
+		<key>F8303059D100E3A67E5FE0077D89D2F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TKStateMachine.h</string>
+			<key>path</key>
+			<string>Code/TKStateMachine.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F93077C965DF94344CC33454A7F5161D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>RTSMediaPlayerController+Private.m</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaPlayerController+Private.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9FDBC22D65074D693D7B6A4B4C898FC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTSMediaSegment.h</string>
+			<key>path</key>
+			<string>RTSMediaPlayer/RTSMediaSegment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA0806A07A3C15D555136221D311DC4F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>73D1F091578A76D7604EE42886FF8B3D</string>
@@ -4143,21 +4483,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>F9A1B65CE33F847DE3FB993A0C24B13D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>RTSTimeSlider.m</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/RTSTimeSlider.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>FA8FD9BFADC611E24938A0290FF311B8</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4171,10 +4496,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FC3763B8530832877CF996F289B9D403</key>
+		<key>FBC31E39238734AE856036C651672F53</key>
 		<dict>
 			<key>fileRef</key>
-			<string>50F6B092D929F1B70655EC17551D6691</string>
+			<string>A2A6FF208CEC4C2861F1E9D42D651453</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC11287AAD5E8180940E34BFBAD4AE08</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2257BA5DAF704DE8A5DEE4D6E6A8F1EA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4185,60 +4517,97 @@
 				</array>
 			</dict>
 		</dict>
-		<key>FC821BE131C7AFF24307053602317B72</key>
+		<key>FC3763B8530832877CF996F289B9D403</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FC85509D3806D4C41D7D0AE0744D9ADD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FC606D5088911AAC5EE5747E1EEE149F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4DEE257219C4231319E20836B237EA3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC85509D3806D4C41D7D0AE0744D9ADD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>it.lproj</string>
+			<string>EXTScope.h</string>
 			<key>path</key>
-			<string>RTSMediaPlayer/it.lproj</string>
+			<string>extobjc/EXTScope.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FD1B714D9DACACFE7ACCC6077DD56CC6</key>
+		<key>FCBC1D8D06FFB4CBA589BD92CBFDBD12</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>DA2DCA76E518B6D6B4495D7C8A324A28</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>rm.lproj</string>
-			<key>path</key>
-			<string>RTSMediaPlayer/rm.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>FEDD097B8C6E4210D7E3F9ACEAA8BB04</key>
+		<key>FDD2FFAC1A6275CDFBC2264B03BC5CD5</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SRGMediaPlayer.bundle</string>
-			<key>path</key>
-			<string>SRGMediaPlayer.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FF4BC5EEA84089708F1F81474A4DB4C0</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>buildConfigurationList</key>
+			<string>34580B362591B4AE91A5B041D25995B8</string>
+			<key>buildPhases</key>
 			<array>
-				<string>F9689E21F968E2806DD50B30DC055557</string>
-				<string>8493A14A0A788AA7058DA51214F35D56</string>
+				<string>2C73DF39A1FB0E232D914D06A486A4D2</string>
+				<string>ACA36EAEDC4CEA5301E4DEDDAFE63FC7</string>
+				<string>236A1A6A3FFD5FAC6C7AB01766C5F1E1</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SRGMediaPlayer-SRGMediaPlayer</string>
+			<key>productName</key>
+			<string>SRGMediaPlayer-SRGMediaPlayer</string>
+			<key>productReference</key>
+			<string>9FC8F36B994072651F7EE7BDC82425B6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
+		<key>FE07E4819CE09B8C9311D62774A3E303</key>
+		<dict>
+			<key>children</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Version</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FFE27A9B1AA8031573082C9FF913553F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>599B95DC19F4247E468023A1B2E52F55</string>
+			<key>remoteInfo</key>
+			<string>SRGMediaPlayer</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

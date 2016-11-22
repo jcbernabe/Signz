@@ -90,7 +90,7 @@
                                                 <attributedString key="attributedText">
                                                     <fragment content="IT'S OKAY TO TALK">
                                                         <attributes>
-                                                            <font key="NSFont" metaFont="system" size="33"/>
+                                                            <font key="NSFont" size="33" name="BebasNeueRegular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -169,7 +169,7 @@
                                     <fragment content="RECOGNIZING THE SIGNZ OF  SUICIDE &amp; MENTAL HEALTH">
                                         <attributes>
                                             <color key="NSColor" red="0.20391999999999999" green="0.20391999999999999" blue="0.20391999999999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <font key="NSFont" size="25" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
@@ -182,7 +182,7 @@
                                     <fragment content="ARE YOU FEELING DOWN OR DEPRESSED?">
                                         <attributes>
                                             <color key="NSColor" red="0.20391999999999999" green="0.20391999999999999" blue="0.20391999999999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="25"/>
+                                            <font key="NSFont" size="25" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
@@ -195,7 +195,8 @@
                                     <fragment content="About">
                                         <attributes>
                                             <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="32"/>
+                                            <font key="NSFont" size="32" name="BebasNeueRegular"/>
+                                            <font key="NSOriginalFont" size="32" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -209,7 +210,7 @@
                                     <fragment content="Signz">
                                         <attributes>
                                             <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="59"/>
+                                            <font key="NSFont" size="59" name="BebasNeueRegular"/>
                                             <font key="NSOriginalFont" size="59" name=".SFNSText"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -313,7 +314,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Recognizing the signz              of suicide and mental health">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="31"/>
+                                            <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -342,7 +343,7 @@
                                                             <fragment content="Home">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -442,7 +443,7 @@
                                             <fragment content="about signz">
                                                 <attributes>
                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -475,7 +476,7 @@
                                         <fragment content="Home">
                                             <attributes>
                                                 <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" metaFont="system" size="31"/>
+                                                <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -534,7 +535,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="ARE YOU OK?">
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="31"/>
+                                            <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -570,7 +571,7 @@
                                                             <fragment content="Home">
                                                                 <attributes>
                                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                                 </attributes>
                                                             </fragment>
@@ -661,7 +662,7 @@
                                             <fragment content="about signz">
                                                 <attributes>
                                                     <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="31"/>
+                                                    <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                     <font key="NSOriginalFont" metaFont="system" size="31"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
@@ -678,11 +679,11 @@
                                         <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
                                     </textView>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B4y-FN-Mzd">
-                                        <rect key="frame" x="0.0" y="75" width="374" height="357"/>
+                                        <rect key="frame" x="0.0" y="65" width="374" height="372"/>
                                         <subviews>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="224" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ohb-iB-Z7L">
-                                                <rect key="frame" x="0.0" y="0.0" width="374" height="357"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="372"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SupportVideoCell" rowHeight="224" id="jqr-6m-rFq" customClass="SupportVideoCell">
                                                         <rect key="frame" x="0.0" y="28" width="374" height="224"/>
@@ -692,53 +693,56 @@
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qpW-uQ-tyL">
-                                                                    <rect key="frame" x="39" y="8" width="296" height="163.33333333333334"/>
+                                                                    <rect key="frame" x="39" y="8" width="296" height="163"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" secondItem="qpW-uQ-tyL" secondAttribute="height" multiplier="118:65" id="mzx-tM-ZIg"/>
                                                                     </constraints>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aesfasefasefasohfjasioefoipasefioasiofoipaseopfasopiefiasoiefopiaseopif" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9h0-28-kn0">
-                                                                    <rect key="frame" x="39" y="174" width="296" height="33"/>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kKl-Zl-Qok" customClass="YTPlayerView">
+                                                                    <rect key="frame" x="39" y="8" width="296" height="163"/>
+                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                </view>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aesfasefasefasohfjasioefoipasefioasiofoipaseopfasopiefiasoiefopiaseopifasefasefasefasefasefasefasefasefasefasefasef" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9h0-28-kn0">
+                                                                    <rect key="frame" x="39" y="174" width="296" height="47"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="33" id="zCM-VZ-Ry0"/>
+                                                                        <constraint firstAttribute="height" constant="47" id="zCM-VZ-Ry0"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lF0-7W-3Fu">
-                                                                    <rect key="frame" x="39" y="8" width="296" height="163.33333333333334"/>
-                                                                    <subviews>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="playicon" translatesAutoresizingMaskIntoConstraints="NO" id="ru4-vR-zbd">
-                                                                            <rect key="frame" x="113" y="46.666666666666657" width="71" height="71"/>
-                                                                            <constraints>
-                                                                                <constraint firstAttribute="height" constant="71" id="6Ro-Pm-wLy"/>
-                                                                                <constraint firstAttribute="width" constant="71" id="IKe-OC-VWc"/>
-                                                                            </constraints>
-                                                                        </imageView>
-                                                                    </subviews>
-                                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O03-4w-TDO">
+                                                                    <rect key="frame" x="142" y="45" width="90" height="90"/>
                                                                     <constraints>
-                                                                        <constraint firstItem="ru4-vR-zbd" firstAttribute="centerX" secondItem="lF0-7W-3Fu" secondAttribute="centerX" id="CE1-Dw-JLG"/>
-                                                                        <constraint firstItem="ru4-vR-zbd" firstAttribute="centerY" secondItem="lF0-7W-3Fu" secondAttribute="centerY" id="vx6-Gp-Hsv"/>
+                                                                        <constraint firstAttribute="width" constant="90" id="Xuy-Ik-qRH"/>
+                                                                        <constraint firstAttribute="height" constant="90" id="bQT-0k-R70"/>
                                                                     </constraints>
-                                                                </view>
+                                                                    <state key="normal" image="play-icon"/>
+                                                                    <connections>
+                                                                        <action selector="playVideo:" destination="jqr-6m-rFq" eventType="touchUpInside" id="LrO-gR-5St"/>
+                                                                    </connections>
+                                                                </button>
                                                             </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             <constraints>
+                                                                <constraint firstItem="kKl-Zl-Qok" firstAttribute="bottom" secondItem="qpW-uQ-tyL" secondAttribute="bottom" id="08N-2b-zb5"/>
+                                                                <constraint firstItem="kKl-Zl-Qok" firstAttribute="leading" secondItem="qpW-uQ-tyL" secondAttribute="leading" id="2Kk-E2-Y6H"/>
+                                                                <constraint firstItem="kKl-Zl-Qok" firstAttribute="top" secondItem="qpW-uQ-tyL" secondAttribute="top" id="5aU-de-QHd"/>
+                                                                <constraint firstItem="O03-4w-TDO" firstAttribute="centerX" secondItem="kKl-Zl-Qok" secondAttribute="centerX" id="7V0-A1-WNw"/>
+                                                                <constraint firstItem="O03-4w-TDO" firstAttribute="centerY" secondItem="kKl-Zl-Qok" secondAttribute="centerY" id="8r0-1j-6bP"/>
                                                                 <constraint firstItem="9h0-28-kn0" firstAttribute="leading" secondItem="qpW-uQ-tyL" secondAttribute="leading" id="9qc-up-Gkh"/>
                                                                 <constraint firstItem="qpW-uQ-tyL" firstAttribute="top" secondItem="lDU-jJ-RXc" secondAttribute="topMargin" id="CAK-uL-Cpn"/>
-                                                                <constraint firstItem="lF0-7W-3Fu" firstAttribute="bottom" secondItem="qpW-uQ-tyL" secondAttribute="bottom" id="Car-bt-Ogf"/>
                                                                 <constraint firstItem="9h0-28-kn0" firstAttribute="top" secondItem="qpW-uQ-tyL" secondAttribute="bottom" constant="3" id="D4w-rc-KZ0"/>
-                                                                <constraint firstItem="lF0-7W-3Fu" firstAttribute="trailing" secondItem="qpW-uQ-tyL" secondAttribute="trailing" id="Kco-o7-Wrl"/>
                                                                 <constraint firstItem="qpW-uQ-tyL" firstAttribute="leading" secondItem="lDU-jJ-RXc" secondAttribute="leading" constant="39" id="Nct-kr-XUp"/>
-                                                                <constraint firstItem="lF0-7W-3Fu" firstAttribute="top" secondItem="qpW-uQ-tyL" secondAttribute="top" id="dBc-4O-dhg"/>
                                                                 <constraint firstItem="9h0-28-kn0" firstAttribute="trailing" secondItem="qpW-uQ-tyL" secondAttribute="trailing" id="eJe-Ps-Hky"/>
                                                                 <constraint firstAttribute="trailing" secondItem="qpW-uQ-tyL" secondAttribute="trailing" constant="39" id="qqV-ck-Drc"/>
-                                                                <constraint firstAttribute="bottomMargin" secondItem="9h0-28-kn0" secondAttribute="bottom" constant="8" id="qz6-we-2XU"/>
-                                                                <constraint firstItem="lF0-7W-3Fu" firstAttribute="leading" secondItem="qpW-uQ-tyL" secondAttribute="leading" id="ulB-vY-jbU"/>
+                                                                <constraint firstItem="kKl-Zl-Qok" firstAttribute="trailing" secondItem="qpW-uQ-tyL" secondAttribute="trailing" id="tKZ-hD-JiP"/>
                                                             </constraints>
                                                         </tableViewCellContentView>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         <connections>
+                                                            <outlet property="playButton" destination="O03-4w-TDO" id="TtS-Be-WOA"/>
+                                                            <outlet property="playerView" destination="kKl-Zl-Qok" id="BhS-oT-eCp"/>
                                                             <outlet property="videoCaptionLabel" destination="9h0-28-kn0" id="Nnn-Ir-eDJ"/>
                                                             <outlet property="videoThumbnail" destination="qpW-uQ-tyL" id="f3g-r7-bL2"/>
                                                         </connections>
@@ -750,7 +754,7 @@
                                                 </connections>
                                             </tableView>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="Ohb-iB-Z7L" firstAttribute="leading" secondItem="B4y-FN-Mzd" secondAttribute="leading" id="HaB-AB-Q7m"/>
                                             <constraint firstAttribute="trailing" secondItem="Ohb-iB-Z7L" secondAttribute="trailing" id="Kd5-J9-wik"/>
@@ -766,9 +770,9 @@
                                     <constraint firstItem="TB0-YA-crH" firstAttribute="leading" secondItem="I6f-dx-Iut" secondAttribute="leading" id="FW2-fC-9kb"/>
                                     <constraint firstAttribute="trailing" secondItem="uGx-bD-BnA" secondAttribute="trailing" constant="20" id="G0E-nP-mFA"/>
                                     <constraint firstAttribute="bottom" secondItem="skM-mh-PhY" secondAttribute="bottom" constant="8" id="G9b-4H-828"/>
-                                    <constraint firstAttribute="bottom" secondItem="B4y-FN-Mzd" secondAttribute="bottom" constant="15" id="GqN-Vh-IJk"/>
+                                    <constraint firstAttribute="bottom" secondItem="B4y-FN-Mzd" secondAttribute="bottom" constant="10" id="GqN-Vh-IJk"/>
                                     <constraint firstItem="skM-mh-PhY" firstAttribute="top" secondItem="uGx-bD-BnA" secondAttribute="bottom" constant="8" id="M8s-3C-PVD"/>
-                                    <constraint firstItem="B4y-FN-Mzd" firstAttribute="top" secondItem="uGx-bD-BnA" secondAttribute="bottom" constant="20" id="UPY-RD-ebc"/>
+                                    <constraint firstItem="B4y-FN-Mzd" firstAttribute="top" secondItem="uGx-bD-BnA" secondAttribute="bottom" constant="10" id="UPY-RD-ebc"/>
                                     <constraint firstItem="uGx-bD-BnA" firstAttribute="top" secondItem="I6f-dx-Iut" secondAttribute="top" constant="20" id="Zls-9O-hbc"/>
                                     <constraint firstItem="uGx-bD-BnA" firstAttribute="leading" secondItem="I6f-dx-Iut" secondAttribute="leading" constant="20" id="h5f-nH-Oiu"/>
                                     <constraint firstAttribute="trailing" secondItem="B4y-FN-Mzd" secondAttribute="trailing" id="itz-62-Gya"/>
@@ -789,7 +793,7 @@
                                         <fragment content="Home">
                                             <attributes>
                                                 <color key="NSColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" metaFont="system" size="31"/>
+                                                <font key="NSFont" size="31" name="BebasNeueRegular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -838,8 +842,8 @@
         <image name="home-buttons" width="167" height="167"/>
         <image name="interior-logo" width="136" height="158"/>
         <image name="interior-title" width="106" height="46"/>
-        <image name="playicon" width="70" height="70"/>
-        <image name="rectangular-buttons" width="295" height="59"/>
+        <image name="play-icon" width="137" height="136"/>
+        <image name="rectangular-buttons" width="197" height="59"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="keU-KN-GOA"/>

@@ -28,6 +28,7 @@
 @property (weak, nonatomic) IBOutlet UIView *videosListHolder;
 @property (weak, nonatomic) IBOutlet UITableView *videosListTable;
 @property (strong, nonatomic) NSMutableArray *videoArray;
+@property (strong, nonatomic) NSMutableArray *videoCellArray;
 
 @end
 
@@ -40,6 +41,15 @@
     }
     
     return _videoArray;
+}
+
+- (NSMutableArray *)videoCellArray
+{
+    if (!_videoCellArray) {
+        _videoCellArray = [[NSMutableArray alloc] init];
+    }
+    
+    return _videoCellArray;
 }
 
 - (void)viewDidLoad {
@@ -64,6 +74,7 @@
     [super viewDidLayoutSubviews];
     
     [self.detailTextView setContentOffset:CGPointZero animated:NO];
+    [self.videosListTable setSeparatorStyle:UITableViewCellSeparatorStyleNone];
 }
 
 - (void)setupTextWithType:(DetailType)type
@@ -104,11 +115,17 @@
         case DetailTypeRecognizeSupportVides:
             titleString = @"VIDEOS TO WATCH";
             
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"signzofdepression-thumb"],@"image",@"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"suicidal-thumb"],@"image",@"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"howicoped-thumb"],@"image",@"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"depressiontest-thumb"],@"image",@"Depression test to see if your depressed in yourself",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"alanwats-thumb"],@"image",@"Alan Watts talks about depression and worrying",@"caption", nil]];
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
             
 //            detailText = @"https://www.youtube.com/watch?v=GOK1tKFFIQI\nA video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.\n\nhttps://www.youtube.com/watch?v=CAMAnPRLMH8\nA video to show being a friend of someone suicidal and ways to deal with them and help them.\n\nhttps://www.youtube.com/watch?v=GJ58hvOIpp4\nA video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.\n\nhttps://www.youtube.com/watch?v=VRj5szrWb5Y\nDepression test to see if your depressed in yourself\n\nhttps://www.youtube.com/watch?v=wwn52-d6Sc0\nTHE IMPORTANCE AND FACTS OF MENTAL ILLNESS\n\nhttps://www.youtube.com/watch?v=ChGUVLSpWh4\nAlan Watts talks about depression and worrying";
             
@@ -203,11 +220,17 @@
         case DetailTypeFeelingSupportVideos:
             titleString = @"VIDEOS TO WATCH";
             
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"signzofdepression-thumb"],@"image",@"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"suicidal-thumb"],@"image",@"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"howicoped-thumb"],@"image",@"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"depressiontest-thumb"],@"image",@"Depression test to see if your depressed in yourself",@"caption", nil]];
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:[UIImage imageNamed:@"alanwats-thumb"],@"image",@"Alan Watts talks about depression and worrying",@"caption", nil]];
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
+            
+            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
             
 //            detailText = @"https://www.youtube.com/watch?v=GOK1tKFFIQI\nA video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.\n\nhttps://www.youtube.com/watch?v=CAMAnPRLMH8\nA video to show being a friend of someone suicidal and ways to deal with them and help them.\n\nhttps://www.youtube.com/watch?v=GJ58hvOIpp4\nA video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.\n\nhttps://www.youtube.com/watch?v=VRj5szrWb5Y\nDepression test to see if your depressed in yourself\n\nhttps://www.youtube.com/watch?v=wwn52-d6Sc0\nTHE IMPORTANCE AND FACTS OF MENTAL ILLNESS\n\nhttps://www.youtube.com/watch?v=ChGUVLSpWh4\nAlan Watts talks about depression and worrying";
 
@@ -290,9 +313,12 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SupportVideoCell"];
     
     SupportVideoCell *videoCell = (SupportVideoCell *)cell;
+    NSString *videoId = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"videoId"];
     NSString *caption = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"caption"];
-    UIImage *image = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"image"];
-    [videoCell setCaption:caption thumbnailImage:image];
+    [videoCell setVideoId:videoId withCaption:caption];
+    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.backgroundColor = [UIColor clearColor];
     
     return cell;
 }
@@ -305,14 +331,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.videoArray.count;
-}
-
-#pragma mark - UITableViewDataSource
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-//    RTSMediaPlayerViewController *mediaPlayerController = [[RTSMediaPlayerViewController alloc] initWithContentURL:videoUrl];
-//    [self presentViewController:mediaPlayerController animated:YES completion:nil];
 }
 
 #pragma mark - UIButton Selector Methods

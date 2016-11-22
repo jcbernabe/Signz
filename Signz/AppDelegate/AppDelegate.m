@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import <Bugsee/Bugsee.h>
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Bugsee launchWithToken:@"8fc7ee08-ea08-4bce-a53a-6a9a39cff424"];
+    
     return YES;
 }
 
