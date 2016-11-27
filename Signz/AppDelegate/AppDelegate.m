@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 
 #import <Bugsee/Bugsee.h>
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
 
 @interface AppDelegate ()
 
@@ -20,6 +23,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    [[Fabric sharedSDK] setDebug: YES];
+    [Fabric with:@[[Crashlytics class]]];
+
     [Bugsee launchWithToken:@"8fc7ee08-ea08-4bce-a53a-6a9a39cff424"];
     
     return YES;

@@ -31,6 +31,9 @@
 		480C077C1DE32D47001F53D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C077B1DE32D47001F53D7 /* AVFoundation.framework */; };
 		480C077E1DE32D4D001F53D7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C077D1DE32D4D001F53D7 /* CoreTelephony.framework */; };
 		480C07801DE32DA8001F53D7 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 480C077F1DE32DA8001F53D7 /* libc++.tbd */; };
+		481057511DE5C953008295FC /* SupportVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481057501DE5C953008295FC /* SupportVideoCell.xib */; };
+		4856D3361DEA522500021741 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856D3341DEA522500021741 /* Fabric.framework */; };
+		4856D3371DEA522500021741 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4856D3351DEA522500021741 /* Crashlytics.framework */; };
 		487B0DE81DD1C03E0088BB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */; };
 		48BDBFEA1DD1C2ED003BED39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BDBFE91DD1C2ED003BED39 /* Main.storyboard */; };
 		48E8BA221DD227E200AB2C1A /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */; };
@@ -80,6 +83,9 @@
 		480C077B1DE32D47001F53D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		480C077D1DE32D4D001F53D7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		480C077F1DE32DA8001F53D7 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		481057501DE5C953008295FC /* SupportVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SupportVideoCell.xib; sourceTree = "<group>"; };
+		4856D3341DEA522500021741 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		4856D3351DEA522500021741 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		487B0DE61DD1C03E0088BB53 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48BDBFE91DD1C2ED003BED39 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		48E8BA181DD2274100AB2C1A /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
@@ -101,12 +107,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				480C07801DE32DA8001F53D7 /* libc++.tbd in Frameworks */,
+				4856D3371DEA522500021741 /* Crashlytics.framework in Frameworks */,
 				480C077E1DE32D4D001F53D7 /* CoreTelephony.framework in Frameworks */,
 				480C077C1DE32D47001F53D7 /* AVFoundation.framework in Frameworks */,
 				480C07791DE32D40001F53D7 /* CoreFoundation.framework in Frameworks */,
 				480C077A1DE32D40001F53D7 /* Foundation.framework in Frameworks */,
 				480C07751DE32D36001F53D7 /* CoreMedia.framework in Frameworks */,
 				480C07761DE32D36001F53D7 /* CoreMotion.framework in Frameworks */,
+				4856D3361DEA522500021741 /* Fabric.framework in Frameworks */,
 				480C07721DE32D2C001F53D7 /* SystemConfiguration.framework in Frameworks */,
 				480C07701DE32CF7001F53D7 /* Bugsee.framework in Frameworks */,
 				48E8BA2E1DD2D9E700AB2C1A /* MessageUI.framework in Frameworks */,
@@ -281,6 +289,7 @@
 			children = (
 				005E66AC1DE29FDC00A6090B /* SupportVideoCell.h */,
 				005E66AD1DE29FDC00A6090B /* SupportVideoCell.m */,
+				481057501DE5C953008295FC /* SupportVideoCell.xib */,
 			);
 			path = SupportVideoCells;
 			sourceTree = "<group>";
@@ -318,6 +327,8 @@
 		E0EC87FE7630F4706A0C051B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4856D3341DEA522500021741 /* Fabric.framework */,
+				4856D3351DEA522500021741 /* Crashlytics.framework */,
 				480C077F1DE32DA8001F53D7 /* libc++.tbd */,
 				480C077D1DE32D4D001F53D7 /* CoreTelephony.framework */,
 				480C077B1DE32D47001F53D7 /* AVFoundation.framework */,
@@ -352,6 +363,7 @@
 				42861DB083EBD86E73965B3F /* 📦 Embed Pods Frameworks */,
 				D94505B0DDCF89F3EFFADC72 /* 📦 Copy Pods Resources */,
 				480C07811DE32E85001F53D7 /* ShellScript */,
+				4856D3331DEA51F100021741 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -410,6 +422,7 @@
 				48E8BA261DD227E200AB2C1A /* BebasNeue Thin.otf in Resources */,
 				48BDBFEA1DD1C2ED003BED39 /* Main.storyboard in Resources */,
 				000D3A721DD158B100BA8CF4 /* Assets.xcassets in Resources */,
+				481057511DE5C953008295FC /* SupportVideoCell.xib in Resources */,
 				487B0DE81DD1C03E0088BB53 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +472,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "SCRIPT_SRC=$(find \"$PROJECT_DIR\" -name 'BugseeAgent' | head -1)\nif [ ! \"${SCRIPT_SRC}\" ]; then\necho \"Error: BugseeAgent script not found.\"\necho \"If you link Bugsee.framework from outside the project folder, please copy the script\"\necho \"into your main project directory or manually update SCRIPT_SRC variable with the right path\"\nexit 1\nfi\n/usr/bin/python \"${SCRIPT_SRC}\" 8fc7ee08-ea08-4bce-a53a-6a9a39cff424";
+		};
+		4856D3331DEA51F100021741 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 2adf73394255b1d41b1d906bb30d06373ce32258 b4a177e299df20061b7fbf087317f137ad59a75c465dd2e02952e0ca1fe88ed8";
 		};
 		AB5FDA6A22010CC443418F9F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

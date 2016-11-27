@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SupportVideoCell" rowHeight="224" id="3MJ-3q-pi9" customClass="SupportVideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="224"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3MJ-3q-pi9" id="u8K-Pv-fnF">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="223"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="irj-UQ-edB">
+                        <rect key="frame" x="39" y="8" width="296" height="163"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="irj-UQ-edB" secondAttribute="height" multiplier="118:65" id="FtT-0V-15C"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tQn-s4-5Wa" customClass="YTPlayerView">
+                        <rect key="frame" x="39" y="8" width="296" height="163"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aesfasefasefasohfjasioefoipasefioasiofoipaseopfasopiefiasoiefopiaseopifasefasefasefasefasefasefasefasefasefasefasef" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxV-48-J4W">
+                        <rect key="frame" x="39" y="174" width="296" height="47"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="47" id="vIT-Ar-P6f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFY-vB-Ktb">
+                        <rect key="frame" x="142" y="45" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="PPU-Vm-fZq"/>
+                            <constraint firstAttribute="height" constant="90" id="Ykr-x0-4bU"/>
+                        </constraints>
+                        <state key="normal" image="play-icon"/>
+                        <connections>
+                            <action selector="playVideo:" destination="3MJ-3q-pi9" eventType="touchUpInside" id="Mw5-Rj-rjb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="tQn-s4-5Wa" firstAttribute="leading" secondItem="irj-UQ-edB" secondAttribute="leading" id="1PC-g6-Dk7"/>
+                    <constraint firstItem="LFY-vB-Ktb" firstAttribute="centerY" secondItem="tQn-s4-5Wa" secondAttribute="centerY" id="8ql-DB-Fky"/>
+                    <constraint firstItem="tQn-s4-5Wa" firstAttribute="top" secondItem="irj-UQ-edB" secondAttribute="top" id="8uo-gk-Dm0"/>
+                    <constraint firstItem="RxV-48-J4W" firstAttribute="trailing" secondItem="irj-UQ-edB" secondAttribute="trailing" id="A8X-fJ-2mC"/>
+                    <constraint firstItem="tQn-s4-5Wa" firstAttribute="bottom" secondItem="irj-UQ-edB" secondAttribute="bottom" id="J1y-7O-Zd8"/>
+                    <constraint firstAttribute="trailing" secondItem="irj-UQ-edB" secondAttribute="trailing" constant="39" id="P8x-Nh-U4A"/>
+                    <constraint firstItem="irj-UQ-edB" firstAttribute="top" secondItem="u8K-Pv-fnF" secondAttribute="topMargin" id="V3E-EO-7XU"/>
+                    <constraint firstItem="irj-UQ-edB" firstAttribute="leading" secondItem="u8K-Pv-fnF" secondAttribute="leading" constant="39" id="Wvg-1I-gfr"/>
+                    <constraint firstItem="tQn-s4-5Wa" firstAttribute="trailing" secondItem="irj-UQ-edB" secondAttribute="trailing" id="g37-bA-Iet"/>
+                    <constraint firstItem="LFY-vB-Ktb" firstAttribute="centerX" secondItem="tQn-s4-5Wa" secondAttribute="centerX" id="rAb-ZI-zxF"/>
+                    <constraint firstItem="RxV-48-J4W" firstAttribute="leading" secondItem="irj-UQ-edB" secondAttribute="leading" id="tNh-oa-scV"/>
+                    <constraint firstItem="RxV-48-J4W" firstAttribute="top" secondItem="irj-UQ-edB" secondAttribute="bottom" constant="3" id="ymo-QO-G6b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="playButton" destination="LFY-vB-Ktb" id="u8h-pd-lmc"/>
+                <outlet property="playerView" destination="tQn-s4-5Wa" id="s2M-nR-hvT"/>
+                <outlet property="videoCaptionLabel" destination="RxV-48-J4W" id="6tz-3B-FqN"/>
+                <outlet property="videoThumbnail" destination="irj-UQ-edB" id="8t8-aB-YpF"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="play-icon" width="138" height="136"/>
+    </resources>
+</document>

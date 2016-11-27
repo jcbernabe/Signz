@@ -30,7 +30,7 @@
 
 - (void)setupTextViewText {
  
-    self.aboutTextView.text = @"Signz is an app created for those who may be suffering from potential suicide issues either personally or on behalf of someone they care about, or just for those who want to protect themselves from it.\n\nThe app was created by the Boys of The Boys Model in Belfast but the app is available worldwide and we hope that we can save many lives in the process.\n\nAll funds raised from the sale of the app will go towards suicide prevention causes.\n\nThe app was delivered by PeterDoakGlobal.";
+    self.aboutTextView.text = @"Signz is an app created for those who may be suffering from potential suicide issues either personally or on behalf of someone they care about, or just for those who want to protect themselves from it.\n\nStudents from Belfast Boys' Model School created the app. However, the app is available worldwide and we hope that we can save many lives in the process.\n\nAll funds raised from the sale of the app will go towards suicide prevention causes.\n\nThe app was delivered by PeterDoakGlobal.";
 }
 
 #pragma mark - UIButton Selector Methods

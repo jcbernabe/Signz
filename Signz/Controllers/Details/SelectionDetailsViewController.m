@@ -61,6 +61,8 @@
     self.detailTextView.editable = NO;
     self.detailTextView.selectable = YES;
     self.detailTextView.dataDetectorTypes = UIDataDetectorTypeLink | UIDataDetectorTypePhoneNumber;
+    
+    [self.videosListTable registerNib:[UINib nibWithNibName:@"SupportVideoCell" bundle:nil] forCellReuseIdentifier:@"SupportVideoCell"];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -92,14 +94,14 @@
         case DetailTypeRecognizeSignsToSpot:
             titleString = @"SIGNZ TO SPOT";
             
-            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk to talk about suicide with people who are suicidal because you will learn more about their mindset.";
+            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.";
             
             break;
             
         case DetailTypeRecognizeAdvice:
             titleString = @"SIGNZ TO SPOT";
             
-            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk to talk about suicide with people who are suicidal because you will learn more about their mindset.";
+            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.";
             
             break;
             
@@ -115,21 +117,53 @@
         case DetailTypeRecognizeSupportVides:
             titleString = @"VIDEOS TO WATCH";
             
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
+            for (int i = 0; i<5; i++) {
+                
+                SupportVideoCell *supportVideoCell = [[[NSBundle mainBundle] loadNibNamed:@"SupportVideoCell" owner:self options:nil] objectAtIndex:0];
+                
+                switch (i) {
+                    case 0:
+                        [supportVideoCell setVideoId:@"GOK1tKFFIQI" withCaption:@"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it."];
+                        break;
+                        
+                    case 1:
+                        [supportVideoCell setVideoId:@"CAMAnPRLMH8" withCaption:@"A video to show being a friend of someone suicidal and ways to deal with them and help them."];
+                        break;
+                        
+                    case 2:
+                        [supportVideoCell setVideoId:@"GJ58hvOIpp4" withCaption:@"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts."];
+                        break;
+                        
+                    case 3:
+                        [supportVideoCell setVideoId:@"VRj5szrWb5Y" withCaption:@"Depression test to see if your depressed in yourself"];
+                        break;
+                        
+                    case 4:
+                        [supportVideoCell setVideoId:@"wwn52-d6Sc0" withCaption:@"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS"];
+                        break;
+                        
+                    case 5:
+                        [supportVideoCell setVideoId:@"ChGUVLSpWh4" withCaption:@"Alan Watts talks about depression and worrying"];
+                        break;
+                        
+                    default:
+                        break;
+                }
+                
+                [self.videoCellArray addObject:supportVideoCell];
+            }
             
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
-            
-//            detailText = @"https://www.youtube.com/watch?v=GOK1tKFFIQI\nA video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.\n\nhttps://www.youtube.com/watch?v=CAMAnPRLMH8\nA video to show being a friend of someone suicidal and ways to deal with them and help them.\n\nhttps://www.youtube.com/watch?v=GJ58hvOIpp4\nA video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.\n\nhttps://www.youtube.com/watch?v=VRj5szrWb5Y\nDepression test to see if your depressed in yourself\n\nhttps://www.youtube.com/watch?v=wwn52-d6Sc0\nTHE IMPORTANCE AND FACTS OF MENTAL ILLNESS\n\nhttps://www.youtube.com/watch?v=ChGUVLSpWh4\nAlan Watts talks about depression and worrying";
-            
-//            self.detailTextView.font = [UIFont fontWithName:@"Arial-BoldMT" size:14];
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
             
             self.detailTextView.hidden = YES;
             self.videosListHolder.hidden = NO;
@@ -139,7 +173,7 @@
         case DetailTypeFeelingAdvice:
             titleString = @"SIGNZ TO SPOT";
             
-            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk to talk about suicide with people who are suicidal because you will learn more about their mindset.";
+            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.";
             
             break;
             
@@ -220,21 +254,53 @@
         case DetailTypeFeelingSupportVideos:
             titleString = @"VIDEOS TO WATCH";
             
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
+            for (int i = 0; i<5; i++) {
+                
+                SupportVideoCell *supportVideoCell = [[[NSBundle mainBundle] loadNibNamed:@"SupportVideoCell" owner:self options:nil] objectAtIndex:0];
+                
+                switch (i) {
+                    case 0:
+                        [supportVideoCell setVideoId:@"GOK1tKFFIQI" withCaption:@"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it."];
+                        break;
+                        
+                    case 1:
+                        [supportVideoCell setVideoId:@"CAMAnPRLMH8" withCaption:@"A video to show being a friend of someone suicidal and ways to deal with them and help them."];
+                        break;
+                        
+                    case 2:
+                        [supportVideoCell setVideoId:@"GJ58hvOIpp4" withCaption:@"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts."];
+                        break;
+                        
+                    case 3:
+                        [supportVideoCell setVideoId:@"VRj5szrWb5Y" withCaption:@"Depression test to see if your depressed in yourself"];
+                        break;
+                        
+                    case 4:
+                        [supportVideoCell setVideoId:@"wwn52-d6Sc0" withCaption:@"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS"];
+                        break;
+                        
+                    case 5:
+                        [supportVideoCell setVideoId:@"ChGUVLSpWh4" withCaption:@"Alan Watts talks about depression and worrying"];
+                        break;
+                        
+                    default:
+                        break;
+                }
+                
+                [self.videoCellArray addObject:supportVideoCell];
+            }
             
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
-            
-            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
-            
-//            detailText = @"https://www.youtube.com/watch?v=GOK1tKFFIQI\nA video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.\n\nhttps://www.youtube.com/watch?v=CAMAnPRLMH8\nA video to show being a friend of someone suicidal and ways to deal with them and help them.\n\nhttps://www.youtube.com/watch?v=GJ58hvOIpp4\nA video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.\n\nhttps://www.youtube.com/watch?v=VRj5szrWb5Y\nDepression test to see if your depressed in yourself\n\nhttps://www.youtube.com/watch?v=wwn52-d6Sc0\nTHE IMPORTANCE AND FACTS OF MENTAL ILLNESS\n\nhttps://www.youtube.com/watch?v=ChGUVLSpWh4\nAlan Watts talks about depression and worrying";
-
-//            self.detailTextView.font = [UIFont fontWithName:@"Arial-BoldMT" size:14];
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
+//            
+//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
             
             self.detailTextView.hidden = YES;
             self.videosListHolder.hidden = NO;
@@ -310,12 +376,14 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SupportVideoCell"];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SupportVideoCell"];
+//
+//    SupportVideoCell *videoCell = (SupportVideoCell *)cell;
+//    NSString *videoId = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"videoId"];
+//    NSString *caption = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"caption"];
+//    [videoCell setVideoId:videoId withCaption:caption];
     
-    SupportVideoCell *videoCell = (SupportVideoCell *)cell;
-    NSString *videoId = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"videoId"];
-    NSString *caption = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"caption"];
-    [videoCell setVideoId:videoId withCaption:caption];
+    SupportVideoCell *cell = [self.videoCellArray objectAtIndex:indexPath.row];
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.backgroundColor = [UIColor clearColor];
@@ -330,7 +398,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.videoArray.count;
+    return self.videoCellArray.count;
 }
 
 #pragma mark - UIButton Selector Methods

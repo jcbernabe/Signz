@@ -19,6 +19,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *aboutButton;
 @property (weak, nonatomic) IBOutlet UILabel *aboutTitle;
 
+@property (weak, nonatomic) IBOutlet UIImageView *boysHomeLogo;
+
 @end
 
 @implementation HomeViewController
@@ -68,6 +70,8 @@
     
     self.aboutButton.hidden = hide;
     self.aboutTitle.hidden = hide;
+    
+    self.boysHomeLogo.hidden = hide;
 }
 
 #pragma mark - Navigation
