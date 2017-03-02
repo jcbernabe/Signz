@@ -28,10 +28,20 @@
 
 @implementation FeelingDepressedViewController
 
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.buttonTitleArray = @[@"Advice",
+    self.buttonTitleArray = @[//@"Advice",
                               @"Mindfulness",
                               @"Playlist",
                               @"Support Videos",
@@ -116,31 +126,31 @@
         DetailType type;
         
         switch (self.selectedIdxPath.row) {
-            case 0:
-                type = DetailTypeFeelingAdvice;
-                break;
+//            case 0:
+//                type = DetailTypeFeelingAdvice;
+//                break;
                 
-            case 1:
+            case 0:
                 type = DetailTypeFeelingMindfulness;
                 break;
                 
-            case 2:
+            case 1:
                 type = DetailTypeFeelingPlaylist;
                 break;
                 
-            case 3:
+            case 2:
                 type = DetailTypeFeelingSupportVideos;
                 break;
                 
-            case 4:
+            case 3:
                 type = DetailTypeFeelingContacts;
                 break;
                 
-            case 5:
+            case 4:
                 type = DetailTypeFeelingQuotes;
                 break;
                 
-            case 6:
+            case 5:
                 type = DetailTypeHome;
                 break;
                 

@@ -34,6 +34,16 @@
 
 @implementation SelectionDetailsViewController
 
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 - (NSMutableArray *)videoArray
 {
     if (!_videoArray) {
@@ -92,23 +102,18 @@
             break;
             
         case DetailTypeRecognizeSignsToSpot:
-            titleString = @"SIGNZ TO SPOT";
+            titleString = @"SIGNZ TO SPOT AND ADVICE";
             
-            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.";
+//            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.";
             
-            break;
-            
-        case DetailTypeRecognizeAdvice:
-            titleString = @"SIGNZ TO SPOT";
-            
-            detailText = @"People who complete suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what to do and have lost hope. Always take, someone talking about suicide seriously.\n\nThe vast majority of people who are suicidal do not want to die. They are in pain, and they want to stop the pain.\n\nSuicide can be prevented.\n\nSuicide can strike anyone at any time in their lives.\n\nAsking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.";
+            detailText = @"\u2022 People who commit suicide usually talk about it first. They are in pain and oftentimes reach out for help because they do not know what do and have lost hope.\n\n\u2022 The signs are very hard to spot because there are many things that can drive the person to suicide.\n\n\u2022 Sometimes people who feel suicidal will talk about feeling a great sadness or depression.\n\n\u2022 They’re movements and speech can change usually slowing down if its depression or there movements can speed up to hide their emotions.\n\n\u2022 They may start giving their belongings, money and personal items away.\n\n\u2022 They may lose interest in hobbies and lose interest in their family and friends.\n\n\u2022 They may speak about having thoughts of suicide or wishing death.\n\n\u2022 They become secluded to themselves.\n\n\u2022 Some tend to inflict themselves by cutting or slicing their body to distract themselves from the emotional pain that they are going through.\n\n\u2022 Suicide can strike anyone at any time in his or her lives.\n\n\u2022 Asking people if they are thinking about suicide does not give them the idea for suicide. It is important to talk about suicide with people who are suicidal because you will learn more about their mindset.\n\n\u2022 ALWAYS TAKE, SOMEONE TALKING ABOUT SUICIDE SERIOUSLY.";
             
             break;
             
         case DetailTypeRecognizeContacts:
             titleString = @"CONTACTS";
             
-            detailText = @"Lighthouse\n02890755070\n\nLifeline\n08088088000\n\nSamaritans Helpline\n0845799090\n\nFASA\n02890803040\n\nNew Life Counselling\n02890391630\n\nContact NI\n02890744499\n\nAware Defeat Depression\n02890357820\n\nSuicide Awareness Support Group\n02890239967";
+            detailText = @"Lighthouse\n02890755070\n\nLifeline\n08088088000\n\nSamaritans Helpline\n0845799090\n\nNew Life Counselling\n02890391630\n\nContact NI\n02890744499\n\nAware Defeat Depression\n02890357820\n\nSuicide Awareness Support Group\n02890239967\n\nThe Conservation Volunteers NI\n02890645169\n\nPIPS Belfast\n02890805850\n\nTrinity Community Counseling Service\n02890200396";
             
             self.detailTextView.textAlignment = NSTextAlignmentCenter;
             
@@ -152,18 +157,6 @@
                 
                 [self.videoCellArray addObject:supportVideoCell];
             }
-            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
             
             self.detailTextView.hidden = YES;
             self.videosListHolder.hidden = NO;
@@ -290,18 +283,6 @@
                 [self.videoCellArray addObject:supportVideoCell];
             }
             
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GOK1tKFFIQI" , @"videoId", @"A video to describe exactly what depression is in facts and drawing and what chemicals in the brain’s missing or there to cause it.",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"CAMAnPRLMH8" , @"videoId", @"A video to show being a friend of someone suicidal and ways to deal with them and help them.",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"GJ58hvOIpp4" , @"videoId", @"A video of a man explaining history and the way he deal’s with his suicidal and depressive thoughts.",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"VRj5szrWb5Y" , @"videoId", @"Depression test to see if your depressed in yourself",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"wwn52-d6Sc0" , @"videoId", @"THE IMPORTANCE AND FACTS OF MENTAL ILLNESS",@"caption", nil]];
-//            
-//            [self.videoArray addObject:[NSDictionary dictionaryWithObjectsAndKeys:@"ChGUVLSpWh4" , @"videoId", @"Alan Watts talks about depression and worrying",@"caption", nil]];
-            
             self.detailTextView.hidden = YES;
             self.videosListHolder.hidden = NO;
             
@@ -310,13 +291,14 @@
         case DetailTypeFeelingContacts:
             titleString = @"CONTACTS";
             
-            detailText = @"Lighthouse\n02890755070\n\nLifeline\n08088088000\n\nSamaritans Helpline\n0845799090\n\nFASA\n02890803040\n\nNew Life Counselling\n02890391630\n\nContact NI\n02890744499\n\nAware Defeat Depression\n02890357820\n\nSuicide Awareness Support Group\n02890239967";
+            detailText = @"Lighthouse\n02890755070\n\nLifeline\n08088088000\n\nSamaritans Helpline\n0845799090\n\nNew Life Counselling\n02890391630\n\nContact NI\n02890744499\n\nAware Defeat Depression\n02890357820\n\nSuicide Awareness Support Group\n02890239967\n\nThe Conservation Volunteers NI\n02890645169\n\nPIPS Belfast\n02890805850\n\nTrinity Community Counseling Service\n02890200396";
             
             self.detailTextView.textAlignment = NSTextAlignmentCenter;
             
             break;
             
         case DetailTypeFeelingQuotes:
+        {
             titleString = @"POSITIVE QUOTES";
             
             detailText = @"1. “Every new day is a chance to change your life”\n\n2. “BE STRONG because things will get better. It may be stormy now, but it never rains forever”\n\n3. “Be crazy. Be stupid. Be weird. Be whatever because life is too short to be anything but happy”\n\n4. “Worrying does not empty tomorrow of its troubles. It empties today of its strength”\n\n5. “Be positive, stay happy, and don’t let the negativity ordrama of the world get you down. Smile ”\n\n6. “Positive thoughts generate positive feelings and attract positive life experiences”\n\n7. “Smile, every one you meet is carrying a heavy load”\n\n8. “A negative thinker sees a difficulty in every opportunity. A positive thinker sees an opportunity in every difficulty”\n\n9. “Once you replace negative thoughts with positive ones,you’ll start having positive results.”\n\n10. “Look for something positive in each day even when you have to look a little harder. Let the challenge make you stronger”.";
@@ -347,6 +329,22 @@
             
             [detailAttributedText addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"Arial-BoldItalicMT" size:14] range:[detailText rangeOfString:@"10."]];
             
+            NSTextAttachment *toBeHealthyAttachment = [[NSTextAttachment alloc] init];
+            toBeHealthyAttachment.image = [UIImage imageNamed:@"tobehealthy.png"];
+            
+            NSTextAttachment *youCantAppreciateAttachment = [[NSTextAttachment alloc] init];
+            youCantAppreciateAttachment.image = [UIImage imageNamed:@"youcantappreciate.png"];
+            
+            NSTextAttachment *alwaysRememberAttachment = [[NSTextAttachment alloc] init];
+            alwaysRememberAttachment.image = [UIImage imageNamed:@"alwaysremember.png"];
+            
+            [detailAttributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n\n"]];
+            [detailAttributedText appendAttributedString:[NSAttributedString attributedStringWithAttachment:toBeHealthyAttachment]];
+            [detailAttributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n\n"]];
+            [detailAttributedText appendAttributedString:[NSAttributedString attributedStringWithAttachment:youCantAppreciateAttachment]];
+            [detailAttributedText appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n\n"]];
+            [detailAttributedText appendAttributedString:[NSAttributedString attributedStringWithAttachment:alwaysRememberAttachment]];
+        }
             break;
             
         default:
@@ -376,13 +374,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SupportVideoCell"];
-//
-//    SupportVideoCell *videoCell = (SupportVideoCell *)cell;
-//    NSString *videoId = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"videoId"];
-//    NSString *caption = [[self.videoArray objectAtIndex:indexPath.row] objectForKey:@"caption"];
-//    [videoCell setVideoId:videoId withCaption:caption];
-    
     SupportVideoCell *cell = [self.videoCellArray objectAtIndex:indexPath.row];
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;

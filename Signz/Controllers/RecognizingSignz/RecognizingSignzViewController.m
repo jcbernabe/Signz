@@ -28,11 +28,21 @@
 
 @implementation RecognizingSignzViewController
 
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.buttonTitleArray = @[@"Signz to spot",
-                              @"Advice",
+    self.buttonTitleArray = @[@"Signz to spot and advice",
+                              //@"Advice",
                               @"Contacts",
                               @"Support Videos",
                               @"Home"];
@@ -118,19 +128,19 @@
                 type = DetailTypeRecognizeSignsToSpot;
                 break;
                 
-            case 1:
-                type = DetailTypeRecognizeAdvice;
-                break;
+//            case 1:
+//                type = DetailTypeRecognizeAdvice;
+//                break;
                 
-            case 2:
+            case 1:
                 type = DetailTypeRecognizeContacts;
                 break;
                 
-            case 3:
+            case 2:
                 type = DetailTypeRecognizeSupportVides;
                 break;
                 
-            case 4:
+            case 3:
                 type = DetailTypeHome;
                 break;
                 
